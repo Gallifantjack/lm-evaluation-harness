@@ -1,8 +1,11 @@
-group: multimedqa
+group: keywords_multimedqa
 task:
   - pubmedqa
   - medmcqa
   - medqa_4options
+  - usmle_sa_step1
+  - usmle_sa_step2
+  - usmle_sa_step3
   - task: mmlu_anatomy
     task_alias: "anatomy (mmlu)"
     group_alias: null

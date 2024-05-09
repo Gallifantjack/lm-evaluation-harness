@@ -9,6 +9,7 @@ from typing import Any, List, Literal, Tuple, Union
 
 import datasets
 import numpy as np
+import pandas as pd
 
 from lm_eval import utils
 from lm_eval.api import samplers
@@ -57,7 +58,9 @@ class TaskConfig(dict):
     training_split: str = None
     validation_split: str = None
     test_split: str = None
-    fewshot_split: str = None  # TODO: assert that this not None if num_fewshot > 0. (?) assert if this is same split as one evaling (?)
+    fewshot_split: str = (
+        None  # TODO: assert that this not None if num_fewshot > 0. (?) assert if this is same split as one evaling (?)
+    )
     # formatting / prompting options.
     # see docs/advanced_task_guide.md for more info
     process_docs: Callable = None
@@ -80,10 +83,11 @@ class TaskConfig(dict):
     filter_list: Union[str, list] = None
     should_decontaminate: bool = False
     doc_to_decontamination_query: str = None
+    keyword_replace: str = None  # Added this for keyword replacement
 
-    metadata: Union[
-        str, list
-    ] = None  # by default, not used in the code. allows for users to pass arbitrary info to tasks
+    metadata: Union[str, list] = (
+        None  # by default, not used in the code. allows for users to pass arbitrary info to tasks
+    )
 
     def __post_init__(self) -> None:
         if self.generation_kwargs is not None:
@@ -104,9 +108,11 @@ class TaskConfig(dict):
             if self.output_type == "generate_until":
                 # ensure that we greedily generate in absence of explicit arguments otherwise
                 self.generation_kwargs = {
-                    "until": None
-                    if self.fewshot_delimiter is None
-                    else [self.fewshot_delimiter],
+                    "until": (
+                        None
+                        if self.fewshot_delimiter is None
+                        else [self.fewshot_delimiter]
+                    ),
                     "do_sample": False,
                 }
 
@@ -332,7 +338,9 @@ class Task(abc.ABC):
         elif self.has_validation_docs():
             docs = self.validation_docs()
         else:
-            assert False, f"Task dataset (path={self.DATASET_PATH}, name={self.DATASET_NAME}) must have valid or test docs!"
+            assert (
+                False
+            ), f"Task dataset (path={self.DATASET_PATH}, name={self.DATASET_NAME}) must have valid or test docs!"
 
         eval_logger.info(f"Building contexts for task on rank {rank}...")
 
@@ -541,6 +549,10 @@ class ConfigurableTask(Task):
         if self.config.dataset_name is not None:
             self.DATASET_NAME = self.config.dataset_name
 
+        if self.config.keyword_replace is not None:
+            self.keyword_replace = self.config.keyword_replace
+            self.keyword_map = self.load_keywords("lm_eval/tasks/drug_names.csv")
+
         self._metric_fn_list = {}
         self._metric_fn_kwargs = {}
         self._aggregation_list = {}
@@ -657,7 +669,9 @@ class ConfigurableTask(Task):
         elif self.has_validation_docs():
             self.task_docs = self.validation_docs()
         else:
-            assert False, f"Task dataset (path={self.DATASET_PATH}, name={self.DATASET_NAME}) must have valid or test docs!"
+            assert (
+                False
+            ), f"Task dataset (path={self.DATASET_PATH}, name={self.DATASET_NAME}) must have valid or test docs!"
 
         # Test One Doc
         self.features = list(self.task_docs.features.keys())
@@ -846,38 +860,69 @@ class ConfigurableTask(Task):
         """
         return doc
 
+    def load_keywords(self, csv_path, keyword_replace=None):
+        brand_to_generic = self.load_drug_map(csv_path)
+        generic_to_brand = self.load_drug_map(csv_path, reverse_map=True)
+        all_keywords = set(brand_to_generic.keys()).union(
+            brand_to_generic.values(),
+            generic_to_brand.keys(),
+            generic_to_brand.values(),
+        )
+        # print(f"Total keywords: {len(all_keywords)}")
+        # print(f"Keyword replace mode: {keyword_replace}")
+
+        keyword_map = (
+            brand_to_generic
+            if keyword_replace == "brand_to_generic"
+            else (
+                generic_to_brand
+                if keyword_replace == "generic_to_brand"
+                else {**brand_to_generic, **{v: k for k, v in generic_to_brand.items()}}
+            )
+        )
+        return keyword_map
+
+    def load_drug_map(self, csv_path, reverse_map=False):
+        df = pd.read_csv(csv_path)
+        return dict(
+            zip(
+                df["generic"] if reverse_map else df["brand"],
+                df["brand"] if reverse_map else df["generic"],
+            )
+        )
+
     def doc_to_text(self, doc):
         if self.prompt is not None:
-            doc_to_text = self.prompt
+            doc_text = self.prompt
         else:
-            doc_to_text = self.config.doc_to_text
+            doc_text = self.config.doc_to_text
 
-        if isinstance(doc_to_text, int):
-            return doc_to_text
-        elif isinstance(doc_to_text, str):
-            if doc_to_text in self.features:
-                # if self.config.doc_to_choice is not None:
-                #     return self.doc_to_choice(doc)[doc[doc_to_text]]
-                # else:
-                return doc[doc_to_text]
+        if isinstance(doc_text, int):
+            return doc_text
+        elif isinstance(doc_text, str):
+            if doc_text in self.features:
+                return doc[doc_text]
             else:
-                text_string = utils.apply_template(doc_to_text, doc)
+                text_string = utils.apply_template(doc_text, doc)
                 if text_string.isdigit() and self._config.doc_to_choice is not None:
                     return ast.literal_eval(text_string)
                 else:
                     return text_string
-        elif callable(doc_to_text):
-            return doc_to_text(doc)
-        # Used when applying a Promptsource template
-        elif hasattr(doc_to_text, "apply"):
-            applied_prompt = doc_to_text.apply(doc)
+        elif callable(doc_text):
+            if self.keyword_replace is not None:
+                text = doc_text(doc, self.keyword_replace, self.keyword_map)
+            else:
+                text = doc_text(doc)
+            return text
+        elif hasattr(doc_text, "apply"):
+            applied_prompt = doc_text.apply(doc)
             if len(applied_prompt) == 2:
                 return applied_prompt[0]
             else:
                 eval_logger.warning("Applied prompt returns empty string")
                 return self.config.fewshot_delimiter
         else:
-            print(type(doc_to_text))
+            print(type(doc_text))
             raise TypeError
 
     def doc_to_target(self, doc: dict) -> Union[int, str, list]:
@@ -1174,7 +1219,9 @@ class ConfigurableTask(Task):
                             predictions=[result],
                             **self._metric_fn_kwargs[metric],
                         )
-                    except TypeError:  # needed for now in order to use a different interface between our own metrics and HF Evaluate metrics
+                    except (
+                        TypeError
+                    ):  # needed for now in order to use a different interface between our own metrics and HF Evaluate metrics
                         result_score = self._metric_fn_list[metric]([gold, result])
                     if isinstance(result_score, dict):
                         # TODO: this handles the case where HF evaluate returns a dict.
