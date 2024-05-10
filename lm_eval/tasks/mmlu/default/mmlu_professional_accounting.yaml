@@ -5,4 +5,4 @@
 "group_alias": "other"
 "include": "_default_template_yaml"
 "task": "mmlu_professional_accounting"
-"task_alias": "professional_accounting"
+"task_alias": "professional accounting"

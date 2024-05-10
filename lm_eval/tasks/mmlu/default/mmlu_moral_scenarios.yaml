@@ -5,4 +5,4 @@
 "group_alias": "humanities"
 "include": "_default_template_yaml"
 "task": "mmlu_moral_scenarios"
-"task_alias": "moral_scenarios"
+"task_alias": "moral scenarios"

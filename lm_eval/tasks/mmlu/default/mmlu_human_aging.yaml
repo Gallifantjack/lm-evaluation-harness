@@ -1,8 +1,8 @@
 "dataset_name": "human_aging"
 "description": "The following are multiple choice questions (with answers) about human\
   \ aging.\n\n"
-"group": "mmlu_other"
-"group_alias": "other"
+"group": "mmlu_clinical_workflow"
+"group_alias": "clinical workflow"
 "include": "_default_template_yaml"
 "task": "mmlu_human_aging"
-"task_alias": "human_aging"
+"task_alias": "human aging"

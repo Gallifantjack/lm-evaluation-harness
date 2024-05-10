@@ -1,25 +1,26 @@
 """
 Take in a YAML, and output all "other" splits with this YAML
 """
+
 import os
 import yaml
 import argparse
 
 from tqdm import tqdm
 
-from lm_eval.logger import eval_logger
+from lm_eval.utils import eval_logger
 
 SUBJECTS = {
     "abstract_algebra": "stem",
-    "anatomy": "stem",
+    "anatomy": "clinical_workflow",
     "astronomy": "stem",
     "business_ethics": "other",
-    "clinical_knowledge": "other",
+    "clinical_knowledge": "clinical_workflow",
     "college_biology": "stem",
     "college_chemistry": "stem",
     "college_computer_science": "stem",
     "college_mathematics": "stem",
-    "college_medicine": "other",
+    "college_medicine": "clinical_workflow",
     "college_physics": "stem",
     "computer_security": "stem",
     "conceptual_physics": "stem",
@@ -42,30 +43,30 @@ SUBJECTS = {
     "high_school_statistics": "stem",
     "high_school_us_history": "humanities",
     "high_school_world_history": "humanities",
-    "human_aging": "other",
-    "human_sexuality": "social_sciences",
+    "human_aging": "clinical_workflow",
+    "human_sexuality": "clinical_workflow",
     "international_law": "humanities",
     "jurisprudence": "humanities",
     "logical_fallacies": "humanities",
     "machine_learning": "stem",
     "management": "other",
     "marketing": "other",
-    "medical_genetics": "other",
+    "medical_genetics": "clinical_workflow",
     "miscellaneous": "other",
     "moral_disputes": "humanities",
     "moral_scenarios": "humanities",
-    "nutrition": "other",
+    "nutrition": "clinical_workflow",
     "philosophy": "humanities",
     "prehistory": "humanities",
     "professional_accounting": "other",
     "professional_law": "humanities",
-    "professional_medicine": "other",
-    "professional_psychology": "social_sciences",
+    "professional_medicine": "clinical_workflow",
+    "professional_psychology": "clinical_workflow",
     "public_relations": "social_sciences",
     "security_studies": "social_sciences",
     "sociology": "social_sciences",
     "us_foreign_policy": "social_sciences",
-    "virology": "other",
+    "virology": "clinical_workflow",
     "world_religions": "humanities",
 }
 
@@ -106,13 +107,17 @@ if __name__ == "__main__":
 
         yaml_dict = {
             "include": base_yaml_name,
-            "group": f"mmlu_{args.task_prefix}_{category}"
-            if args.task_prefix != ""
-            else f"mmlu_{category}",
+            "group": (
+                f"mmlu_{args.task_prefix}_{category}"
+                if args.task_prefix != ""
+                else f"mmlu_{category}"
+            ),
             "group_alias": category.replace("_", " "),
-            "task": f"mmlu_{args.task_prefix}_{subject}"
-            if args.task_prefix != ""
-            else f"mmlu_{subject}",
+            "task": (
+                f"mmlu_{args.task_prefix}_{subject}"
+                if args.task_prefix != ""
+                else f"mmlu_{subject}"
+            ),
             "task_alias": subject.replace("_", " "),
             "dataset_name": subject,
             "description": description,
@@ -145,9 +150,9 @@ if __name__ == "__main__":
     with open(file_save_path, "w") as yaml_file:
         yaml.dump(
             {
-                "group": f"mmlu_{args.task_prefix}"
-                if args.task_prefix != ""
-                else "mmlu",
+                "group": (
+                    f"mmlu_{args.task_prefix}" if args.task_prefix != "" else "mmlu"
+                ),
                 "task": mmlu_subcategories,
             },
             yaml_file,

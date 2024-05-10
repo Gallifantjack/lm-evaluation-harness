@@ -1,0 +1,64 @@
+{
+  "results": {
+    "usmle_sa_step1": {
+      "acc,none": 0.2127659574468085,
+      "acc_stderr,none": 0.042438647024554674,
+      "alias": "usmle_sa_step1"
+    }
+  },
+  "configs": {
+    "usmle_sa_step1": {
+      "task": "usmle_sa_step1",
+      "dataset_path": "augtoma/usmle_step_1",
+      "test_split": "test",
+      "doc_to_text": "<function process_usmle_sa at 0x7d8eeb46a3a0>",
+      "doc_to_target": "answer_idx",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "keyword_replace": "brand_to_generic",
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ]
+    }
+  },
+  "versions": {
+    "usmle_sa_step1": "Yaml"
+  },
+  "n-shot": {
+    "usmle_sa_step1": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=EleutherAI/pythia-160m",
+    "batch_size": "8",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "3492b85a"
+}

@@ -5,4 +5,4 @@
 "group_alias": "stem"
 "include": "_default_template_yaml"
 "task": "mmlu_computer_security"
-"task_alias": "computer_security"
+"task_alias": "computer security"

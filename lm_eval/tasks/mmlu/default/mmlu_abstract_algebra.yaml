@@ -5,4 +5,4 @@
 "group_alias": "stem"
 "include": "_default_template_yaml"
 "task": "mmlu_abstract_algebra"
-"task_alias": "abstract_algebra"
+"task_alias": "abstract algebra"

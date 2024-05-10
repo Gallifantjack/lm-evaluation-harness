@@ -5,4 +5,4 @@
 "group_alias": "other"
 "include": "_default_template_yaml"
 "task": "mmlu_global_facts"
-"task_alias": "global_facts"
+"task_alias": "global facts"

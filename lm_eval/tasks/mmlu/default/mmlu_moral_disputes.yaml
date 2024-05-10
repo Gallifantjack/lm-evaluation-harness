@@ -5,4 +5,4 @@
 "group_alias": "humanities"
 "include": "_default_template_yaml"
 "task": "mmlu_moral_disputes"
-"task_alias": "moral_disputes"
+"task_alias": "moral disputes"

@@ -5,4 +5,4 @@
 "group_alias": "humanities"
 "include": "_default_template_yaml"
 "task": "mmlu_formal_logic"
-"task_alias": "formal_logic"
+"task_alias": "formal logic"

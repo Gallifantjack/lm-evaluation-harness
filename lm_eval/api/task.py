@@ -957,7 +957,12 @@ class ConfigurableTask(Task):
         elif isinstance(doc_to_target, list):
             return doc_to_target
         elif callable(doc_to_target):
-            return doc_to_target(doc)
+            if self.keyword_replace is not None:
+                text = doc_to_target(doc, self.keyword_replace, self.keyword_map)
+            else:
+                text = doc_to_target(doc)
+            return text
+
         # Used when applying a Promptsource template
         elif hasattr(doc_to_target, "apply"):
             applied_prompt = doc_to_target.apply(doc)
@@ -987,7 +992,12 @@ class ConfigurableTask(Task):
         elif isinstance(doc_to_choice, dict):
             return list(doc_to_choice.values())
         elif callable(doc_to_choice):
-            return doc_to_choice(doc)
+            if self.keyword_replace is not None:
+                text = doc_to_choice(doc, self.keyword_replace, self.keyword_map)
+            else:
+                text = doc_to_choice(doc)
+            return text
+
         elif hasattr(doc_to_choice, "get_answer_choices_list"):
             return doc_to_choice.get_answer_choices_list(doc)
         else:

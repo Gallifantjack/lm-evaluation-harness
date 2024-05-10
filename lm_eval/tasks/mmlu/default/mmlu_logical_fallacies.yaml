@@ -5,4 +5,4 @@
 "group_alias": "humanities"
 "include": "_default_template_yaml"
 "task": "mmlu_logical_fallacies"
-"task_alias": "logical_fallacies"
+"task_alias": "logical fallacies"

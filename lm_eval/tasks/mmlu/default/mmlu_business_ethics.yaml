@@ -5,4 +5,4 @@
 "group_alias": "other"
 "include": "_default_template_yaml"
 "task": "mmlu_business_ethics"
-"task_alias": "business_ethics"
+"task_alias": "business ethics"

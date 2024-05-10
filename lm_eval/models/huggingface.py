@@ -84,7 +84,7 @@ class HFLM(LM):
         dtype: Optional[Union[str, torch.dtype]] = "auto",
         batch_size: Optional[Union[int, str]] = 1,
         max_batch_size: Optional[int] = 64,
-        trust_remote_code: Optional[bool] = False,
+        trust_remote_code: Optional[bool] = True,
         use_fast_tokenizer: Optional[bool] = True,
         # arguments used for splitting a model across GPUs naively.
         # only used if `parallelize=True`.
@@ -109,7 +109,9 @@ class HFLM(LM):
             eval_logger.warning(
                 "`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way."
             )
-            assert not parallelize, "`parallelize=True` is not compatible with passing pre-initialized model to `pretrained`"
+            assert (
+                not parallelize
+            ), "`parallelize=True` is not compatible with passing pre-initialized model to `pretrained`"
             self._model = pretrained
             self._device = self._model.device
 
@@ -283,13 +285,10 @@ class HFLM(LM):
                             "with 'accelerate launch *script*'. "
                             f"Current run will proceed with {accelerator.num_processes} devices."
                         )
-                    assert (
-                        accelerator.distributed_type
-                        in [
-                            DistributedType.FSDP,
-                            DistributedType.MULTI_GPU,
-                        ]
-                    ), "Unsupported distributed type provided. Only DDP and FSDP are supported."
+                    assert accelerator.distributed_type in [
+                        DistributedType.FSDP,
+                        DistributedType.MULTI_GPU,
+                    ], "Unsupported distributed type provided. Only DDP and FSDP are supported."
                     if accelerator.distributed_type == DistributedType.FSDP:
                         self._model = accelerator.prepare(self.model)
                     else:
@@ -370,7 +369,7 @@ class HFLM(LM):
         self,
         config: transformers.AutoConfig,
         backend: Optional[Literal["default", "causal", "seq2seq"]] = "default",
-        trust_remote_code: Optional[bool] = False,
+        trust_remote_code: Optional[bool] = True,
     ) -> None:
         """
         Helper method during initialization.
@@ -422,7 +421,7 @@ class HFLM(LM):
         self,
         pretrained: str,
         revision: str = "main",
-        trust_remote_code: bool = False,
+        trust_remote_code: bool = True,
     ) -> None:
         self._config = transformers.AutoConfig.from_pretrained(
             pretrained,
@@ -435,7 +434,7 @@ class HFLM(LM):
         pretrained: str,
         revision: Optional[str] = "main",
         dtype: Optional[Union[str, torch.dtype]] = "auto",
-        trust_remote_code: Optional[bool] = False,
+        trust_remote_code: Optional[bool] = True,
         # arguments used for splitting a model across GPUs naively.
         # only used if `parallelize=True`.
         # (accelerate naive PP (device_map) options)
@@ -503,12 +502,12 @@ class HFLM(LM):
             self._model = self.AUTO_MODEL_CLASS.from_pretrained(
                 pretrained,
                 revision=revision,
-                #torch_dtype=utils.get_dtype(dtype),
+                # torch_dtype=utils.get_dtype(dtype),
                 trust_remote_code=trust_remote_code,
                 quantization_config=bnb_config,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
-                #**model_kwargs,
+                # **model_kwargs,
             )
         else:
             try:
@@ -523,9 +522,9 @@ class HFLM(LM):
                 pretrained,
                 trust_remote_code=trust_remote_code,
                 model_basename=None if autogptq is True else Path(autogptq).stem,
-                use_safetensors=True
-                if autogptq is True
-                else autogptq.endswith(".safetensors"),
+                use_safetensors=(
+                    True if autogptq is True else autogptq.endswith(".safetensors")
+                ),
                 **model_kwargs,
             )
 
@@ -549,7 +548,7 @@ class HFLM(LM):
             ]
         ],
         revision: Optional[str] = "main",
-        trust_remote_code: Optional[bool] = False,
+        trust_remote_code: Optional[bool] = True,
         use_fast_tokenizer: Optional[bool] = True,
     ) -> None:
         """
@@ -929,9 +928,7 @@ class HFLM(LM):
         batch_size = (
             self.batch_size
             if self.batch_size != "auto"
-            else override_bs
-            if override_bs is not None
-            else 0
+            else override_bs if override_bs is not None else 0
         )
         batch_fn = (
             self._batch_scheduler
@@ -1063,7 +1060,9 @@ class HFLM(LM):
                 greedy_tokens = logits.argmax(dim=-1)
                 cont_toks = torch.tensor(
                     cont_toks, dtype=torch.long, device=self.device
-                ).unsqueeze(0)  # [1, seq]
+                ).unsqueeze(
+                    0
+                )  # [1, seq]
                 max_equal = (greedy_tokens == cont_toks).all()
 
                 # Obtain log-probs at the corresponding continuation token indices
@@ -1114,9 +1113,7 @@ class HFLM(LM):
         batch_size = (
             self.batch_size
             if self.batch_size != "auto"
-            else adaptive_batch_size
-            if adaptive_batch_size is not None
-            else 0
+            else adaptive_batch_size if adaptive_batch_size is not None else 0
         )
         batch_fn = (
             self._batch_scheduler

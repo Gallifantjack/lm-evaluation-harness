@@ -5,4 +5,4 @@
 "group_alias": "stem"
 "include": "_default_template_yaml"
 "task": "mmlu_conceptual_physics"
-"task_alias": "conceptual_physics"
+"task_alias": "conceptual physics"

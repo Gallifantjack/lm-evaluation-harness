@@ -1,7 +1,13 @@
-def process_usmle_sa(doc, keyword_replace=None, keyword_map=None) -> str:
-    print(keyword_replace)
-    print(len(keyword_map))
+import os
+import json
 
+
+def process_usmle_sa(
+    doc,
+    keyword_replace=None,
+    keyword_map=None,
+    output_dir="lm_eval/tasks/usmle_sa_step1",
+) -> str:
     options = ""
     for k, v in doc["options"].items():
         if v is not None:
@@ -10,22 +16,37 @@ def process_usmle_sa(doc, keyword_replace=None, keyword_map=None) -> str:
     question = doc["question"].strip()
     response = question + "\n" + options + "Answer:"
 
-    # Initialize replacement count
-    replacement_count = 0
+    replacement_tracker = {}
 
     if keyword_replace is not None and keyword_map is not None:
-        print(f"Keyword replace mode in loop: {keyword_replace}")
         for old_keyword, new_keyword in keyword_map.items():
             if keyword_replace == "brand_to_generic":
-                # Check how many times the old keyword appears before replacing
-                replacement_count += response.count(old_keyword)
+                count = response.count(old_keyword)
                 response = response.replace(old_keyword, new_keyword)
+                replacement_tracker[old_keyword] = count
             elif keyword_replace == "generic_to_brand":
-                # Check how many times the new keyword appears before replacing
-                replacement_count += response.count(new_keyword)
+                count = response.count(new_keyword)
                 response = response.replace(new_keyword, old_keyword)
+                replacement_tracker[new_keyword] = count
 
-        # Print the number of replacements made
-        print(f"Total replacements made: {replacement_count}")
+    # Write the replacement tracker data to a JSON file
+    os.makedirs(output_dir, exist_ok=True)
+    replacement_file = os.path.join(output_dir, f"{keyword_replace}_replacements.json")
+
+    # Load existing data if the file exists
+    if os.path.exists(replacement_file):
+        with open(replacement_file, "r") as f:
+            existing_data = json.load(f)
+    else:
+        existing_data = []
+
+    # Add the current document's replacement data
+    existing_data.append(
+        {"document": doc["question"], "replacements": replacement_tracker}
+    )
+
+    # Write updated data back to the file
+    with open(replacement_file, "w") as f:
+        json.dump(existing_data, f, indent=4)
 
     return response

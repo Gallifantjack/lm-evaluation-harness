@@ -5,4 +5,4 @@
 "group_alias": "stem"
 "include": "_default_template_yaml"
 "task": "mmlu_high_school_mathematics"
-"task_alias": "high_school_mathematics"
+"task_alias": "high school mathematics"

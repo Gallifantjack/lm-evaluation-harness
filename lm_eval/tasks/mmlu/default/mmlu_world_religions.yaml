@@ -5,4 +5,4 @@
 "group_alias": "humanities"
 "include": "_default_template_yaml"
 "task": "mmlu_world_religions"
-"task_alias": "world_religions"
+"task_alias": "world religions"

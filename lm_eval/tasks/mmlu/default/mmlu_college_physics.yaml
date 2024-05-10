@@ -5,4 +5,4 @@
 "group_alias": "stem"
 "include": "_default_template_yaml"
 "task": "mmlu_college_physics"
-"task_alias": "college_physics"
+"task_alias": "college physics"

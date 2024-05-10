@@ -1,0 +1,7 @@
+group: mmlu
+task:
+- mmlu_stem
+- mmlu_clinical_workflow
+- mmlu_other
+- mmlu_social_sciences
+- mmlu_humanities
