@@ -10,6 +10,7 @@ from typing import Any, List, Literal, Tuple, Union
 import datasets
 import numpy as np
 import pandas as pd
+import random
 
 from lm_eval import utils
 from lm_eval.api import samplers
@@ -863,13 +864,6 @@ class ConfigurableTask(Task):
     def load_keywords(self, csv_path, keyword_replace=None):
         brand_to_generic = self.load_drug_map(csv_path)
         generic_to_brand = self.load_drug_map(csv_path, reverse_map=True)
-        all_keywords = set(brand_to_generic.keys()).union(
-            brand_to_generic.values(),
-            generic_to_brand.keys(),
-            generic_to_brand.values(),
-        )
-        # print(f"Total keywords: {len(all_keywords)}")
-        # print(f"Keyword replace mode: {keyword_replace}")
 
         keyword_map = (
             brand_to_generic
@@ -882,14 +876,22 @@ class ConfigurableTask(Task):
         )
         return keyword_map
 
-    def load_drug_map(self, csv_path, reverse_map=False):
+    def load_drug_map(self, csv_path, reverse_map=False, drug_seed=42):
+        random.seed(drug_seed)  # Set the seed for reproducibility of random choices
+
         df = pd.read_csv(csv_path)
-        return dict(
-            zip(
-                df["generic"] if reverse_map else df["brand"],
-                df["brand"] if reverse_map else df["generic"],
-            )
-        )
+
+        if reverse_map:
+            # Map generic to randomly chosen brand with fixed seed
+            grouped = df.groupby("generic")["brand"].apply(list)
+            drug_map = {
+                generic: random.choice(brands) for generic, brands in grouped.items()
+            }
+        else:
+            # Map brand to generic (simple mapping)
+            drug_map = pd.Series(df["generic"].values, index=df["brand"]).to_dict()
+
+        return drug_map
 
     def doc_to_text(self, doc):
         if self.prompt is not None:

@@ -1,5 +1,6 @@
 import os
 import json
+from datetime import datetime
 
 
 def doc_to_text(
@@ -29,9 +30,15 @@ def doc_to_text(
                 prompt = prompt.replace(new_keyword, old_keyword)
                 replacement_tracker[new_keyword] = count
 
+    # Format today's date
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    daily_output_dir = os.path.join(output_dir, today_date)
+
     # Ensure the output directory exists
-    os.makedirs(output_dir, exist_ok=True)
-    replacement_file = os.path.join(output_dir, f"{keyword_replace}_replacements.json")
+    os.makedirs(daily_output_dir, exist_ok=True)
+    replacement_file = os.path.join(
+        daily_output_dir, f"{keyword_replace}_replacements.json"
+    )
 
     # Load existing replacement tracking data if available
     if os.path.exists(replacement_file):

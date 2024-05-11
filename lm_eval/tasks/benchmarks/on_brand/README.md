@@ -29,15 +29,18 @@ A benchmark
 Note that MultiMedQA also includes some short-form and long-form Q&A tasks (LiveQA, MedicationQA, HealthSearchQA). Evaluation on these tasks is usually done by experts and is not typically performed automatically, and therefore is ignored here.s
 
 ## Key word replacement
+We downloaded xx drugs from RxNorm. drug_names.csv
+Generic to brand is one to many mapping so we use a fixed random seed of 42 to ensure consistency in the replacement.
+Brand to generic is many to many to one mapping so there is no need to fix the random seed.
 
+yaml files contain replace_keyword variable. if none then no replacment is done. if brand_to_generic then brand to generic replacement is done. if generic_to_brand then generic to brand replacement is done. 
+This is done during the doc_to_text function in the task class. You can find the exact mapping in the preprocessing files unique to each task.
 
 ## Todo
-- sort replacement for pubmed and medmcqa
-- Sort task saving for mmlu subtasks replacements
-- sort random drugs selection
 - add all drugs to drug_names
 
 
 #### Future
 - Look into LiveQA, MedicationQA, HealthSearchQA
 - Do we want to download on_brand as a separate dataset/task or just add options to the existing tasks?
+- Sort better task saving for mmlu subtasks replacements- currently using dates to reload replacement tracker 

@@ -1,26 +1,25 @@
 {
   "results": {
-    "usmle_sa_step1": {
-      "acc,none": 0.2127659574468085,
-      "acc_stderr,none": 0.042438647024554674,
-      "alias": "usmle_sa_step1"
+    "pubmedqa": {
+      "acc,none": 0.556,
+      "acc_stderr,none": 0.02224224437573098,
+      "alias": "pubmedqa"
     }
   },
   "configs": {
-    "usmle_sa_step1": {
-      "task": "usmle_sa_step1",
-      "dataset_path": "augtoma/usmle_step_1",
+    "pubmedqa": {
+      "task": "pubmedqa",
+      "dataset_path": "bigbio/pubmed_qa",
+      "dataset_name": "pubmed_qa_labeled_fold0_source",
+      "training_split": "train",
+      "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7d8eeb46a3a0>",
-      "doc_to_target": "answer_idx",
+      "doc_to_text": "<function doc_to_text at 0x7ac93b79a8b0>",
+      "doc_to_target": "final_decision",
       "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
+        "yes",
+        "no",
+        "maybe"
       ],
       "description": "",
       "target_delimiter": " ",
@@ -36,18 +35,16 @@
       "repeats": 1,
       "should_decontaminate": false,
       "keyword_replace": "brand_to_generic",
-      "metadata": [
-        {
-          "version": 0.0
-        }
-      ]
+      "metadata": {
+        "version": 1.0
+      }
     }
   },
   "versions": {
-    "usmle_sa_step1": "Yaml"
+    "pubmedqa": 1.0
   },
   "n-shot": {
-    "usmle_sa_step1": 0
+    "pubmedqa": 0
   },
   "config": {
     "model": "hf",
@@ -60,5 +57,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "3492b85a"
+  "git_hash": "63f08ee6"
 }
