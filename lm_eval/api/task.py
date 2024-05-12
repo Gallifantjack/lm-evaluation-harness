@@ -967,13 +967,13 @@ class ConfigurableTask(Task):
                     return target_string
         elif isinstance(doc_to_target, list):
             return doc_to_target
-        elif callable(doc_to_target):
+        elif callable(doc_to_target): # not needed as currently all functions return int
             # if self.keyword_replace is not None:
             #     text = doc_to_target(doc, self.keyword_replace, self.keyword_map)
             # else:
             #     text = doc_to_target(doc)
             # return text
-            text = doc_to_target(doc)
+            return doc_to_target(doc)
 
         # Used when applying a Promptsource template
         elif hasattr(doc_to_target, "apply"):
