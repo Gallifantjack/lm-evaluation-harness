@@ -5,7 +5,7 @@ training_split: train
 validation_split: validation
 test_split: test
 doc_to_text: !function preprocess_medqa.doc_to_text
-keyword_replace: None
+keyword_replace: generic_to_brand
 doc_to_target: !function preprocess_medqa.doc_to_target
 doc_to_choice: [ 'A', 'B', 'C', 'D' ]
 metric_list:

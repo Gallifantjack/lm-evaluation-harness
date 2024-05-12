@@ -913,8 +913,8 @@ class ConfigurableTask(Task):
         elif callable(doc_text):
             if self.keyword_replace is not None:
                 if self.config.dataset_path != "hails/mmlu_no_train":
-                    # text = doc_text(doc, self.keyword_replace, self.keyword_map)
-                    text = doc_text(doc)
+                    text = doc_text(doc, self.keyword_replace, self.keyword_map)
+                    # text = doc_text(doc)
                 else:
                     text = doc_text(
                         doc,
@@ -967,7 +967,9 @@ class ConfigurableTask(Task):
                     return target_string
         elif isinstance(doc_to_target, list):
             return doc_to_target
-        elif callable(doc_to_target): # not needed as currently all functions return int
+        elif callable(
+            doc_to_target
+        ):  # not needed as currently all functions return int
             # if self.keyword_replace is not None:
             #     text = doc_to_target(doc, self.keyword_replace, self.keyword_map)
             # else:

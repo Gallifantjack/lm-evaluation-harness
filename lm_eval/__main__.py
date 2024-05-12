@@ -143,6 +143,11 @@ def parse_eval_args() -> argparse.Namespace:
         metavar="CRITICAL|ERROR|WARNING|INFO|DEBUG",
         help="Controls the reported logging error level. Set to DEBUG when testing + adding new task configurations for comprehensive log output.",
     )
+    parser.add_argument(
+        "--keyword_replace",
+        default="",
+        help="Save results file with keyword replaced",
+    )
     return parser.parse_args()
 
 
@@ -209,11 +214,16 @@ def cli_evaluate(args: Union[argparse.Namespace, None] = None) -> None:
     if args.output_path:
         path = Path(args.output_path)
         # check if file or 'dir/results.json' exists
-        if path.is_file() or Path(args.output_path).joinpath("results.json").is_file():
+        if (
+            path.is_file()
+            or Path(args.output_path)
+            .joinpath(f"{args.keyword_replace}_results.json")
+            .is_file()
+        ):
             eval_logger.warning(
                 f"File already exists at {path}. Results will be overwritten."
             )
-            output_path_file = path.joinpath("results.json")
+            output_path_file = path.joinpath(f"{args.keyword_replace}_results.json")
             assert not path.is_file(), "File already exists"
         # if path json then get parent dir
         elif path.suffix in (".json", ".jsonl"):
@@ -222,7 +232,7 @@ def cli_evaluate(args: Union[argparse.Namespace, None] = None) -> None:
             path = path.parent
         else:
             path.mkdir(parents=True, exist_ok=True)
-            output_path_file = path.joinpath("results.json")
+            output_path_file = path.joinpath(f"{args.keyword_replace}_results.json")
     elif args.log_samples and not args.output_path:
         assert args.output_path, "Specify --output_path"
 
