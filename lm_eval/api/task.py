@@ -912,7 +912,16 @@ class ConfigurableTask(Task):
                     return text_string
         elif callable(doc_text):
             if self.keyword_replace is not None:
-                text = doc_text(doc, self.keyword_replace, self.keyword_map)
+                if self.config.dataset_path != "hails/mmlu_no_train":
+                    # text = doc_text(doc, self.keyword_replace, self.keyword_map)
+                    text = doc_text(doc)
+                else:
+                    text = doc_text(
+                        doc,
+                        self.keyword_replace,
+                        self.keyword_map,
+                        self.config.dataset_name,
+                    )
             else:
                 text = doc_text(doc)
             return text
@@ -959,11 +968,12 @@ class ConfigurableTask(Task):
         elif isinstance(doc_to_target, list):
             return doc_to_target
         elif callable(doc_to_target):
-            if self.keyword_replace is not None:
-                text = doc_to_target(doc, self.keyword_replace, self.keyword_map)
-            else:
-                text = doc_to_target(doc)
-            return text
+            # if self.keyword_replace is not None:
+            #     text = doc_to_target(doc, self.keyword_replace, self.keyword_map)
+            # else:
+            #     text = doc_to_target(doc)
+            # return text
+            text = doc_to_target(doc)
 
         # Used when applying a Promptsource template
         elif hasattr(doc_to_target, "apply"):
@@ -994,11 +1004,12 @@ class ConfigurableTask(Task):
         elif isinstance(doc_to_choice, dict):
             return list(doc_to_choice.values())
         elif callable(doc_to_choice):
-            if self.keyword_replace is not None:
-                text = doc_to_choice(doc, self.keyword_replace, self.keyword_map)
-            else:
-                text = doc_to_choice(doc)
-            return text
+            # if self.keyword_replace is not None:
+            #     text = doc_to_choice(doc, self.keyword_replace, self.keyword_map)
+            # else:
+            #     text = doc_to_choice(doc)
+            # return text
+            text = doc_to_choice(doc)
 
         elif hasattr(doc_to_choice, "get_answer_choices_list"):
             return doc_to_choice.get_answer_choices_list(doc)

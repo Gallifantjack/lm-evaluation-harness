@@ -6,7 +6,7 @@ training_split: train
 validation_split: validation
 test_split: test
 doc_to_text: !function preprocess_pubmedqa.doc_to_text
-keyword_replace: brand_to_generic
+keyword_replace: generic_to_brand
 doc_to_target: final_decision
 doc_to_choice: ["yes", "no", "maybe"]
 metric_list:
