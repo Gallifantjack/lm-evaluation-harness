@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Define the base directory (use an absolute path if possible)
-base_dir="/home/jgally/mit/lm-evaluation-harness/lm_eval/tasks"
+# base_dir="/home/jgally/mit/lm-evaluation-harness/lm_eval/tasks"
+base_dir="/home/legionjgally/Desktop/mit/lm-evaluation-harness/lm_eval/tasks"
 
 # Ensure permissions for writing and creating directories recursively
 chmod -R u+rwx "$base_dir"
@@ -23,12 +24,13 @@ config_files=(
 
 # List of models to evaluate
 models=(
-    "unsloth/gemma-7b"
-    "mistralai/Mistral-7B-v0.1"
-    "medalpaca/medalpaca-7b"
-    "BioMistral/BioMistral-7B"
-    "openai-community/gpt2-xl"
-    "EleutherAI/gpt-neo-2.7B"
+    # "unsloth/gemma-7b"
+    # "mistralai/Mistral-7B-v0.1"
+    # "medalpaca/medalpaca-7b"
+    # "BioMistral/BioMistral-7B"
+    # "openai-community/gpt2-xl"
+    # "EleutherAI/gpt-neo-2.7B"
+    EleutherAI/pythia-70m
 )
 
 # List of keyword_replace settings to apply
@@ -62,7 +64,8 @@ for model in "${models[@]}"; do
 
         # Run the evaluation command for the onBrand group task
         echo "Running evaluation for model $model with keyword_replace: $replace"
-        /home/jgally/miniconda3/envs/nlp_cuda118/bin/python3 lm_eval --model hf \
+        # /home/jgally/miniconda3/envs/nlp_cuda118/bin/python3 lm_eval --model hf \
+        /home/legionjgally/miniconda3/envs/bnb_39_117/bin/python3 lm_eval --model hf \
                         --model_args pretrained=$model \
                         --tasks onBrand \
                         --device cuda:0 \
