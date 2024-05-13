@@ -66,7 +66,7 @@ def doc_to_text(
     # with open(replacement_file, "w") as f:
     #     json.dump(existing_data, f, indent=4)
 
-    # return prompt
+    return prompt
 
 
 def doc_to_target(doc) -> int:
