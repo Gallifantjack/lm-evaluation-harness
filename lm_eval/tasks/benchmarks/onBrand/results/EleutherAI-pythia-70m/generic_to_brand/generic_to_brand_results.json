@@ -88,7 +88,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x79a3f32d6430>",
+      "doc_to_text": "<function doc_to_text at 0x7c229dda74c0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -123,8 +123,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x79a40007f4c0>",
-      "doc_to_target": "<function doc_to_target at 0x79a40007f8b0>",
+      "doc_to_text": "<function doc_to_text at 0x7c22c039c550>",
+      "doc_to_target": "<function doc_to_target at 0x7c22c039c940>",
       "doc_to_choice": [
         "A",
         "B",
@@ -159,7 +159,7 @@
       "dataset_name": "anatomy",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x79a3f2e7c5e0>",
+      "doc_to_text": "<function process_mmlu at 0x7c229d94e9d0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -196,7 +196,7 @@
       "dataset_name": "clinical_knowledge",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x79a3f2edea60>",
+      "doc_to_text": "<function process_mmlu at 0x7c229d9ba820>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -233,7 +233,7 @@
       "dataset_name": "college_biology",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x79a3f2e7c430>",
+      "doc_to_text": "<function process_mmlu at 0x7c229d94e700>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -270,7 +270,7 @@
       "dataset_name": "college_medicine",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x79a3f2edee50>",
+      "doc_to_text": "<function process_mmlu at 0x7c229d9bae50>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -307,7 +307,7 @@
       "dataset_name": "medical_genetics",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x79a3f2e7c700>",
+      "doc_to_text": "<function process_mmlu at 0x7c229d94eb80>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -344,7 +344,7 @@
       "dataset_name": "professional_medicine",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x79a3f2ede1f0>",
+      "doc_to_text": "<function process_mmlu at 0x7c229d9abaf0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -380,7 +380,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x79a401519af0>",
+      "doc_to_text": "<function doc_to_text at 0x7c22cc881af0>",
       "doc_to_target": "final_decision",
       "doc_to_choice": [
         "yes",
@@ -409,7 +409,7 @@
       "task": "usmle_sa_step1",
       "dataset_path": "augtoma/usmle_step_1",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x79a3f329c3a0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7c229dd6f670>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -444,7 +444,7 @@
       "task": "usmle_sa_step2",
       "dataset_path": "augtoma/usmle_step_2",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x79a4000765e0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7c22c039c310>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -479,7 +479,7 @@
       "task": "usmle_sa_step3",
       "dataset_path": "augtoma/usmle_step_3",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x79a3f32d6700>",
+      "doc_to_text": "<function process_usmle_sa at 0x7c229dda7af0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -618,5 +618,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "14b1d963"
+  "git_hash": "5ba2b14b"
 }
