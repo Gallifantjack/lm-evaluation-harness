@@ -5,7 +5,7 @@ fewshot_config:
   sampler: first_n
 output_type: multiple_choice
 doc_to_text: !function _default_mmlu_process.process_mmlu
-keyword_replace: generic_to_brand
+keyword_replace: none
 doc_to_choice: ["A", "B", "C", "D"]
 doc_to_target: answer
 metric_list:

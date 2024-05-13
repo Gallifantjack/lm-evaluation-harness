@@ -4,7 +4,7 @@ dataset_name: null
 output_type: multiple_choice
 test_split: test
 doc_to_text: !function preprocess_usmle_sa_step2.process_usmle_sa
-keyword_replace: generic_to_brand
+keyword_replace: none
 doc_to_target: answer_idx
 doc_to_choice: ["A", "B", "C", "D", "E", "F", "G"]
 metric_list:

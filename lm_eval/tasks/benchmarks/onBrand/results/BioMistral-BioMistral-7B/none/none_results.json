@@ -1,24 +1,24 @@
 {
   "results": {
     "onBrand": {
-      "acc,none": 0.3005427408412483,
-      "acc_stderr,none": 0.05727082867095514,
-      "acc_norm,none": 0.30819996614036915,
-      "acc_norm_stderr,none": 0.00023738587947466224,
+      "acc,none": 0.4094979647218453,
+      "acc_stderr,none": 0.08909390570841098,
+      "acc_norm,none": 0.41513467056350717,
+      "acc_norm_stderr,none": 0.00031207622286630825,
       "alias": "onBrand"
     },
     "medmcqa": {
-      "acc,none": 0.3160411188142481,
-      "acc_stderr,none": 0.007189435265967663,
-      "acc_norm,none": 0.3160411188142481,
-      "acc_norm_stderr,none": 0.007189435265967663,
+      "acc,none": 0.4059287592636863,
+      "acc_stderr,none": 0.00759367770561027,
+      "acc_norm,none": 0.4059287592636863,
+      "acc_norm_stderr,none": 0.00759367770561027,
       "alias": " - medmcqa"
     },
     "medqa_4options": {
-      "acc,none": 0.27572663000785547,
-      "acc_stderr,none": 0.012529884261901282,
-      "acc_norm,none": 0.27572663000785547,
-      "acc_norm_stderr,none": 0.012529884261901282,
+      "acc,none": 0.45326001571091906,
+      "acc_stderr,none": 0.013957915572514553,
+      "acc_norm,none": 0.45326001571091906,
+      "acc_norm_stderr,none": 0.013957915572514553,
       "alias": " - medqa_4options"
     },
     "onBrand_mmlu_anatomy": {
@@ -52,32 +52,32 @@
       "acc_stderr,none": 0.02352924218519311
     },
     "pubmedqa": {
-      "acc,none": 0.492,
-      "acc_stderr,none": 0.022380208834928025,
+      "acc,none": 0.728,
+      "acc_stderr,none": 0.019920483209566096,
       "alias": " - pubmedqa"
     },
     "usmle_sa_step1": {
-      "acc,none": 0.22340425531914893,
-      "acc_stderr,none": 0.043191844364621576,
+      "acc,none": 0.3617021276595745,
+      "acc_stderr,none": 0.0498248219983021,
       "alias": " - usmle_sa_step1"
     },
     "usmle_sa_step2": {
-      "acc,none": 0.1651376146788991,
-      "acc_stderr,none": 0.0357288117600854,
+      "acc,none": 0.48623853211009177,
+      "acc_stderr,none": 0.048094296073742895,
       "alias": " - usmle_sa_step2"
     },
     "usmle_sa_step3": {
-      "acc,none": 0.18032786885245902,
-      "acc_stderr,none": 0.03495093710747715,
+      "acc,none": 0.4672131147540984,
+      "acc_stderr,none": 0.045356714734823195,
       "alias": " - usmle_sa_step3"
     }
   },
   "groups": {
     "onBrand": {
-      "acc,none": 0.3005427408412483,
-      "acc_stderr,none": 0.05727082867095514,
-      "acc_norm,none": 0.30819996614036915,
-      "acc_norm_stderr,none": 0.00023738587947466224,
+      "acc,none": 0.4094979647218453,
+      "acc_stderr,none": 0.08909390570841098,
+      "acc_norm,none": 0.41513467056350717,
+      "acc_norm_stderr,none": 0.00031207622286630825,
       "alias": "onBrand"
     }
   },
@@ -88,7 +88,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x72af2f45c430>",
+      "doc_to_text": "<function doc_to_text at 0x7f7bbe489f70>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -115,7 +115,7 @@
       "repeats": 1,
       "should_decontaminate": true,
       "doc_to_decontamination_query": "{{question}}",
-      "keyword_replace": "brand_to_generic"
+      "keyword_replace": "none"
     },
     "medqa_4options": {
       "task": "medqa_4options",
@@ -123,8 +123,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x72af5087e4c0>",
-      "doc_to_target": "<function doc_to_target at 0x72af5087e8b0>",
+      "doc_to_text": "<function doc_to_text at 0x7f7bd0133310>",
+      "doc_to_target": "<function doc_to_target at 0x7f7bd0133430>",
       "doc_to_choice": [
         "A",
         "B",
@@ -149,7 +149,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic"
+      "keyword_replace": "none"
     },
     "onBrand_mmlu_anatomy": {
       "task": "onBrand_mmlu_anatomy",
@@ -159,7 +159,7 @@
       "dataset_name": "anatomy",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x72af2f0065e0>",
+      "doc_to_text": "<function process_mmlu at 0x7f7bbe5579d0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -183,7 +183,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 0.0
       }
@@ -196,7 +196,7 @@
       "dataset_name": "clinical_knowledge",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x72af2f068a60>",
+      "doc_to_text": "<function process_mmlu at 0x7f7bbe5af1f0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -220,7 +220,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 0.0
       }
@@ -233,7 +233,7 @@
       "dataset_name": "college_biology",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x72af2f006430>",
+      "doc_to_text": "<function process_mmlu at 0x7f7bbe54aca0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -257,7 +257,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 0.0
       }
@@ -270,7 +270,7 @@
       "dataset_name": "college_medicine",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x72af2f068e50>",
+      "doc_to_text": "<function process_mmlu at 0x7f7bbe5afa60>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -294,7 +294,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 0.0
       }
@@ -307,7 +307,7 @@
       "dataset_name": "medical_genetics",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x72af2f006700>",
+      "doc_to_text": "<function process_mmlu at 0x7f7bbe506160>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -331,7 +331,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 0.0
       }
@@ -344,7 +344,7 @@
       "dataset_name": "professional_medicine",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x72af2f0681f0>",
+      "doc_to_text": "<function process_mmlu at 0x7f7bbe5681f0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -368,7 +368,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 0.0
       }
@@ -380,7 +380,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x72af5cf05af0>",
+      "doc_to_text": "<function doc_to_text at 0x7f7bd02a93a0>",
       "doc_to_target": "final_decision",
       "doc_to_choice": [
         "yes",
@@ -400,7 +400,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": {
         "version": 1.0
       }
@@ -409,7 +409,7 @@
       "task": "usmle_sa_step1",
       "dataset_path": "augtoma/usmle_step_1",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x72af2f4263a0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7f7bd02e0ee0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -433,7 +433,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": [
         {
           "version": 0.0
@@ -444,7 +444,7 @@
       "task": "usmle_sa_step2",
       "dataset_path": "augtoma/usmle_step_2",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x72af508775e0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7f7bd007f0d0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -468,7 +468,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": [
         {
           "version": 0.0
@@ -479,7 +479,7 @@
       "task": "usmle_sa_step3",
       "dataset_path": "augtoma/usmle_step_3",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x72af2f45c700>",
+      "doc_to_text": "<function process_usmle_sa at 0x7f7bd007f160>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -503,7 +503,7 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false,
-      "keyword_replace": "brand_to_generic",
+      "keyword_replace": "none",
       "metadata": [
         {
           "version": 0.0
@@ -543,10 +543,10 @@
   },
   "config": {
     "model": "hf",
-    "model_args": "pretrained=EleutherAI/pythia-160m,revision=step100000,dtype=float",
+    "model_args": "pretrained=BioMistral/BioMistral-7B",
     "batch_size": "auto:64",
     "batch_sizes": [
-      32,
+      16,
       64,
       64,
       64,
@@ -618,5 +618,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "e28d3281"
+  "git_hash": "59c7b7b0"
 }
