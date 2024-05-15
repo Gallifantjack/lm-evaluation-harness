@@ -1,0 +1,22 @@
+[
+    {
+        "old": "vitamin a",
+        "replaced": "retinol",
+        "count": 1
+    },
+    {
+        "old": "electrolytes",
+        "replaced": "electrolyte",
+        "count": 1
+    },
+    {
+        "old": "cholecalciferol",
+        "replaced": "d3",
+        "count": 6
+    },
+    {
+        "old": "aspirin",
+        "replaced": "acetylsalicylic acid",
+        "count": 1
+    }
+]

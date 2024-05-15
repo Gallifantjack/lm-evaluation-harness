@@ -14,4 +14,4 @@ metric_list:
     higher_is_better: true
 metadata:
   version: 1.0
-keyword_replace: none
+keyword_replace: brand_to_generic

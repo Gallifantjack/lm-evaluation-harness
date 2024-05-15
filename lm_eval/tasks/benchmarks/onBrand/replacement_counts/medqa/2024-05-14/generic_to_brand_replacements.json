@@ -1,0 +1,77 @@
+[
+    {
+        "old": "aspirin",
+        "replaced": "acetylsalicylic acid",
+        "count": 47
+    },
+    {
+        "old": "acetaminophen",
+        "replaced": "paracetamol",
+        "count": 17
+    },
+    {
+        "old": "electrolytes",
+        "replaced": "electrolyte",
+        "count": 9
+    },
+    {
+        "old": "ergocalciferol",
+        "replaced": "calciferol",
+        "count": 1
+    },
+    {
+        "old": "isosorbide dinitrate",
+        "replaced": "isdn",
+        "count": 2
+    },
+    {
+        "old": "niacin",
+        "replaced": "nicotinic acid",
+        "count": 2
+    },
+    {
+        "old": "dextrose",
+        "replaced": "glucose",
+        "count": 6
+    },
+    {
+        "old": "vitamin a",
+        "replaced": "retinol",
+        "count": 1
+    },
+    {
+        "old": "glycerin",
+        "replaced": "glycerol",
+        "count": 3
+    },
+    {
+        "old": "multivitamins",
+        "replaced": "multi vitamin",
+        "count": 2
+    },
+    {
+        "old": "succimer",
+        "replaced": "dmsa",
+        "count": 2
+    },
+    {
+        "old": "activated charcoal",
+        "replaced": "active carbon",
+        "count": 1
+    },
+    {
+        "old": "chorionic gonadotropin",
+        "replaced": "hcg",
+        "count": 2
+    },
+    {
+        "old": "fluticasone/salmeterol",
+        "replaced": "fluticasone-salmeterol",
+        "count": 1
+    },
+    {
+        "old": "ascorbic acid",
+        "replaced": "vitamin c",
+        "count": 1
+    }
+]

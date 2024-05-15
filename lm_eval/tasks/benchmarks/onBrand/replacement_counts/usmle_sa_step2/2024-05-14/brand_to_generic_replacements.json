@@ -1,0 +1,42 @@
+[
+    {
+        "old": "vitamin b1",
+        "replaced": "vitamin b1 (thiamine)",
+        "count": 3
+    },
+    {
+        "old": "multivitamin",
+        "replaced": "multivitamins",
+        "count": 5
+    },
+    {
+        "old": "electrolyte",
+        "replaced": "electrolytes",
+        "count": 3
+    },
+    {
+        "old": "glucose",
+        "replaced": "dextrose",
+        "count": 14
+    },
+    {
+        "old": "pyridoxine",
+        "replaced": "vitamin b6 (pyridoxine)",
+        "count": 2
+    },
+    {
+        "old": "lopinavir-ritonavir",
+        "replaced": "lopinavir/ritonavir",
+        "count": 2
+    },
+    {
+        "old": "hcg",
+        "replaced": "chorionic gonadotropin",
+        "count": 4
+    },
+    {
+        "old": "hydroxyprogesterone",
+        "replaced": "17-alpha-hydroxyprogesterone",
+        "count": 1
+    }
+]

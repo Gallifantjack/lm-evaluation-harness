@@ -1,0 +1,17 @@
+[
+    {
+        "old": "acetaminophen",
+        "replaced": "paracetamol",
+        "count": 1
+    },
+    {
+        "old": "electrolytes",
+        "replaced": "electrolyte",
+        "count": 4
+    },
+    {
+        "old": "aspirin",
+        "replaced": "acetylsalicylic acid",
+        "count": 3
+    }
+]

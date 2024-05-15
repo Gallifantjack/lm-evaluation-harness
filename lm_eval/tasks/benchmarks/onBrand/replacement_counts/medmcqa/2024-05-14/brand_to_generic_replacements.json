@@ -1,0 +1,132 @@
+[
+    {
+        "old": "glucose",
+        "replaced": "dextrose",
+        "count": 49
+    },
+    {
+        "old": "vitamin c",
+        "replaced": "ascorbic acid",
+        "count": 5
+    },
+    {
+        "old": "benzoin",
+        "replaced": "benzoin resin",
+        "count": 1
+    },
+    {
+        "old": "amino acid",
+        "replaced": "amino acids, unspecified",
+        "count": 17
+    },
+    {
+        "old": "amino acids",
+        "replaced": "amino acids, unspecified",
+        "count": 17
+    },
+    {
+        "old": "hcg",
+        "replaced": "chorionic gonadotropin",
+        "count": 12
+    },
+    {
+        "old": "paba",
+        "replaced": "aminobenzoic acid",
+        "count": 2
+    },
+    {
+        "old": "dhea",
+        "replaced": "prasterone",
+        "count": 6
+    },
+    {
+        "old": "d3",
+        "replaced": "cholecalciferol",
+        "count": 2
+    },
+    {
+        "old": "calciferol",
+        "replaced": "ergocalciferol",
+        "count": 6
+    },
+    {
+        "old": "immune globulin",
+        "replaced": "globulin, immune",
+        "count": 1
+    },
+    {
+        "old": "sodium hypochlorite",
+        "replaced": "sodium hydrochloride",
+        "count": 4
+    },
+    {
+        "old": "glycerol",
+        "replaced": "glycerin",
+        "count": 4
+    },
+    {
+        "old": "bromide",
+        "replaced": "bromides",
+        "count": 7
+    },
+    {
+        "old": "pyridoxine",
+        "replaced": "vitamin b6 (pyridoxine)",
+        "count": 3
+    },
+    {
+        "old": "methylcobalamin",
+        "replaced": "mecobalamin",
+        "count": 1
+    },
+    {
+        "old": "paracetamol",
+        "replaced": "acetaminophen",
+        "count": 6
+    },
+    {
+        "old": "methionine",
+        "replaced": "l-methionine",
+        "count": 1
+    },
+    {
+        "old": "b12",
+        "replaced": "cyanocobalamin",
+        "count": 2
+    },
+    {
+        "old": "vitamin b1",
+        "replaced": "vitamin b1 (thiamine)",
+        "count": 5
+    },
+    {
+        "old": "electrolyte",
+        "replaced": "electrolytes",
+        "count": 2
+    },
+    {
+        "old": "tetanus toxoid",
+        "replaced": "clostridium tetani toxoid antigen (formaldehyde inactivated)",
+        "count": 1
+    },
+    {
+        "old": "dmsa",
+        "replaced": "succimer",
+        "count": 1
+    },
+    {
+        "old": "multivitamin",
+        "replaced": "multivitamins",
+        "count": 1
+    },
+    {
+        "old": "vitamin b-12",
+        "replaced": "cyanocobalamin",
+        "count": 1
+    },
+    {
+        "old": "nicotinic acid",
+        "replaced": "niacin",
+        "count": 1
+    }
+]

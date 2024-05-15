@@ -1,0 +1,42 @@
+[
+    {
+        "old": "multivitamin",
+        "replaced": "multivitamins",
+        "count": 3
+    },
+    {
+        "old": "glucose",
+        "replaced": "dextrose",
+        "count": 11
+    },
+    {
+        "old": "electrolyte",
+        "replaced": "electrolytes",
+        "count": 2
+    },
+    {
+        "old": "hcg",
+        "replaced": "chorionic gonadotropin",
+        "count": 2
+    },
+    {
+        "old": "cholestyramine",
+        "replaced": "cholestyramine resin",
+        "count": 1
+    },
+    {
+        "old": "bromide",
+        "replaced": "bromides",
+        "count": 1
+    },
+    {
+        "old": "piperacillin-tazobactam",
+        "replaced": "piperacillin/tazobactam",
+        "count": 1
+    },
+    {
+        "old": "dehydroepiandrosterone",
+        "replaced": "prasterone",
+        "count": 1
+    }
+]

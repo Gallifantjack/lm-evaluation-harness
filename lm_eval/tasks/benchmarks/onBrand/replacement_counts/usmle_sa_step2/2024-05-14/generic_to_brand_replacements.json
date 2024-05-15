@@ -1,0 +1,42 @@
+[
+    {
+        "old": "vitamin b1 (thiamine)",
+        "replaced": "vitamin b1",
+        "count": 3
+    },
+    {
+        "old": "acetaminophen",
+        "replaced": "paracetamol",
+        "count": 3
+    },
+    {
+        "old": "aspirin",
+        "replaced": "acetylsalicylic acid",
+        "count": 9
+    },
+    {
+        "old": "dextrose",
+        "replaced": "glucose",
+        "count": 2
+    },
+    {
+        "old": "glycerin",
+        "replaced": "glycerol",
+        "count": 1
+    },
+    {
+        "old": "vitamin a",
+        "replaced": "retinol",
+        "count": 1
+    },
+    {
+        "old": "riboflavin",
+        "replaced": "vitamin b2",
+        "count": 2
+    },
+    {
+        "old": "cyanocobalamin",
+        "replaced": "vitamin b-12",
+        "count": 1
+    }
+]

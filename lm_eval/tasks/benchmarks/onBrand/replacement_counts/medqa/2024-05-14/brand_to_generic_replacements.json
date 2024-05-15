@@ -1,0 +1,147 @@
+[
+    {
+        "old": "glucose",
+        "replaced": "dextrose",
+        "count": 120
+    },
+    {
+        "old": "hcg",
+        "replaced": "chorionic gonadotropin",
+        "count": 8
+    },
+    {
+        "old": "d3",
+        "replaced": "cholecalciferol",
+        "count": 3
+    },
+    {
+        "old": "calciferol",
+        "replaced": "ergocalciferol",
+        "count": 4
+    },
+    {
+        "old": "b12",
+        "replaced": "cyanocobalamin",
+        "count": 1
+    },
+    {
+        "old": "electrolyte",
+        "replaced": "electrolytes",
+        "count": 11
+    },
+    {
+        "old": "multivitamin",
+        "replaced": "multivitamins",
+        "count": 22
+    },
+    {
+        "old": "corticotropin",
+        "replaced": "corticotropin, repository",
+        "count": 3
+    },
+    {
+        "old": "dehydroepiandrosterone",
+        "replaced": "prasterone",
+        "count": 2
+    },
+    {
+        "old": "vitamin b1",
+        "replaced": "vitamin b1 (thiamine)",
+        "count": 7
+    },
+    {
+        "old": "amino acid",
+        "replaced": "amino acids, unspecified",
+        "count": 5
+    },
+    {
+        "old": "amino acids",
+        "replaced": "amino acids, unspecified",
+        "count": 5
+    },
+    {
+        "old": "garlic",
+        "replaced": "garlic preparation",
+        "count": 1
+    },
+    {
+        "old": "pyridoxine",
+        "replaced": "vitamin b6 (pyridoxine)",
+        "count": 1
+    },
+    {
+        "old": "ampicillin-sulbactam",
+        "replaced": "ampicillin/sulbactam",
+        "count": 2
+    },
+    {
+        "old": "immune globulin",
+        "replaced": "globulin, immune",
+        "count": 2
+    },
+    {
+        "old": "glycerol",
+        "replaced": "glycerin",
+        "count": 2
+    },
+    {
+        "old": "bromide",
+        "replaced": "bromides",
+        "count": 3
+    },
+    {
+        "old": "fluticasone-salmeterol",
+        "replaced": "fluticasone/salmeterol",
+        "count": 1
+    },
+    {
+        "old": "sodium hypochlorite",
+        "replaced": "sodium hydrochloride",
+        "count": 1
+    },
+    {
+        "old": "tetanus toxoid",
+        "replaced": "clostridium tetani toxoid antigen (formaldehyde inactivated)",
+        "count": 1
+    },
+    {
+        "old": "dmsa",
+        "replaced": "succimer",
+        "count": 1
+    },
+    {
+        "old": "isopropyl alcohol",
+        "replaced": "rubbing alcohol",
+        "count": 2
+    },
+    {
+        "old": "prenatal vitamins",
+        "replaced": "prenatal vitamins with calcium",
+        "count": 1
+    },
+    {
+        "old": "amoxicillin-clavulanate",
+        "replaced": "amoxicillin/clavulanate",
+        "count": 1
+    },
+    {
+        "old": "piperacillin-tazobactam",
+        "replaced": "piperacillin/tazobactam",
+        "count": 1
+    },
+    {
+        "old": "methionine",
+        "replaced": "l-methionine",
+        "count": 2
+    },
+    {
+        "old": "hydroxyprogesterone",
+        "replaced": "17-alpha-hydroxyprogesterone",
+        "count": 2
+    },
+    {
+        "old": "cranberry",
+        "replaced": "cranberry preparation",
+        "count": 1
+    }
+]

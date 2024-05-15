@@ -1,24 +1,24 @@
 {
   "results": {
     "onBrand": {
-      "acc,none": 0.3056987788331072,
-      "acc_stderr,none": 0.058338213251099225,
-      "acc_norm,none": 0.31293454334334087,
-      "acc_norm_stderr,none": 0.0002716390319268714,
+      "acc,none": 0.3044776119402985,
+      "acc_stderr,none": 0.057541544511851755,
+      "acc_norm,none": 0.312204059247414,
+      "acc_norm_stderr,none": 0.0002721514813277477,
       "alias": "onBrand"
     },
     "medmcqa": {
-      "acc,none": 0.3215395649055702,
-      "acc_stderr,none": 0.007222498476524597,
-      "acc_norm,none": 0.3215395649055702,
-      "acc_norm_stderr,none": 0.007222498476524597,
+      "acc,none": 0.32082237628496296,
+      "acc_stderr,none": 0.007218251270300817,
+      "acc_norm,none": 0.32082237628496296,
+      "acc_norm_stderr,none": 0.007218251270300817,
       "alias": " - medmcqa"
     },
     "medqa_4options": {
-      "acc,none": 0.27729772191673213,
-      "acc_stderr,none": 0.0125518952732286,
-      "acc_norm,none": 0.27729772191673213,
-      "acc_norm_stderr,none": 0.0125518952732286,
+      "acc,none": 0.27651217596229377,
+      "acc_stderr,none": 0.012540913938428886,
+      "acc_norm,none": 0.27651217596229377,
+      "acc_norm_stderr,none": 0.012540913938428886,
       "alias": " - medqa_4options"
     },
     "onBrand_mmlu_anatomy": {
@@ -52,32 +52,32 @@
       "acc_stderr,none": 0.02352924218519311
     },
     "pubmedqa": {
-      "acc,none": 0.506,
-      "acc_stderr,none": 0.02238146241243933,
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.022383074051792257,
       "alias": " - pubmedqa"
     },
     "usmle_sa_step1": {
-      "acc,none": 0.23404255319148937,
-      "acc_stderr,none": 0.04390442166566777,
+      "acc,none": 0.22340425531914893,
+      "acc_stderr,none": 0.043191844364621576,
       "alias": " - usmle_sa_step1"
     },
     "usmle_sa_step2": {
-      "acc,none": 0.1743119266055046,
-      "acc_stderr,none": 0.03650561586028539,
+      "acc,none": 0.1834862385321101,
+      "acc_stderr,none": 0.037245312755239755,
       "alias": " - usmle_sa_step2"
     },
     "usmle_sa_step3": {
-      "acc,none": 0.21311475409836064,
-      "acc_stderr,none": 0.03722800595170436,
+      "acc,none": 0.19672131147540983,
+      "acc_stderr,none": 0.03613816886134768,
       "alias": " - usmle_sa_step3"
     }
   },
   "groups": {
     "onBrand": {
-      "acc,none": 0.3056987788331072,
-      "acc_stderr,none": 0.058338213251099225,
-      "acc_norm,none": 0.31293454334334087,
-      "acc_norm_stderr,none": 0.0002716390319268714,
+      "acc,none": 0.3044776119402985,
+      "acc_stderr,none": 0.057541544511851755,
+      "acc_norm,none": 0.312204059247414,
+      "acc_norm_stderr,none": 0.0002721514813277477,
       "alias": "onBrand"
     }
   },
@@ -88,7 +88,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7c229dda74c0>",
+      "doc_to_text": "<function doc_to_text at 0x76cb2b787820>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -123,8 +123,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7c22c039c550>",
-      "doc_to_target": "<function doc_to_target at 0x7c22c039c940>",
+      "doc_to_text": "<function doc_to_text at 0x76cb2d07f670>",
+      "doc_to_target": "<function doc_to_target at 0x76cb2d07f9d0>",
       "doc_to_choice": [
         "A",
         "B",
@@ -159,7 +159,7 @@
       "dataset_name": "anatomy",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x7c229d94e9d0>",
+      "doc_to_text": "<function process_mmlu at 0x76cb2b334790>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -196,7 +196,7 @@
       "dataset_name": "clinical_knowledge",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x7c229d9ba820>",
+      "doc_to_text": "<function process_mmlu at 0x76cb2b396c10>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -233,7 +233,7 @@
       "dataset_name": "college_biology",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x7c229d94e700>",
+      "doc_to_text": "<function process_mmlu at 0x76cb2b3345e0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -270,7 +270,7 @@
       "dataset_name": "college_medicine",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x7c229d9bae50>",
+      "doc_to_text": "<function process_mmlu at 0x76cb2b334040>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -307,7 +307,7 @@
       "dataset_name": "medical_genetics",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x7c229d94eb80>",
+      "doc_to_text": "<function process_mmlu at 0x76cb2b3348b0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -344,7 +344,7 @@
       "dataset_name": "professional_medicine",
       "test_split": "test",
       "fewshot_split": "dev",
-      "doc_to_text": "<function process_mmlu at 0x7c229d9abaf0>",
+      "doc_to_text": "<function process_mmlu at 0x76cb2b3963a0>",
       "doc_to_target": "answer",
       "doc_to_choice": [
         "A",
@@ -380,7 +380,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7c22cc881af0>",
+      "doc_to_text": "<function doc_to_text at 0x76cb3999a3a0>",
       "doc_to_target": "final_decision",
       "doc_to_choice": [
         "yes",
@@ -409,7 +409,7 @@
       "task": "usmle_sa_step1",
       "dataset_path": "augtoma/usmle_step_1",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7c229dd6f670>",
+      "doc_to_text": "<function process_usmle_sa at 0x76cb2b751550>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -444,7 +444,7 @@
       "task": "usmle_sa_step2",
       "dataset_path": "augtoma/usmle_step_2",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7c22c039c310>",
+      "doc_to_text": "<function process_usmle_sa at 0x76cb2d0775e0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -479,7 +479,7 @@
       "task": "usmle_sa_step3",
       "dataset_path": "augtoma/usmle_step_3",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7c229dda7af0>",
+      "doc_to_text": "<function process_usmle_sa at 0x76cb2b7878b0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -618,5 +618,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "5ba2b14b"
+  "git_hash": "32e20056"
 }

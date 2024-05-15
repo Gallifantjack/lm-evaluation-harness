@@ -1,0 +1,52 @@
+[
+    {
+        "old": "vitamin c",
+        "replaced": "ascorbic acid",
+        "count": 1
+    },
+    {
+        "old": "vitamin b1",
+        "replaced": "vitamin b1 (thiamine)",
+        "count": 1
+    },
+    {
+        "old": "carbidopa-levodopa",
+        "replaced": "carbidopa/levodopa",
+        "count": 1
+    },
+    {
+        "old": "amino acid",
+        "replaced": "amino acids, unspecified",
+        "count": 2
+    },
+    {
+        "old": "amino acids",
+        "replaced": "amino acids, unspecified",
+        "count": 2
+    },
+    {
+        "old": "glucose",
+        "replaced": "dextrose",
+        "count": 8
+    },
+    {
+        "old": "electrolyte",
+        "replaced": "electrolytes",
+        "count": 1
+    },
+    {
+        "old": "hydroxyprogesterone",
+        "replaced": "17-alpha-hydroxyprogesterone",
+        "count": 2
+    },
+    {
+        "old": "methionine",
+        "replaced": "l-methionine",
+        "count": 2
+    },
+    {
+        "old": "calciferol",
+        "replaced": "ergocalciferol",
+        "count": 6
+    }
+]

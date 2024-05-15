@@ -1,0 +1,57 @@
+[
+    {
+        "old": "dehydroepiandrosterone",
+        "replaced": "prasterone",
+        "count": 1
+    },
+    {
+        "old": "dhea",
+        "replaced": "prasterone",
+        "count": 2
+    },
+    {
+        "old": "glucose",
+        "replaced": "dextrose",
+        "count": 34
+    },
+    {
+        "old": "nicotinamide",
+        "replaced": "niacinamide",
+        "count": 1
+    },
+    {
+        "old": "omega-3",
+        "replaced": "omega-3 fatty acids",
+        "count": 5
+    },
+    {
+        "old": "electrolyte",
+        "replaced": "electrolytes",
+        "count": 4
+    },
+    {
+        "old": "bromide",
+        "replaced": "bromides",
+        "count": 1
+    },
+    {
+        "old": "vitamin b1",
+        "replaced": "vitamin b1 (thiamine)",
+        "count": 1
+    },
+    {
+        "old": "corticotropin",
+        "replaced": "corticotropin, repository",
+        "count": 1
+    },
+    {
+        "old": "d3",
+        "replaced": "cholecalciferol",
+        "count": 4
+    },
+    {
+        "old": "calciferol",
+        "replaced": "ergocalciferol",
+        "count": 4
+    }
+]

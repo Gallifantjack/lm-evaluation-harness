@@ -552,7 +552,9 @@ class ConfigurableTask(Task):
 
         if self.config.keyword_replace is not None:
             self.keyword_replace = self.config.keyword_replace
-            self.keyword_map = self.load_keywords("lm_eval/tasks/drug_names.csv")
+            self.keyword_map = self.load_keywords(
+                "lm_eval/tasks/benchmarks/onBrand/RxNorm_eval/paired_brand_generic_names.csv"
+            )
 
         self._metric_fn_list = {}
         self._metric_fn_kwargs = {}

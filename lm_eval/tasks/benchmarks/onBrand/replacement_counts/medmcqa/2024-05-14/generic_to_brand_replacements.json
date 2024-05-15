@@ -1,0 +1,62 @@
+[
+    {
+        "old": "riboflavin",
+        "replaced": "vitamin b2",
+        "count": 5
+    },
+    {
+        "old": "aspirin",
+        "replaced": "acetylsalicylic acid",
+        "count": 9
+    },
+    {
+        "old": "hydrogen peroxide",
+        "replaced": "peroxide d'hydrogene",
+        "count": 2
+    },
+    {
+        "old": "vitamin a",
+        "replaced": "retinol",
+        "count": 8
+    },
+    {
+        "old": "glycerin",
+        "replaced": "glycerol",
+        "count": 2
+    },
+    {
+        "old": "dextrose",
+        "replaced": "glucose",
+        "count": 9
+    },
+    {
+        "old": "ascorbic acid",
+        "replaced": "vitamin c",
+        "count": 1
+    },
+    {
+        "old": "niacin",
+        "replaced": "nicotinic acid",
+        "count": 4
+    },
+    {
+        "old": "acetaminophen",
+        "replaced": "paracetamol",
+        "count": 2
+    },
+    {
+        "old": "cholecalciferol",
+        "replaced": "d3",
+        "count": 3
+    },
+    {
+        "old": "multivitamins",
+        "replaced": "multi vitamin",
+        "count": 1
+    },
+    {
+        "old": "cyanocobalamin",
+        "replaced": "vitamin b-12",
+        "count": 1
+    }
+]
