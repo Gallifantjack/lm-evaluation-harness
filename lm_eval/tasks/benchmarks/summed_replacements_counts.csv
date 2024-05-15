@@ -1,0 +1,11 @@
+Dataset,Direction,count
+medmcqa,brand_to_generic,158
+medmcqa,generic_to_brand,47
+medqa,brand_to_generic,216
+medqa,generic_to_brand,97
+usmle_sa_step1,brand_to_generic,26
+usmle_sa_step1,generic_to_brand,9
+usmle_sa_step2,brand_to_generic,34
+usmle_sa_step2,generic_to_brand,22
+usmle_sa_step3,brand_to_generic,22
+usmle_sa_step3,generic_to_brand,19
