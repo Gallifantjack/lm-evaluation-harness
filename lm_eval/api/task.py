@@ -9,8 +9,6 @@ from typing import Any, List, Literal, Tuple, Union
 
 import datasets
 import numpy as np
-import pandas as pd
-import random
 
 from lm_eval import utils
 from lm_eval.api import samplers
@@ -84,7 +82,6 @@ class TaskConfig(dict):
     filter_list: Union[str, list] = None
     should_decontaminate: bool = False
     doc_to_decontamination_query: str = None
-    keyword_replace: str = None  # Added this for keyword replacement
 
     metadata: Union[str, list] = (
         None  # by default, not used in the code. allows for users to pass arbitrary info to tasks
@@ -550,12 +547,6 @@ class ConfigurableTask(Task):
         if self.config.dataset_name is not None:
             self.DATASET_NAME = self.config.dataset_name
 
-        if self.config.keyword_replace is not None:
-            self.keyword_replace = self.config.keyword_replace
-            self.keyword_map = self.load_keywords(
-                "lm_eval/tasks/benchmarks/onBrand/RxNorm_eval/paired_brand_generic_names.csv"
-            )
-
         self._metric_fn_list = {}
         self._metric_fn_kwargs = {}
         self._aggregation_list = {}
@@ -863,79 +854,38 @@ class ConfigurableTask(Task):
         """
         return doc
 
-    def load_keywords(self, csv_path, keyword_replace=None):
-        brand_to_generic = self.load_drug_map(csv_path)
-        generic_to_brand = self.load_drug_map(csv_path, reverse_map=True)
-
-        keyword_map = (
-            brand_to_generic
-            if keyword_replace == "brand_to_generic"
-            else (
-                generic_to_brand
-                if keyword_replace == "generic_to_brand"
-                else {**brand_to_generic, **{v: k for k, v in generic_to_brand.items()}}
-            )
-        )
-        return keyword_map
-
-    def load_drug_map(self, csv_path, reverse_map=False, drug_seed=42):
-        random.seed(drug_seed)  # Set the seed for reproducibility of random choices
-
-        df = pd.read_csv(csv_path)
-
-        if reverse_map:
-            # Map generic to randomly chosen brand with fixed seed
-            grouped = df.groupby("generic")["brand"].apply(list)
-            drug_map = {
-                generic: random.choice(brands) for generic, brands in grouped.items()
-            }
-        else:
-            # Map brand to generic (simple mapping)
-            drug_map = pd.Series(df["generic"].values, index=df["brand"]).to_dict()
-
-        return drug_map
-
     def doc_to_text(self, doc):
         if self.prompt is not None:
-            doc_text = self.prompt
+            doc_to_text = self.prompt
         else:
-            doc_text = self.config.doc_to_text
+            doc_to_text = self.config.doc_to_text
 
-        if isinstance(doc_text, int):
-            return doc_text
-        elif isinstance(doc_text, str):
-            if doc_text in self.features:
-                return doc[doc_text]
+        if isinstance(doc_to_text, int):
+            return doc_to_text
+        elif isinstance(doc_to_text, str):
+            if doc_to_text in self.features:
+                # if self.config.doc_to_choice is not None:
+                #     return self.doc_to_choice(doc)[doc[doc_to_text]]
+                # else:
+                return doc[doc_to_text]
             else:
-                text_string = utils.apply_template(doc_text, doc)
+                text_string = utils.apply_template(doc_to_text, doc)
                 if text_string.isdigit() and self._config.doc_to_choice is not None:
                     return ast.literal_eval(text_string)
                 else:
                     return text_string
-        elif callable(doc_text):
-            if self.keyword_replace is not None:
-                if self.config.dataset_path != "hails/mmlu_no_train":
-                    text = doc_text(doc, self.keyword_replace, self.keyword_map)
-                    # text = doc_text(doc)
-                else:
-                    text = doc_text(
-                        doc,
-                        self.keyword_replace,
-                        self.keyword_map,
-                        self.config.dataset_name,
-                    )
-            else:
-                text = doc_text(doc)
-            return text
-        elif hasattr(doc_text, "apply"):
-            applied_prompt = doc_text.apply(doc)
+        elif callable(doc_to_text):
+            return doc_to_text(doc)
+        # Used when applying a Promptsource template
+        elif hasattr(doc_to_text, "apply"):
+            applied_prompt = doc_to_text.apply(doc)
             if len(applied_prompt) == 2:
                 return applied_prompt[0]
             else:
                 eval_logger.warning("Applied prompt returns empty string")
                 return self.config.fewshot_delimiter
         else:
-            print(type(doc_text))
+            print(type(doc_to_text))
             raise TypeError
 
     def doc_to_target(self, doc: dict) -> Union[int, str, list]:
@@ -969,16 +919,8 @@ class ConfigurableTask(Task):
                     return target_string
         elif isinstance(doc_to_target, list):
             return doc_to_target
-        elif callable(
-            doc_to_target
-        ):  # not needed as currently all functions return int
-            # if self.keyword_replace is not None:
-            #     text = doc_to_target(doc, self.keyword_replace, self.keyword_map)
-            # else:
-            #     text = doc_to_target(doc)
-            # return text
+        elif callable(doc_to_target):
             return doc_to_target(doc)
-
         # Used when applying a Promptsource template
         elif hasattr(doc_to_target, "apply"):
             applied_prompt = doc_to_target.apply(doc)
@@ -1008,13 +950,7 @@ class ConfigurableTask(Task):
         elif isinstance(doc_to_choice, dict):
             return list(doc_to_choice.values())
         elif callable(doc_to_choice):
-            # if self.keyword_replace is not None:
-            #     text = doc_to_choice(doc, self.keyword_replace, self.keyword_map)
-            # else:
-            #     text = doc_to_choice(doc)
-            # return text
-            text = doc_to_choice(doc)
-
+            return doc_to_choice(doc)
         elif hasattr(doc_to_choice, "get_answer_choices_list"):
             return doc_to_choice.get_answer_choices_list(doc)
         else:
