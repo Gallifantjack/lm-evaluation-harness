@@ -1,11 +1,10 @@
-task: pubmedqa
-dataset_path: bigbio/pubmed_qa
-dataset_name: pubmed_qa_labeled_fold0_source
+task: pubmedqa_g2b
+dataset_path: gallifantjack/pubmed_qa_generic_to_brand
 output_type: multiple_choice
 training_split: train
 validation_split: validation
 test_split: test
-doc_to_text: !function preprocess_pubmedqa.doc_to_text
+doc_to_text: !function preprocess_pubmedqa_g2b.doc_to_text
 doc_to_target: final_decision
 doc_to_choice: ["yes", "no", "maybe"]
 metric_list:
