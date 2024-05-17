@@ -1,7 +1,17 @@
 #!/bin/bash
 
+# Ensure the Hugging Face token is set as an environment variable
+if [ -z "$HF_TOKEN" ]; then
+    echo "Hugging Face token not found. Please set the HF_TOKEN environment variable."
+    exit 1
+fi
+
+# Login to Hugging Face
+echo $HF_TOKEN | huggingface-cli login --token
+
 # Define the base directory (use an absolute path if possible)
-base_dir="/home/legionjgally/Desktop/mit/lm-evaluation-harness"
+# base_dir="/home/legionjgally/Desktop/mit/lm-evaluation-harness"
+base_dir="/home/jgally/mit/lm-evaluation-harness"
 
 # List of models to evaluate
 models=(
@@ -30,7 +40,8 @@ for model in "${models[@]}"; do
 
     # Run the evaluation command for the onBrand group task
     echo "Running evaluation for model $model"
-    /home/legionjgally/miniconda3/envs/bnb_39_117/bin/python3 lm_eval --model hf \
+    # /home/legionjgally/miniconda3/envs/bnb_39_117/bin/python3 lm_eval --model hf \
+    /home/jgally/miniconda3/envs/b4b/bin/python lm_eval --model hf \
                     --model_args pretrained=$model \
                     --tasks b4b \
                     --device cuda:0 \
@@ -39,7 +50,6 @@ for model in "${models[@]}"; do
 done
 
 echo "All evaluations completed."
-
 
 # List for future ref
 # viii.    mistralai/Mistral-7B-vO.1
