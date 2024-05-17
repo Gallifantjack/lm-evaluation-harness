@@ -97,7 +97,7 @@ Batch size selection can be automated by setting the  ```--batch_size``` flag to
 ```bash
 lm_eval --model hf \
     --model_args pretrained=EleutherAI/pythia-160m,revision=step100000,dtype="float" \
-    --tasks usmle_sa_step1_b2g,usmle_sa_step1_g2b,usmle_sa_step1 \
+    --tasks medqa_4options,medqa_4options_b2g,medqa_4options_g2b \
     --device cuda:0 \
     --batch_size auto:4
 ```

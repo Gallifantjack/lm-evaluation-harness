@@ -1,4 +1,4 @@
-task: medmcqa_b2g
+task: medmcqa_g2b
 dataset_path: gallifantjack/medmcqa_generic_to_brand
 output_type: multiple_choice
 training_split: train
