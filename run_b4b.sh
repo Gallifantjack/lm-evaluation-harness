@@ -5,7 +5,8 @@ base_dir="/home/legionjgally/Desktop/mit/lm-evaluation-harness"
 
 # List of models to evaluate
 models=(
-    "microsoft/phi-microsoft/phi-1_5"
+    "microsoft/phi-1"
+    "microsoft/phi-1_5"
     "microsoft/phi-2"
     "microsoft/Phi-3-mini-4k-instruct"
     # "meta-llama/Llama-2-7b-hf"
