@@ -23,6 +23,7 @@ models=(
     # "meta-llama/Meta-Llama-3-8B"
     "mistralai/Mistral-7B-v0.1"
     "Qwen/Qwen1.5-7B"
+    "medalpaca/medalpaca-7b"
 )
 
 # Loop over each model
