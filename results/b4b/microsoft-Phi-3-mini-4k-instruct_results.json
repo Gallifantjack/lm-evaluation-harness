@@ -1,10 +1,10 @@
 {
   "results": {
     "b4b": {
-      "acc,none": 0.5150639507342492,
-      "acc_stderr,none": 0.08628390675783106,
-      "acc_norm,none": 0.5185136783143298,
-      "acc_norm_stderr,none": 0.00014357342405855894,
+      "acc,none": 0.5245855045002366,
+      "acc_stderr,none": 0.08578099742571176,
+      "acc_norm,none": 0.5294399348607421,
+      "acc_norm_stderr,none": 9.075461075623811e-05,
       "alias": "b4b"
     },
     "b4b_mmlu_anatomy": {
@@ -24,8 +24,8 @@
     },
     "b4b_mmlu_college_medicine": {
       "alias": " - college_medicine (mmlu)",
-      "acc,none": 0.6589595375722543,
-      "acc_stderr,none": 0.036146654241808254
+      "acc,none": 0.6705202312138728,
+      "acc_stderr,none": 0.03583901754736411
     },
     "b4b_mmlu_medical_genetics": {
       "alias": " - medical_genetics (mmlu)",
@@ -38,90 +38,90 @@
       "acc_stderr,none": 0.02841820861940675
     },
     "medmcqa": {
-      "acc,none": 0.5304805163758068,
-      "acc_stderr,none": 0.007717373403746945,
-      "acc_norm,none": 0.5304805163758068,
-      "acc_norm_stderr,none": 0.007717373403746945,
+      "acc,none": 0.5302414535022711,
+      "acc_stderr,none": 0.007717598292699529,
+      "acc_norm,none": 0.5302414535022711,
+      "acc_norm_stderr,none": 0.007717598292699529,
       "alias": " - medmcqa"
     },
     "medmcqa_b2g": {
-      "acc,none": 0.5044226631604112,
-      "acc_stderr,none": 0.007731450859246903,
-      "acc_norm,none": 0.5044226631604112,
-      "acc_norm_stderr,none": 0.007731450859246903,
+      "acc,none": 0.5297633277551996,
+      "acc_stderr,none": 0.00771804273899331,
+      "acc_norm,none": 0.5297633277551996,
+      "acc_norm_stderr,none": 0.00771804273899331,
       "alias": " - medmcqa_b2g"
     },
     "medmcqa_g2b": {
-      "acc,none": 0.5218742529285202,
-      "acc_stderr,none": 0.007724350762724541,
-      "acc_norm,none": 0.5218742529285202,
-      "acc_norm_stderr,none": 0.007724350762724541,
+      "acc,none": 0.5302414535022711,
+      "acc_stderr,none": 0.007717598292699529,
+      "acc_norm,none": 0.5302414535022711,
+      "acc_norm_stderr,none": 0.007717598292699529,
       "alias": " - medmcqa_g2b"
     },
     "medqa_4options": {
-      "acc,none": 0.5255302435192458,
-      "acc_stderr,none": 0.014001016547377591,
-      "acc_norm,none": 0.5255302435192458,
-      "acc_norm_stderr,none": 0.014001016547377591,
+      "acc,none": 0.5271013354281225,
+      "acc_stderr,none": 0.013998694840836635,
+      "acc_norm,none": 0.5271013354281225,
+      "acc_norm_stderr,none": 0.013998694840836635,
       "alias": " - medqa_4options"
     },
     "medqa_4options_b2g": {
-      "acc,none": 0.5003927729772192,
-      "acc_stderr,none": 0.014019299526767455,
-      "acc_norm,none": 0.5003927729772192,
-      "acc_norm_stderr,none": 0.014019299526767455,
+      "acc,none": 0.5278868813825609,
+      "acc_stderr,none": 0.013997481855933809,
+      "acc_norm,none": 0.5278868813825609,
+      "acc_norm_stderr,none": 0.013997481855933809,
       "alias": " - medqa_4options_b2g"
     },
     "medqa_4options_g2b": {
-      "acc,none": 0.5153181461115475,
-      "acc_stderr,none": 0.014012723171874726,
-      "acc_norm,none": 0.5153181461115475,
-      "acc_norm_stderr,none": 0.014012723171874726,
+      "acc,none": 0.5263157894736842,
+      "acc_stderr,none": 0.01399987306839288,
+      "acc_norm,none": 0.5263157894736842,
+      "acc_norm_stderr,none": 0.01399987306839288,
       "alias": " - medqa_4options_g2b"
     },
     "mmlu_anatomy_b2g": {
-      "acc,none": 0.2518518518518518,
-      "acc_stderr,none": 0.03749850709174023,
+      "acc,none": 0.23703703703703705,
+      "acc_stderr,none": 0.03673731683969506,
       "alias": " - mmlu_anatomy_b2g"
     },
     "mmlu_anatomy_g2b": {
-      "acc,none": 0.22962962962962963,
-      "acc_stderr,none": 0.036333844140734636,
+      "acc,none": 0.23703703703703705,
+      "acc_stderr,none": 0.03673731683969506,
       "alias": " - mmlu_anatomy_g2b"
     },
     "mmlu_clinical_knowledge_b2g": {
-      "acc,none": 0.2830188679245283,
-      "acc_stderr,none": 0.027724236492700907,
+      "acc,none": 0.2943396226415094,
+      "acc_stderr,none": 0.028049186315695245,
       "alias": " - mmlu_clinical_knowledge_b2g"
     },
     "mmlu_clinical_knowledge_g2b": {
-      "acc,none": 0.29056603773584905,
-      "acc_stderr,none": 0.02794321998933714,
+      "acc,none": 0.2943396226415094,
+      "acc_stderr,none": 0.028049186315695248,
       "alias": " - mmlu_clinical_knowledge_g2b"
     },
     "mmlu_college_biology_b2g": {
-      "acc,none": 0.3472222222222222,
-      "acc_stderr,none": 0.039812405437178615,
+      "acc,none": 0.3611111111111111,
+      "acc_stderr,none": 0.04016660030451233,
       "alias": " - mmlu_college_biology_b2g"
     },
     "mmlu_college_biology_g2b": {
-      "acc,none": 0.3472222222222222,
-      "acc_stderr,none": 0.039812405437178615,
+      "acc,none": 0.3611111111111111,
+      "acc_stderr,none": 0.040166600304512336,
       "alias": " - mmlu_college_biology_g2b"
     },
     "mmlu_college_medicine_b2g": {
-      "acc,none": 0.27167630057803466,
-      "acc_stderr,none": 0.033917503223216586,
+      "acc,none": 0.2947976878612717,
+      "acc_stderr,none": 0.034765996075164785,
       "alias": " - mmlu_college_medicine_b2g"
     },
     "mmlu_college_medicine_g2b": {
-      "acc,none": 0.2832369942196532,
-      "acc_stderr,none": 0.034355680560478746,
+      "acc,none": 0.2947976878612717,
+      "acc_stderr,none": 0.03476599607516479,
       "alias": " - mmlu_college_medicine_g2b"
     },
     "mmlu_medical_genetics_b2g": {
       "acc,none": 0.34,
-      "acc_stderr,none": 0.04760952285695235,
+      "acc_stderr,none": 0.047609522856952344,
       "alias": " - mmlu_medical_genetics_b2g"
     },
     "mmlu_medical_genetics_g2b": {
@@ -130,18 +130,18 @@
       "alias": " - mmlu_medical_genetics_g2b"
     },
     "mmlu_professional_medicine_b2g": {
-      "acc,none": 0.31985294117647056,
-      "acc_stderr,none": 0.028332959514031215,
+      "acc,none": 0.3161764705882353,
+      "acc_stderr,none": 0.028245687391462913,
       "alias": " - mmlu_professional_medicine_b2g"
     },
     "mmlu_professional_medicine_g2b": {
-      "acc,none": 0.3235294117647059,
-      "acc_stderr,none": 0.028418208619406794,
+      "acc,none": 0.3161764705882353,
+      "acc_stderr,none": 0.028245687391462916,
       "alias": " - mmlu_professional_medicine_g2b"
     },
     "pubmedqa": {
-      "acc,none": 0.76,
-      "acc_stderr,none": 0.01911886665375983,
+      "acc,none": 0.758,
+      "acc_stderr,none": 0.01917308567833711,
       "alias": " - pubmedqa"
     },
     "usmle_sa_step1": {
@@ -151,12 +151,12 @@
     },
     "usmle_sa_step1_b2g": {
       "acc,none": 0.574468085106383,
-      "acc_stderr,none": 0.05126931886611695,
+      "acc_stderr,none": 0.05126931886611694,
       "alias": " - usmle_sa_step1_b2g"
     },
     "usmle_sa_step1_g2b": {
       "acc,none": 0.574468085106383,
-      "acc_stderr,none": 0.05126931886611696,
+      "acc_stderr,none": 0.051269318866116936,
       "alias": " - usmle_sa_step1_g2b"
     },
     "usmle_sa_step2": {
@@ -165,13 +165,13 @@
       "alias": " - usmle_sa_step2"
     },
     "usmle_sa_step2_b2g": {
-      "acc,none": 0.5963302752293578,
-      "acc_stderr,none": 0.04721115668464594,
+      "acc,none": 0.6146788990825688,
+      "acc_stderr,none": 0.046829947495760096,
       "alias": " - usmle_sa_step2_b2g"
     },
     "usmle_sa_step2_g2b": {
-      "acc,none": 0.6055045871559633,
-      "acc_stderr,none": 0.047029224768286554,
+      "acc,none": 0.6146788990825688,
+      "acc_stderr,none": 0.046829947495760096,
       "alias": " - usmle_sa_step2_g2b"
     },
     "usmle_sa_step3": {
@@ -180,22 +180,22 @@
       "alias": " - usmle_sa_step3"
     },
     "usmle_sa_step3_b2g": {
-      "acc,none": 0.6721311475409836,
-      "acc_stderr,none": 0.04267606874299955,
+      "acc,none": 0.6475409836065574,
+      "acc_stderr,none": 0.043430542834270607,
       "alias": " - usmle_sa_step3_b2g"
     },
     "usmle_sa_step3_g2b": {
-      "acc,none": 0.6557377049180327,
-      "acc_stderr,none": 0.04319337331204006,
+      "acc,none": 0.6475409836065574,
+      "acc_stderr,none": 0.043430542834270607,
       "alias": " - usmle_sa_step3_g2b"
     }
   },
   "groups": {
     "b4b": {
-      "acc,none": 0.5150639507342492,
-      "acc_stderr,none": 0.08628390675783106,
-      "acc_norm,none": 0.5185136783143298,
-      "acc_norm_stderr,none": 0.00014357342405855894,
+      "acc,none": 0.5245855045002366,
+      "acc_stderr,none": 0.08578099742571176,
+      "acc_norm,none": 0.5294399348607421,
+      "acc_norm_stderr,none": 9.075461075623811e-05,
       "alias": "b4b"
     }
   },
@@ -422,7 +422,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f4eb8454ca0>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4bc003ca0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -456,7 +456,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f4ebc269e50>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4c3e6ae50>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -490,7 +490,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f4ebc6183a0>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4c421a3a0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -524,8 +524,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f4ebc1abaf0>",
-      "doc_to_target": "<function doc_to_target at 0x7f4ebc1abca0>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4c3dabaf0>",
+      "doc_to_target": "<function doc_to_target at 0x7fb4c3dabca0>",
       "doc_to_choice": [
         "A",
         "B",
@@ -557,8 +557,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f4ebc08d820>",
-      "doc_to_target": "<function doc_to_target at 0x7f4ebc08db80>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4c3c8d820>",
+      "doc_to_target": "<function doc_to_target at 0x7fb4c3c8db80>",
       "doc_to_choice": [
         "A",
         "B",
@@ -590,8 +590,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f4ebc618ca0>",
-      "doc_to_target": "<function doc_to_target at 0x7f4ebc7f8040>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4c421aca0>",
+      "doc_to_target": "<function doc_to_target at 0x7fb4c420b040>",
       "doc_to_choice": [
         "A",
         "B",
@@ -1020,7 +1020,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f4ebc7f84c0>",
+      "doc_to_text": "<function doc_to_text at 0x7fb4c420b4c0>",
       "doc_to_target": "final_decision",
       "doc_to_choice": [
         "yes",
@@ -1048,7 +1048,7 @@
       "task": "usmle_sa_step1",
       "dataset_path": "augtoma/usmle_step_1",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4ebc6ba0d0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4c41a20d0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1082,7 +1082,7 @@
       "task": "usmle_sa_step1_b2g",
       "dataset_path": "gallifantjack/augtoma_usmle_step_1_brand_to_generic",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4eb86fa0d0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4bc2ac0d0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1116,7 +1116,7 @@
       "task": "usmle_sa_step1_g2b",
       "dataset_path": "gallifantjack/augtoma_usmle_step_1_generic_to_brand",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4eb86f29d0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4bc2a79d0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1150,7 +1150,7 @@
       "task": "usmle_sa_step2",
       "dataset_path": "augtoma/usmle_step_2",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4ebc0e99d0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4c3ce99d0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1184,7 +1184,7 @@
       "task": "usmle_sa_step2_b2g",
       "dataset_path": "gallifantjack/augtoma_usmle_step_2_brand_to_generic",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4eb8429310>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4bbfde310>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1218,7 +1218,7 @@
       "task": "usmle_sa_step2_g2b",
       "dataset_path": "gallifantjack/augtoma_usmle_step_2_generic_to_brand",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4ebc6ba280>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4c41a2280>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1252,7 +1252,7 @@
       "task": "usmle_sa_step3",
       "dataset_path": "augtoma/usmle_step_3",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4ebc0f95e0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4c3cfa5e0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1286,7 +1286,7 @@
       "task": "usmle_sa_step3_b2g",
       "dataset_path": "gallifantjack/augtoma_usmle_step_3_brand_to_generic",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4eb86f2af0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4bc2a7af0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1320,7 +1320,7 @@
       "task": "usmle_sa_step3_g2b",
       "dataset_path": "gallifantjack/augtoma_usmle_step_3_generic_to_brand",
       "test_split": "test",
-      "doc_to_text": "<function process_usmle_sa at 0x7f4ebc02fee0>",
+      "doc_to_text": "<function process_usmle_sa at 0x7fb4c3c2eee0>",
       "doc_to_target": "answer_idx",
       "doc_to_choice": [
         "A",
@@ -1502,5 +1502,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "257fdac5"
+  "git_hash": "b4fcce0f"
 }

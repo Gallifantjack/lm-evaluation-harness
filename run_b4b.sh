@@ -2,7 +2,7 @@
 
 # Ensure the Hugging Face token is set as an environment variable
 if [ -z "$HF_TOKEN" ]; then
-    echo "Hugging Face token not found. Please set the HF_TOKEN environment variable."
+    echo "Hugging Face token not found. Please set the HF_TOKEN environment variable by running 'export HF_TOKEN=your_token_here'."
     exit 1
 fi
 
