@@ -1,0 +1,15 @@
+task: pubmedqa_orig_filtered
+dataset_path: gallifantjack/pubmed_qa_original_filtered
+output_type: multiple_choice
+training_split: train
+validation_split: validation
+test_split: test
+doc_to_text: !function preprocess_pubmedqa_orig_filtered.doc_to_text
+doc_to_target: final_decision
+doc_to_choice: ["yes", "no", "maybe"]
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

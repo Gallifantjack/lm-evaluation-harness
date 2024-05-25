@@ -1,5 +1,5 @@
 task: medmcqa_b2g
-dataset_path: gallifantjack/medmcqa_brand_to_generic
+dataset_path: gallifantjack/medmcqa_brand_to_generic_filtered
 output_type: multiple_choice
 training_split: train
 validation_split: validation

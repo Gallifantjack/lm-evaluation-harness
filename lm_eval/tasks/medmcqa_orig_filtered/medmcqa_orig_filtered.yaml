@@ -1,10 +1,10 @@
-task: medmcqa_g2b
-dataset_path: gallifantjack/medmcqa_generic_to_brand_filtered
+task: medmcqa_orig_filtered
+dataset_path: gallifantjack/medmcqa_original_filtered
 output_type: multiple_choice
 training_split: train
 validation_split: validation
 test_split: validation
-doc_to_text: !function utils_medmcqa_g2b.doc_to_text
+doc_to_text: !function utils_medmcqa_orig_filtered.doc_to_text
 doc_to_target: cop
 doc_to_choice: [ 'A','B','C','D' ]
 should_decontaminate: true
