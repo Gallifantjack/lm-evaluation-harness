@@ -12,6 +12,7 @@ echo $HF_TOKEN | huggingface-cli login --token
 # Define the base directory (use an absolute path if possible)
 # base_dir="/home/legionjgally/Desktop/mit/lm-evaluation-harness"
 base_dir="/home/jgally/mit/lm-evaluation-harness"
+python_env="/home/jgally/miniconda3/envs/b4b/bin/python"
 
 # List of models to evaluate
 models=(
@@ -41,8 +42,7 @@ for model in "${models[@]}"; do
 
     # Run the evaluation command for the onBrand group task
     echo "Running evaluation for model $model"
-    # /home/legionjgally/miniconda3/envs/bnb_39_117/bin/python3 lm_eval --model hf \
-    /home/jgally/miniconda3/envs/b4b/bin/python lm_eval --model hf \
+    $python_env lm_eval --model hf \
                     --model_args pretrained=$model \
                     --tasks b4b \
                     --device cuda:0 \

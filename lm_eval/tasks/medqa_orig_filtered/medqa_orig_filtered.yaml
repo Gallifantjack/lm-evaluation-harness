@@ -1,5 +1,5 @@
 task: medqa_4options_orig_filtered
-dataset_path: gallifantjack/gbaker_medqa_usmle_4_options_hf_original_filtered
+dataset_path: gallifantjack/gbaker_medqa_usmle_4_options_hf_original
 output_type: multiple_choice
 training_split: train
 validation_split: validation

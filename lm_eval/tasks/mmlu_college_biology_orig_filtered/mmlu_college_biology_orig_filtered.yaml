@@ -1,5 +1,5 @@
 task: mmlu_college_biology_orig_filtered
-dataset_path: gallifantjack/hails_mmlu_no_train_college_biology_original_filtered
+dataset_path: gallifantjack/hails_mmlu_no_train_college_biology_original
 output_type: multiple_choice
 test_split: test
 fewshot_split: dev

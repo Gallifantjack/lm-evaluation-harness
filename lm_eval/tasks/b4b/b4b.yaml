@@ -24,40 +24,40 @@ task:
   # - task: mmlu_college_biology
   #   task_alias: "college_biology (mmlu)"
   #   group_alias: null
-  - pubmedqa_orig_filtered
+  # - pubmedqa_orig_filtered
   - medmcqa_orig_filtered
   - medqa_4options_orig_filtered
   - usmle_sa_step1_orig_filtered
   - usmle_sa_step2_orig_filtered
   - usmle_sa_step3_orig_filtered
-  - mmlu_anatomy_orig_filtered
-  - mmlu_clinical_knowledge_orig_filtered
-  - mmlu_college_medicine_orig_filtered
-  - mmlu_medical_genetics_orig_filtered
-  - mmlu_professional_medicine_orig_filtered
-  - mmlu_college_biology_orig_filtered
-  - pubmedqa_b2g
+  # - mmlu_anatomy_orig_filtered
+  # - mmlu_clinical_knowledge_orig_filtered
+  # - mmlu_college_medicine_orig_filtered
+  # - mmlu_medical_genetics_orig_filtered
+  # - mmlu_professional_medicine_orig_filtered
+  # - mmlu_college_biology_orig_filtered
+  # - pubmedqa_b2g
   - medmcqa_b2g
   - medqa_4options_b2g
   - usmle_sa_step1_b2g
   - usmle_sa_step2_b2g
   - usmle_sa_step3_b2g
-  - mmlu_anatomy_b2g
-  - mmlu_clinical_knowledge_b2g
-  - mmlu_college_medicine_b2g
-  - mmlu_medical_genetics_b2g
-  - mmlu_professional_medicine_b2g
-  - mmlu_college_biology_b2g
-  - pubmedqa_g2b
+  # - mmlu_anatomy_b2g
+  # - mmlu_clinical_knowledge_b2g
+  # - mmlu_college_medicine_b2g
+  # - mmlu_medical_genetics_b2g
+  # - mmlu_professional_medicine_b2g
+  # - mmlu_college_biology_b2g
+  # - pubmedqa_g2b
   - medmcqa_g2b
   - medqa_4options_g2b
   - usmle_sa_step1_g2b
   - usmle_sa_step2_g2b
   - usmle_sa_step3_g2b
-  - mmlu_anatomy_g2b
-  - mmlu_clinical_knowledge_g2b
-  - mmlu_college_medicine_g2b
-  - mmlu_medical_genetics_g2b
-  - mmlu_professional_medicine_g2b
-  - mmlu_college_biology_g2b
+  # - mmlu_anatomy_g2b
+  # - mmlu_clinical_knowledge_g2b
+  # - mmlu_college_medicine_g2b
+  # - mmlu_medical_genetics_g2b
+  # - mmlu_professional_medicine_g2b
+  # - mmlu_college_biology_g2b
   

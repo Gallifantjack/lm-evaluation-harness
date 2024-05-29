@@ -1,5 +1,5 @@
 task: pubmedqa_orig_filtered
-dataset_path: gallifantjack/pubmed_qa_original_filtered
+dataset_path: gallifantjack/pubmed_qa_original
 output_type: multiple_choice
 training_split: train
 validation_split: validation
