@@ -1,4 +1,4 @@
-task: cancer_drug_mcqa
+task: cancer_drug
 dataset_path: AIM-Harvard/cancer_drug_bvg
 output_type: multiple_choice
 training_split: null

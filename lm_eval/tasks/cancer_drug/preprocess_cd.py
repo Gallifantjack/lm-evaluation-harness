@@ -1,4 +1,4 @@
-def process_usmle_sa(doc) -> str:
+def process_cd(doc) -> str:
     options = ""
     for k, v in doc["options"].items():
         if v is not None:
