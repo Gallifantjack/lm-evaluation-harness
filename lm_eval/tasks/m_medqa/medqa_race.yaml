@@ -1,0 +1,6 @@
+include: _m_medqa_yaml
+task: medqa_race_vanilla
+dataset_path: AIM-Harvard/race-injection-medqa
+dataset_name: vanilla
+training_split: null
+validation_split: null
