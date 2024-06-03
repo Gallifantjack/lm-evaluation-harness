@@ -16,15 +16,8 @@ python_env="/home/jgally/miniconda3/envs/b4b/bin/python"
 
 # List of models to evaluate
 models=(
-    # "microsoft/phi-1"
-    # "microsoft/phi-1_5"
-    # "microsoft/phi-2"
-    # "microsoft/Phi-3-mini-4k-instruct"
-    # # "meta-llama/Llama-2-7b-hf"
-    # # "meta-llama/Meta-Llama-3-8B"
-    # "mistralai/Mistral-7B-v0.1"
-    # "Qwen/Qwen1.5-7B"
-    # "medalpaca/medalpaca-7b"
+    "meta-llama/Llama-2-7b-hf"
+    "meta-llama/Meta-Llama-3-8B"
     "mistralai/Mixtral-8x7B-v0.1"
     "mistralai/Mixtral-8x22B-v0.1"
     "meta-llama/Llama-2-70B-hf"

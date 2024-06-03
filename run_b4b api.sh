@@ -6,6 +6,12 @@ if [ -z "$HF_TOKEN" ]; then
     exit 1
 fi
 
+# Ensure the Hugging Face token is set as an environment variable
+if [ -z "$OPENAI_API_KEY" ]; then
+    echo "OPENAI_API_KEY token not found. Please set the OPENAI_API_KEY environment variable by running 'export OPENAI_API_KEY=your_token_here'."
+    exit 1
+fi
+
 # Login to Hugging Face
 echo $HF_TOKEN | huggingface-cli login --token
 
@@ -16,13 +22,11 @@ python_env="/home/jgally/miniconda3/envs/b4b/bin/python"
 
 # List of models to evaluate
 models=(
-    "microsoft/phi-1"
-    "microsoft/phi-1_5"
-    "microsoft/phi-2"
-    "microsoft/Phi-3-medium-4k-instruct"
-    "mistralai/Mistral-7B-v0.3"
-    "Qwen/Qwen1.5-7B"
-    "medalpaca/medalpaca-7b"
+    # "GPT-4o"
+    "davinci"
+    # "Claude-3.0-haiku"
+    # "Claude-3.0-opus"
+    # "Claude-3.0-sonnet"
 )
 
 # Loop over each model
@@ -40,8 +44,8 @@ for model in "${models[@]}"; do
 
     # Run the evaluation command for the onBrand group task
     echo "Running evaluation for model $model"
-    $python_env lm_eval --model hf \
-                    --model_args pretrained=$model \
+    $python_env lm_eval --model openai-completions \
+                    --model_args model=$model \
                     --tasks b4b \
                     --device cuda:0 \
                     --batch_size auto:64 \
