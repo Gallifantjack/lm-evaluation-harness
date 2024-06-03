@@ -1,5 +1,6 @@
 group: b4b
 task:
+  - b4bqa
   # - pubmedqa
   # - medmcqa
   # - medqa_4options

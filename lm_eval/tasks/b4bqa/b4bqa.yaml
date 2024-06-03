@@ -1,0 +1,16 @@
+task: b4bqa
+dataset_path: AIM-Harvard/b4b_drug_qa
+output_type: multiple_choice
+training_split: null
+validation_split: null
+test_split: test
+doc_to_text: !function preprocess_cd.process_cd
+doc_to_target: correct_choice
+doc_to_choice: [ 'A', 'B', 'C', 'D' ]
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
