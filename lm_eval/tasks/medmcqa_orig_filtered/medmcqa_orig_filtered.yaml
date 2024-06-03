@@ -1,5 +1,5 @@
 task: medmcqa_orig_filtered
-dataset_path: gallifantjack/medmcqa_original
+dataset_path: AIM-Harvard/medmcqa_original
 output_type: multiple_choice
 training_split: train
 validation_split: validation
