@@ -206,7 +206,7 @@ class OpenaiCompletionsLM(LM):
                 model=self.model,
                 prompt=inps,
                 echo=True,
-                max_tokens=0,
+                max_tokens=10, # changed by shan chen June 3rd 2024, was 0 leads to a bug
                 temperature=0.0,
                 logprobs=10,
                 seed=self.seed,

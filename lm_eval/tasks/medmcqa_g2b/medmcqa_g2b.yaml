@@ -1,5 +1,5 @@
 task: medmcqa_g2b
-dataset_path: gallifantjack/medmcqa_generic_to_brand
+dataset_path: AIM-Harvard/medmcqa_generic_to_brand
 output_type: multiple_choice
 training_split: train
 validation_split: validation

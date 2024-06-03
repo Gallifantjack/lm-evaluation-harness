@@ -1,5 +1,5 @@
 task: medqa_4options_g2b
-dataset_path: gallifantjack/gbaker_medqa_usmle_4_options_hf_generic_to_brand
+dataset_path: AIM-Harvard/gbaker_medqa_usmle_4_options_hf_generic_to_brand
 output_type: multiple_choice
 training_split: train
 validation_split: validation
