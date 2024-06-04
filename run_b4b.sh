@@ -22,7 +22,7 @@ models=(
     "microsoft/Phi-3-medium-4k-instruct"
     "mistralai/Mistral-7B-v0.3"
     "Qwen/Qwen1.5-7B"
-    "medalpaca/medalpaca-7b"
+    # "medalpaca/medalpaca-7b"
 )
 
 # Loop over each model
