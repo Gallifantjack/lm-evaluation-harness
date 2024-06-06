@@ -41,7 +41,7 @@ for model in "${models[@]}"; do
     # Run the evaluation command for the onBrand group task
     echo "Running evaluation for model $model"
     $python_env lm_eval --model hf \
-                    --model_args pretrained=$model \
+                    --model_args pretrained=$model,load_in_4bit=True \
                     --tasks b4b \
                     --device cuda:0 \
                     --batch_size auto:64 \

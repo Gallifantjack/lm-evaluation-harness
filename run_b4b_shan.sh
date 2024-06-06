@@ -21,6 +21,7 @@ models=(
     "johnsnowlabs/JSL-MedLlama-3-8B-v9"
     "01-ai/Yi-1.5-34B"
     "mistralai/Mixtral-8x22B-v0.1"
+    "Qwen/Qwen1.5-110B"
 )
 
 # Loop over each model
