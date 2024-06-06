@@ -21,7 +21,7 @@ models=(
     "microsoft/phi-2"
     "microsoft/Phi-3-medium-4k-instruct"
     "mistralai/Mistral-7B-v0.3"
-    "Qwen/Qwen1.5-7B"
+    "Qwen/Qwen2-7B"
     # "medalpaca/medalpaca-7b"
 )
 

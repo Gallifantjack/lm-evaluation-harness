@@ -17,15 +17,15 @@ python_env="/home/inbar214/anaconda3/envs/b4b/bin/python"
 
 # List of models to evaluate
 models=(
-    # "meta-llama/Llama-2-7b-hf"
-    # "meta-llama/Meta-Llama-3-8B"
-    # "mistralai/Mixtral-8x7B-v0.1"
+    "meta-llama/Llama-2-7b-hf"
+    "meta-llama/Meta-Llama-3-8B"
+    "mistralai/Mixtral-8x7B-v0.1"
     # "mistralai/Mixtral-8x22B-v0.1"
-    # "meta-llama/Llama-2-70B-hf"
-    # "meta-llama/Meta-Llama-3-70B"
-    "Qwen/Qwen1.5-72B"
+    "meta-llama/Llama-2-70B-hf"
+    "meta-llama/Meta-Llama-3-70B"
+    "Qwen/Qwen2-72B"
     "CohereForAI/c4ai-command-r-plus"
-    # "CohereForAI/aya-23-35B"
+    "CohereForAI/aya-23-35B"
 )
 
 # Loop over each model
