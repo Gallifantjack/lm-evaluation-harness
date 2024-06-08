@@ -1,10 +1,10 @@
 {
   "results": {
     "b4b": {
-      "acc,none": 0.3026421136909528,
-      "acc_stderr,none": 0.030300036099661202,
-      "acc_norm,none": 0.30530240265120134,
-      "acc_norm_stderr,none": 0.0006331406571747696,
+      "acc,none": 0.30512142341909115,
+      "acc_stderr,none": 0.028513218063137048,
+      "acc_norm,none": 0.30512142341909115,
+      "acc_norm_stderr,none": 0.028513218063137048,
       "alias": "b4b"
     },
     "b4bqa": {
@@ -15,69 +15,54 @@
       "alias": " - b4bqa"
     },
     "medmcqa_b2g": {
-      "acc,none": 0.3134920634920635,
-      "acc_stderr,none": 0.02068483514099741,
-      "acc_norm,none": 0.3134920634920635,
-      "acc_norm_stderr,none": 0.02068483514099741,
+      "acc,none": 0.3045977011494253,
+      "acc_stderr,none": 0.024706807658616194,
+      "acc_norm,none": 0.3045977011494253,
+      "acc_norm_stderr,none": 0.024706807658616194,
       "alias": " - medmcqa_b2g"
     },
     "medmcqa_g2b": {
-      "acc,none": 0.3055555555555556,
-      "acc_stderr,none": 0.02053902642315147,
-      "acc_norm,none": 0.3055555555555556,
-      "acc_norm_stderr,none": 0.02053902642315147,
+      "acc,none": 0.3160919540229885,
+      "acc_stderr,none": 0.024959784982131285,
+      "acc_norm,none": 0.3160919540229885,
+      "acc_norm_stderr,none": 0.024959784982131285,
       "alias": " - medmcqa_g2b"
     },
     "medmcqa_orig_filtered": {
-      "acc,none": 0.31547619047619047,
-      "acc_stderr,none": 0.020720182711742436,
-      "acc_norm,none": 0.31547619047619047,
-      "acc_norm_stderr,none": 0.020720182711742436,
+      "acc,none": 0.3045977011494253,
+      "acc_stderr,none": 0.024706807658616183,
+      "acc_norm,none": 0.3045977011494253,
+      "acc_norm_stderr,none": 0.024706807658616183,
       "alias": " - medmcqa_orig_filtered"
     },
     "medqa_4options_b2g": {
-      "acc,none": 0.3248031496062992,
-      "acc_stderr,none": 0.02079798880866757,
-      "acc_norm,none": 0.3248031496062992,
-      "acc_norm_stderr,none": 0.02079798880866757,
+      "acc,none": 0.3356009070294785,
+      "acc_stderr,none": 0.022511256690742998,
+      "acc_norm,none": 0.3356009070294785,
+      "acc_norm_stderr,none": 0.022511256690742998,
       "alias": " - medqa_4options_b2g"
     },
     "medqa_4options_g2b": {
-      "acc,none": 0.33858267716535434,
-      "acc_stderr,none": 0.02101677961586622,
-      "acc_norm,none": 0.33858267716535434,
-      "acc_norm_stderr,none": 0.02101677961586622,
+      "acc,none": 0.3378684807256236,
+      "acc_stderr,none": 0.02254860258005234,
+      "acc_norm,none": 0.3378684807256236,
+      "acc_norm_stderr,none": 0.02254860258005234,
       "alias": " - medqa_4options_g2b"
     },
     "medqa_4options_orig_filtered": {
-      "acc,none": 0.3228346456692913,
-      "acc_stderr,none": 0.020765072576379665,
-      "acc_norm,none": 0.3228346456692913,
-      "acc_norm_stderr,none": 0.020765072576379665,
+      "acc,none": 0.3356009070294785,
+      "acc_stderr,none": 0.022511256690742977,
+      "acc_norm,none": 0.3356009070294785,
+      "acc_norm_stderr,none": 0.022511256690742977,
       "alias": " - medqa_4options_orig_filtered"
-    },
-    "mmlu_professional_medicine_b2g": {
-      "acc,none": 0.23214285714285715,
-      "acc_stderr,none": 0.056929390240001085,
-      "alias": " - mmlu_professional_medicine_b2g"
-    },
-    "mmlu_professional_medicine_g2b": {
-      "acc,none": 0.21428571428571427,
-      "acc_stderr,none": 0.05532833351724883,
-      "alias": " - mmlu_professional_medicine_g2b"
-    },
-    "mmlu_professional_medicine_orig_filtered": {
-      "acc,none": 0.23214285714285715,
-      "acc_stderr,none": 0.056929390240001085,
-      "alias": " - mmlu_professional_medicine_orig_filtered"
     }
   },
   "groups": {
     "b4b": {
-      "acc,none": 0.3026421136909528,
-      "acc_stderr,none": 0.030300036099661202,
-      "acc_norm,none": 0.30530240265120134,
-      "acc_norm_stderr,none": 0.0006331406571747696,
+      "acc,none": 0.30512142341909115,
+      "acc_stderr,none": 0.028513218063137048,
+      "acc_norm,none": 0.30512142341909115,
+      "acc_norm_stderr,none": 0.028513218063137048,
       "alias": "b4b"
     }
   },
@@ -86,7 +71,7 @@
       "task": "b4bqa",
       "dataset_path": "AIM-Harvard/b4b_drug_qa",
       "test_split": "test",
-      "doc_to_text": "<function process_cd at 0x7f507aac0280>",
+      "doc_to_text": "<function process_cd at 0x7f792fa5cf70>",
       "doc_to_target": "correct_choice",
       "doc_to_choice": [
         "A",
@@ -119,7 +104,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f507aa61dc0>",
+      "doc_to_text": "<function doc_to_text at 0x7f792fa7eaf0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -153,7 +138,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f507ae1a280>",
+      "doc_to_text": "<function doc_to_text at 0x7f792ff81430>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -187,7 +172,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f507a8a9670>",
+      "doc_to_text": "<function doc_to_text at 0x7f792f8cb3a0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -221,8 +206,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f507a8a98b0>",
-      "doc_to_target": "<function doc_to_target at 0x7f507a8a9c10>",
+      "doc_to_text": "<function doc_to_text at 0x7f792f8cb5e0>",
+      "doc_to_target": "<function doc_to_target at 0x7f792f8cb940>",
       "doc_to_choice": [
         "A",
         "B",
@@ -254,8 +239,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f507ae1ab80>",
-      "doc_to_target": "<function doc_to_target at 0x7f507ae1aee0>",
+      "doc_to_text": "<function doc_to_text at 0x7f792ff818b0>",
+      "doc_to_target": "<function doc_to_target at 0x7f792ff81c10>",
       "doc_to_choice": [
         "A",
         "B",
@@ -287,8 +272,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f507aa8b3a0>",
-      "doc_to_target": "<function doc_to_target at 0x7f507aa13280>",
+      "doc_to_text": "<function doc_to_text at 0x7f792fa7e550>",
+      "doc_to_target": "<function doc_to_target at 0x7f792fa2df70>",
       "doc_to_choice": [
         "A",
         "B",
@@ -313,105 +298,6 @@
       "output_type": "multiple_choice",
       "repeats": 1,
       "should_decontaminate": false
-    },
-    "mmlu_professional_medicine_b2g": {
-      "task": "mmlu_professional_medicine_b2g",
-      "dataset_path": "AIM-Harvard/hails_mmlu_no_train_professional_medicine_brand_to_generic",
-      "test_split": "test",
-      "fewshot_split": "dev",
-      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
-      "doc_to_target": "answer",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "fewshot_config": {
-        "sampler": "first_n"
-      },
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": false,
-      "metadata": {
-        "version": 0.0
-      }
-    },
-    "mmlu_professional_medicine_g2b": {
-      "task": "mmlu_professional_medicine_g2b",
-      "dataset_path": "AIM-Harvard/hails_mmlu_no_train_professional_medicine_generic_to_brand",
-      "test_split": "test",
-      "fewshot_split": "dev",
-      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
-      "doc_to_target": "answer",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "fewshot_config": {
-        "sampler": "first_n"
-      },
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": false,
-      "metadata": {
-        "version": 0.0
-      }
-    },
-    "mmlu_professional_medicine_orig_filtered": {
-      "task": "mmlu_professional_medicine_orig_filtered",
-      "dataset_path": "AIM-Harvard/hails_mmlu_no_train_professional_medicine_original",
-      "test_split": "test",
-      "fewshot_split": "dev",
-      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
-      "doc_to_target": "answer",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "fewshot_config": {
-        "sampler": "first_n"
-      },
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": false,
-      "metadata": {
-        "version": 0.0
-      }
     }
   },
   "versions": {
@@ -422,10 +308,7 @@
     "medmcqa_orig_filtered": "Yaml",
     "medqa_4options_b2g": "Yaml",
     "medqa_4options_g2b": "Yaml",
-    "medqa_4options_orig_filtered": "Yaml",
-    "mmlu_professional_medicine_b2g": 0.0,
-    "mmlu_professional_medicine_g2b": 0.0,
-    "mmlu_professional_medicine_orig_filtered": 0.0
+    "medqa_4options_orig_filtered": "Yaml"
   },
   "n-shot": {
     "b4b": 0,
@@ -435,18 +318,15 @@
     "medmcqa_orig_filtered": 0,
     "medqa_4options_b2g": 0,
     "medqa_4options_g2b": 0,
-    "medqa_4options_orig_filtered": 0,
-    "mmlu_professional_medicine_b2g": 0,
-    "mmlu_professional_medicine_g2b": 0,
-    "mmlu_professional_medicine_orig_filtered": 0
+    "medqa_4options_orig_filtered": 0
   },
   "config": {
     "model": "hf",
-    "model_args": "pretrained=microsoft/phi-1_5",
+    "model_args": "pretrained=microsoft/phi-1_5,load_in_4bit=True",
     "batch_size": "auto:64",
     "batch_sizes": [
       32,
-      64,
+      32,
       64,
       64,
       64,
@@ -517,5 +397,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "81a30781"
+  "git_hash": "45cc6dc6"
 }
