@@ -37,8 +37,8 @@ task:
   # - mmlu_medical_genetics_orig_filtered
   # - mmlu_college_biology_orig_filtered
   # - pubmedqa_b2g
-  - medmcqa_b2g
-  - medqa_4options_b2g
+  # - medmcqa_b2g
+  # - medqa_4options_b2g
   # - usmle_sa_step1_b2g
   # - usmle_sa_step2_b2g
   # - usmle_sa_step3_b2g
