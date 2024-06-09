@@ -1,10 +1,10 @@
 {
   "results": {
     "b4b": {
-      "acc,none": 0.44193315700889635,
-      "acc_stderr,none": 0.03347622701222427,
-      "acc_norm,none": 0.44193315700889635,
-      "acc_norm_stderr,none": 0.03347622701222427,
+      "acc,none": 0.44790382244143034,
+      "acc_stderr,none": 0.0343882858973779,
+      "acc_norm,none": 0.44790382244143034,
+      "acc_norm_stderr,none": 0.0343882858973779,
       "alias": "b4b"
     },
     "b4bqa": {
@@ -14,55 +14,41 @@
       "acc_norm_stderr,none": 0.01179977682900124,
       "alias": " - b4bqa"
     },
-    "medmcqa_b2g": {
-      "acc,none": 0.42528735632183906,
-      "acc_stderr,none": 0.026540058400969218,
-      "acc_norm,none": 0.42528735632183906,
-      "acc_norm_stderr,none": 0.026540058400969218,
-      "alias": " - medmcqa_b2g"
-    },
     "medmcqa_g2b": {
-      "acc,none": 0.382183908045977,
-      "acc_stderr,none": 0.026085614333362667,
-      "acc_norm,none": 0.382183908045977,
-      "acc_norm_stderr,none": 0.026085614333362667,
+      "acc,none": 0.3764367816091954,
+      "acc_stderr,none": 0.02600887296285643,
+      "acc_norm,none": 0.3764367816091954,
+      "acc_norm_stderr,none": 0.02600887296285643,
       "alias": " - medmcqa_g2b"
     },
     "medmcqa_orig_filtered": {
       "acc,none": 0.4224137931034483,
-      "acc_stderr,none": 0.026516287230132874,
+      "acc_stderr,none": 0.02651628723013287,
       "acc_norm,none": 0.4224137931034483,
-      "acc_norm_stderr,none": 0.026516287230132874,
+      "acc_norm_stderr,none": 0.02651628723013287,
       "alias": " - medmcqa_orig_filtered"
     },
-    "medqa_4options_b2g": {
-      "acc,none": 0.42857142857142855,
-      "acc_stderr,none": 0.023592080681279135,
-      "acc_norm,none": 0.42857142857142855,
-      "acc_norm_stderr,none": 0.023592080681279135,
-      "alias": " - medqa_4options_b2g"
-    },
     "medqa_4options_g2b": {
-      "acc,none": 0.4126984126984127,
-      "acc_stderr,none": 0.023470408489619458,
-      "acc_norm,none": 0.4126984126984127,
-      "acc_norm_stderr,none": 0.023470408489619458,
+      "acc,none": 0.41798941798941797,
+      "acc_stderr,none": 0.02540255550326091,
+      "acc_norm,none": 0.41798941798941797,
+      "acc_norm_stderr,none": 0.02540255550326091,
       "alias": " - medqa_4options_g2b"
     },
     "medqa_4options_orig_filtered": {
-      "acc,none": 0.42630385487528344,
-      "acc_stderr,none": 0.02357622445454874,
-      "acc_norm,none": 0.42630385487528344,
-      "acc_norm_stderr,none": 0.02357622445454874,
+      "acc,none": 0.43915343915343913,
+      "acc_stderr,none": 0.025559920550531003,
+      "acc_norm,none": 0.43915343915343913,
+      "acc_norm_stderr,none": 0.025559920550531003,
       "alias": " - medqa_4options_orig_filtered"
     }
   },
   "groups": {
     "b4b": {
-      "acc,none": 0.44193315700889635,
-      "acc_stderr,none": 0.03347622701222427,
-      "acc_norm,none": 0.44193315700889635,
-      "acc_norm_stderr,none": 0.03347622701222427,
+      "acc,none": 0.44790382244143034,
+      "acc_stderr,none": 0.0343882858973779,
+      "acc_norm,none": 0.44790382244143034,
+      "acc_norm_stderr,none": 0.0343882858973779,
       "alias": "b4b"
     }
   },
@@ -71,7 +57,7 @@
       "task": "b4bqa",
       "dataset_path": "AIM-Harvard/b4b_drug_qa",
       "test_split": "test",
-      "doc_to_text": "<function process_cd at 0x7ffa70a5fee0>",
+      "doc_to_text": "<function process_cd at 0x7fe111a60ee0>",
       "doc_to_target": "correct_choice",
       "doc_to_choice": [
         "A",
@@ -98,47 +84,13 @@
       "repeats": 1,
       "should_decontaminate": false
     },
-    "medmcqa_b2g": {
-      "task": "medmcqa_b2g",
-      "dataset_path": "AIM-Harvard/medmcqa_brand_to_generic",
-      "training_split": "train",
-      "validation_split": "validation",
-      "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7ffa70a81a60>",
-      "doc_to_target": "cop",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "acc_norm",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": true,
-      "doc_to_decontamination_query": "{{question}}"
-    },
     "medmcqa_g2b": {
       "task": "medmcqa_g2b",
       "dataset_path": "AIM-Harvard/medmcqa_generic_to_brand",
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7ffa70f953a0>",
+      "doc_to_text": "<function doc_to_text at 0x7fe111f9e3a0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -172,7 +124,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7ffa708cb310>",
+      "doc_to_text": "<function doc_to_text at 0x7fe1118cb310>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -200,47 +152,14 @@
       "should_decontaminate": true,
       "doc_to_decontamination_query": "{{question}}"
     },
-    "medqa_4options_b2g": {
-      "task": "medqa_4options_b2g",
-      "dataset_path": "AIM-Harvard/gbaker_medqa_usmle_4_options_hf_brand_to_generic",
-      "training_split": "train",
-      "validation_split": "validation",
-      "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7ffa708cb550>",
-      "doc_to_target": "<function doc_to_target at 0x7ffa708cb8b0>",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "acc_norm",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": false
-    },
     "medqa_4options_g2b": {
       "task": "medqa_4options_g2b",
       "dataset_path": "AIM-Harvard/gbaker_medqa_usmle_4_options_hf_generic_to_brand",
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7ffa70f95820>",
-      "doc_to_target": "<function doc_to_target at 0x7ffa70f95b80>",
+      "doc_to_text": "<function doc_to_text at 0x7fe111f9e820>",
+      "doc_to_target": "<function doc_to_target at 0x7fe111f9eb80>",
       "doc_to_choice": [
         "A",
         "B",
@@ -272,8 +191,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7ffa70a814c0>",
-      "doc_to_target": "<function doc_to_target at 0x7ffa70a30ee0>",
+      "doc_to_text": "<function doc_to_text at 0x7fe111a834c0>",
+      "doc_to_target": "<function doc_to_target at 0x7fe111a30ee0>",
       "doc_to_choice": [
         "A",
         "B",
@@ -303,20 +222,16 @@
   "versions": {
     "b4b": "N/A",
     "b4bqa": "Yaml",
-    "medmcqa_b2g": "Yaml",
     "medmcqa_g2b": "Yaml",
     "medmcqa_orig_filtered": "Yaml",
-    "medqa_4options_b2g": "Yaml",
     "medqa_4options_g2b": "Yaml",
     "medqa_4options_orig_filtered": "Yaml"
   },
   "n-shot": {
     "b4b": 0,
     "b4bqa": 0,
-    "medmcqa_b2g": 0,
     "medmcqa_g2b": 0,
     "medmcqa_orig_filtered": 0,
-    "medqa_4options_b2g": 0,
     "medqa_4options_g2b": 0,
     "medqa_4options_orig_filtered": 0
   },
@@ -327,7 +242,7 @@
     "batch_sizes": [
       32,
       32,
-      32,
+      64,
       64,
       64,
       64,
@@ -397,5 +312,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "45cc6dc6"
+  "git_hash": "928c7657"
 }

@@ -1,10 +1,10 @@
 {
   "results": {
     "b4b": {
-      "acc,none": 0.5996633806203414,
-      "acc_stderr,none": 0.0838988660221967,
-      "acc_norm,none": 0.5996633806203414,
-      "acc_norm_stderr,none": 0.0838988660221967,
+      "acc,none": 0.6199136868064118,
+      "acc_stderr,none": 0.0837373393352743,
+      "acc_norm,none": 0.6199136868064118,
+      "acc_norm_stderr,none": 0.0837373393352743,
       "alias": "b4b"
     },
     "b4bqa": {
@@ -13,13 +13,6 @@
       "acc_norm,none": 0.703125,
       "acc_norm_stderr,none": 0.010795811437682205,
       "alias": " - b4bqa"
-    },
-    "medmcqa_b2g": {
-      "acc,none": 0.5689655172413793,
-      "acc_stderr,none": 0.026584851780353615,
-      "acc_norm,none": 0.5689655172413793,
-      "acc_norm_stderr,none": 0.026584851780353615,
-      "alias": " - medmcqa_b2g"
     },
     "medmcqa_g2b": {
       "acc,none": 0.4827586206896552,
@@ -35,34 +28,27 @@
       "acc_norm_stderr,none": 0.026584851780353615,
       "alias": " - medmcqa_orig_filtered"
     },
-    "medqa_4options_b2g": {
-      "acc,none": 0.5215419501133787,
-      "acc_stderr,none": 0.023814431471909113,
-      "acc_norm,none": 0.5215419501133787,
-      "acc_norm_stderr,none": 0.023814431471909113,
-      "alias": " - medqa_4options_b2g"
-    },
     "medqa_4options_g2b": {
-      "acc,none": 0.47619047619047616,
-      "acc_stderr,none": 0.023809523809523815,
-      "acc_norm,none": 0.47619047619047616,
-      "acc_norm_stderr,none": 0.023809523809523815,
+      "acc,none": 0.48677248677248675,
+      "acc_stderr,none": 0.025742297289575142,
+      "acc_norm,none": 0.48677248677248675,
+      "acc_norm_stderr,none": 0.025742297289575142,
       "alias": " - medqa_4options_g2b"
     },
     "medqa_4options_orig_filtered": {
-      "acc,none": 0.5215419501133787,
-      "acc_stderr,none": 0.02381443147190912,
-      "acc_norm,none": 0.5215419501133787,
-      "acc_norm_stderr,none": 0.02381443147190912,
+      "acc,none": 0.5317460317460317,
+      "acc_stderr,none": 0.0256993528321318,
+      "acc_norm,none": 0.5317460317460317,
+      "acc_norm_stderr,none": 0.0256993528321318,
       "alias": " - medqa_4options_orig_filtered"
     }
   },
   "groups": {
     "b4b": {
-      "acc,none": 0.5996633806203414,
-      "acc_stderr,none": 0.0838988660221967,
-      "acc_norm,none": 0.5996633806203414,
-      "acc_norm_stderr,none": 0.0838988660221967,
+      "acc,none": 0.6199136868064118,
+      "acc_stderr,none": 0.0837373393352743,
+      "acc_norm,none": 0.6199136868064118,
+      "acc_norm_stderr,none": 0.0837373393352743,
       "alias": "b4b"
     }
   },
@@ -71,7 +57,7 @@
       "task": "b4bqa",
       "dataset_path": "AIM-Harvard/b4b_drug_qa",
       "test_split": "test",
-      "doc_to_text": "<function process_cd at 0x7f03f3e61f70>",
+      "doc_to_text": "<function process_cd at 0x7f6e18c5ff70>",
       "doc_to_target": "correct_choice",
       "doc_to_choice": [
         "A",
@@ -98,47 +84,13 @@
       "repeats": 1,
       "should_decontaminate": false
     },
-    "medmcqa_b2g": {
-      "task": "medmcqa_b2g",
-      "dataset_path": "AIM-Harvard/medmcqa_brand_to_generic",
-      "training_split": "train",
-      "validation_split": "validation",
-      "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f03f3e84af0>",
-      "doc_to_target": "cop",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "acc_norm",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": true,
-      "doc_to_decontamination_query": "{{question}}"
-    },
     "medmcqa_g2b": {
       "task": "medmcqa_g2b",
       "dataset_path": "AIM-Harvard/medmcqa_generic_to_brand",
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f03f4388430>",
+      "doc_to_text": "<function doc_to_text at 0x7f6e1919e430>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -172,7 +124,7 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "validation",
-      "doc_to_text": "<function doc_to_text at 0x7f03f3cc83a0>",
+      "doc_to_text": "<function doc_to_text at 0x7f6e18acb3a0>",
       "doc_to_target": "cop",
       "doc_to_choice": [
         "A",
@@ -200,47 +152,14 @@
       "should_decontaminate": true,
       "doc_to_decontamination_query": "{{question}}"
     },
-    "medqa_4options_b2g": {
-      "task": "medqa_4options_b2g",
-      "dataset_path": "AIM-Harvard/gbaker_medqa_usmle_4_options_hf_brand_to_generic",
-      "training_split": "train",
-      "validation_split": "validation",
-      "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f03f3cc85e0>",
-      "doc_to_target": "<function doc_to_target at 0x7f03f3cc8940>",
-      "doc_to_choice": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "description": "",
-      "target_delimiter": " ",
-      "fewshot_delimiter": "\n\n",
-      "metric_list": [
-        {
-          "metric": "acc",
-          "aggregation": "mean",
-          "higher_is_better": true
-        },
-        {
-          "metric": "acc_norm",
-          "aggregation": "mean",
-          "higher_is_better": true
-        }
-      ],
-      "output_type": "multiple_choice",
-      "repeats": 1,
-      "should_decontaminate": false
-    },
     "medqa_4options_g2b": {
       "task": "medqa_4options_g2b",
       "dataset_path": "AIM-Harvard/gbaker_medqa_usmle_4_options_hf_generic_to_brand",
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f03f43888b0>",
-      "doc_to_target": "<function doc_to_target at 0x7f03f4388c10>",
+      "doc_to_text": "<function doc_to_text at 0x7f6e1919e8b0>",
+      "doc_to_target": "<function doc_to_target at 0x7f6e1919ec10>",
       "doc_to_choice": [
         "A",
         "B",
@@ -272,8 +191,8 @@
       "training_split": "train",
       "validation_split": "validation",
       "test_split": "test",
-      "doc_to_text": "<function doc_to_text at 0x7f03f3e84550>",
-      "doc_to_target": "<function doc_to_target at 0x7f03f3e31f70>",
+      "doc_to_text": "<function doc_to_text at 0x7f6e18c80550>",
+      "doc_to_target": "<function doc_to_target at 0x7f6e18c2ff70>",
       "doc_to_choice": [
         "A",
         "B",
@@ -303,20 +222,16 @@
   "versions": {
     "b4b": "N/A",
     "b4bqa": "Yaml",
-    "medmcqa_b2g": "Yaml",
     "medmcqa_g2b": "Yaml",
     "medmcqa_orig_filtered": "Yaml",
-    "medqa_4options_b2g": "Yaml",
     "medqa_4options_g2b": "Yaml",
     "medqa_4options_orig_filtered": "Yaml"
   },
   "n-shot": {
     "b4b": 0,
     "b4bqa": 0,
-    "medmcqa_b2g": 0,
     "medmcqa_g2b": 0,
     "medmcqa_orig_filtered": 0,
-    "medqa_4options_b2g": 0,
     "medqa_4options_g2b": 0,
     "medqa_4options_orig_filtered": 0
   },
@@ -397,5 +312,5 @@
     "bootstrap_iters": 100000,
     "gen_kwargs": null
   },
-  "git_hash": "45cc6dc6"
+  "git_hash": "928c7657"
 }
