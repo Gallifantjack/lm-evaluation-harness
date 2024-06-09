@@ -1,0 +1,250 @@
+{
+  "results": {
+    "b4b": {
+      "acc,none": 0.3600493218249075,
+      "acc_stderr,none": 0.021816304388272503,
+      "acc_norm,none": 0.3600493218249075,
+      "acc_norm_stderr,none": 0.021816304388272503,
+      "alias": "b4b"
+    },
+    "b4bqa": {
+      "acc,none": 0.36830357142857145,
+      "acc_stderr,none": 0.011397494280772988,
+      "acc_norm,none": 0.36830357142857145,
+      "acc_norm_stderr,none": 0.011397494280772988,
+      "alias": " - b4bqa"
+    },
+    "medmcqa_g2b": {
+      "acc,none": 0.3390804597701149,
+      "acc_stderr,none": 0.02541329280547327,
+      "acc_norm,none": 0.3390804597701149,
+      "acc_norm_stderr,none": 0.02541329280547327,
+      "alias": " - medmcqa_g2b"
+    },
+    "medmcqa_orig_filtered": {
+      "acc,none": 0.34195402298850575,
+      "acc_stderr,none": 0.025465208743331563,
+      "acc_norm,none": 0.34195402298850575,
+      "acc_norm_stderr,none": 0.025465208743331563,
+      "alias": " - medmcqa_orig_filtered"
+    },
+    "medqa_4options_g2b": {
+      "acc,none": 0.3439153439153439,
+      "acc_stderr,none": 0.024464426625596437,
+      "acc_norm,none": 0.3439153439153439,
+      "acc_norm_stderr,none": 0.024464426625596437,
+      "alias": " - medqa_4options_g2b"
+    },
+    "medqa_4options_orig_filtered": {
+      "acc,none": 0.373015873015873,
+      "acc_stderr,none": 0.02490699045899257,
+      "acc_norm,none": 0.373015873015873,
+      "acc_norm_stderr,none": 0.02490699045899257,
+      "alias": " - medqa_4options_orig_filtered"
+    }
+  },
+  "groups": {
+    "b4b": {
+      "acc,none": 0.3600493218249075,
+      "acc_stderr,none": 0.021816304388272503,
+      "acc_norm,none": 0.3600493218249075,
+      "acc_norm_stderr,none": 0.021816304388272503,
+      "alias": "b4b"
+    }
+  },
+  "configs": {
+    "b4bqa": {
+      "task": "b4bqa",
+      "dataset_path": "AIM-Harvard/b4b_drug_qa",
+      "test_split": "test",
+      "doc_to_text": "<function process_cd at 0x7f9fc69011b0>",
+      "doc_to_target": "correct_choice",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false
+    },
+    "medmcqa_g2b": {
+      "task": "medmcqa_g2b",
+      "dataset_path": "AIM-Harvard/medmcqa_generic_to_brand",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "validation",
+      "doc_to_text": "<function doc_to_text at 0x7f9fc4d94670>",
+      "doc_to_target": "cop",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "{{question}}"
+    },
+    "medmcqa_orig_filtered": {
+      "task": "medmcqa_orig_filtered",
+      "dataset_path": "AIM-Harvard/medmcqa_original",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "validation",
+      "doc_to_text": "<function doc_to_text at 0x7f9fc4d94820>",
+      "doc_to_target": "cop",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": true,
+      "doc_to_decontamination_query": "{{question}}"
+    },
+    "medqa_4options_g2b": {
+      "task": "medqa_4options_g2b",
+      "dataset_path": "AIM-Harvard/gbaker_medqa_usmle_4_options_hf_generic_to_brand",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "<function doc_to_text at 0x7f9fc4d977f0>",
+      "doc_to_target": "<function doc_to_target at 0x7f9fc4d97b50>",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false
+    },
+    "medqa_4options_orig_filtered": {
+      "task": "medqa_4options_orig_filtered",
+      "dataset_path": "AIM-Harvard/gbaker_medqa_usmle_4_options_hf_original",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "<function doc_to_text at 0x7f9fc4d97d90>",
+      "doc_to_target": "<function doc_to_target at 0x7f9fc4db8040>",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false
+    }
+  },
+  "versions": {
+    "b4b": "N/A",
+    "b4bqa": "Yaml",
+    "medmcqa_g2b": "Yaml",
+    "medmcqa_orig_filtered": "Yaml",
+    "medqa_4options_g2b": "Yaml",
+    "medqa_4options_orig_filtered": "Yaml"
+  },
+  "n-shot": {
+    "b4b": 0,
+    "b4bqa": 0,
+    "medmcqa_g2b": 0,
+    "medmcqa_orig_filtered": 0,
+    "medqa_4options_g2b": 0,
+    "medqa_4options_orig_filtered": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=meta-llama/Llama-2-7b-hf,load_in_4bit=True",
+    "batch_size": "4",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "928c7657"
+}
