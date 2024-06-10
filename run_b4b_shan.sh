@@ -10,18 +10,19 @@ fi
 echo $HF_TOKEN | huggingface-cli login --token
 
 # Define the base directory (use an absolute path if possible)
-# base_dir="/home/legionjgally/Desktop/mit/lm-evaluation-harness"
-base_dir="/home/ch225816/lm-evaluation-harness"
-python_env="/home/ch225816/miniconda3/envs/harness/bin/python"
+base_dir="/home/shan/Desktop/lm-evaluation-harness"
+# base_dir="/home/ch225816/lm-evaluation-harness"
+python_env="/home/shan/miniconda3/envs/harness/bin/python"
+# python_env="/home/ch225816/miniconda3/envs/harness/bin/python"
 
 # List of models to evaluate
 models=(
-    "aaditya/Llama3-OpenBioLLM-70B"
-    "ProbeMedicalYonseiMAILab/medllama3-v20"
+    # "aaditya/Llama3-OpenBioLLM-70B"
+    # "ProbeMedicalYonseiMAILab/medllama3-v20"
     "johnsnowlabs/JSL-MedLlama-3-8B-v9"
-    "01-ai/Yi-1.5-34B"
-    "mistralai/Mixtral-8x22B-v0.1"
-    "Qwen/Qwen1.5-110B"
+    # "01-ai/Yi-1.5-34B"
+    # "mistralai/Mixtral-8x22B-v0.1"
+    # "Qwen/Qwen1.5-110B"
 )
 
 # Loop over each model
