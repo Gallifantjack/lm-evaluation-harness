@@ -3,7 +3,7 @@ dataset_path: AIM-Harvard/medmcqa_generic_to_brand
 output_type: multiple_choice
 training_split: train
 validation_split: validation
-test_split: validation
+test_split: test
 doc_to_text: !function utils_medmcqa_g2b.doc_to_text
 doc_to_target: cop
 doc_to_choice: [ 'A','B','C','D' ]
