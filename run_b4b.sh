@@ -30,7 +30,7 @@ for model in "${models[@]}"; do
     model_alias=$(echo $model | tr '/' '-')
 
     # Define output path to include model alias and ensure it exists with correct permissions
-    output_path="$base_dir/results/b4b"
+    output_path="$base_dir/results/b4b_new"
     mkdir -p $output_path
     chmod -R u+rwx $output_path
 

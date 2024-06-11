@@ -17,12 +17,12 @@ python_env="/home/shan/miniconda3/envs/harness/bin/python"
 
 # List of models to evaluate
 models=(
-    # "aaditya/Llama3-OpenBioLLM-70B"
-    # "ProbeMedicalYonseiMAILab/medllama3-v20"
+    "aaditya/Llama3-OpenBioLLM-70B"
+    "ProbeMedicalYonseiMAILab/medllama3-v20"
     "johnsnowlabs/JSL-MedLlama-3-8B-v9"
-    # "01-ai/Yi-1.5-34B"
-    # "mistralai/Mixtral-8x22B-v0.1"
-    # "Qwen/Qwen1.5-110B"
+    "01-ai/Yi-1.5-34B"
+    "mistralai/Mixtral-8x22B-v0.1"
+    "Qwen/Qwen1.5-110B"
 )
 
 # Loop over each model
@@ -31,7 +31,7 @@ for model in "${models[@]}"; do
     model_alias=$(echo $model | tr '/' '-')
 
     # Define output path to include model alias and ensure it exists with correct permissions
-    output_path="$base_dir/results/b4b"
+    output_path="$base_dir/results/b4b_new"
     mkdir -p $output_path
     chmod -R u+rwx $output_path
 
