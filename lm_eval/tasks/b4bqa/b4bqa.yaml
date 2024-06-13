@@ -1,5 +1,5 @@
 task: b4bqa
-dataset_path: AIM-Harvard/b4b_drug_qa
+dataset_path: AIM-Harvard/rabbit_b4bqa
 output_type: multiple_choice
 training_split: null
 validation_split: null

@@ -34,7 +34,7 @@ for model in "${models[@]}"; do
     model_alias=$(echo $model | tr '/' '-')
 
     # Define output path to include model alias and ensure it exists with correct permissions
-    output_path="$base_dir/results/b4b_new"
+    output_path="$base_dir/results/b4bqa_new"
     mkdir -p $output_path
     chmod -R u+rwx $output_path
 
@@ -45,7 +45,7 @@ for model in "${models[@]}"; do
     echo "Running evaluation for model $model"
     $python_env lm_eval --model hf \
                     --model_args pretrained=$model,load_in_4bit=True \
-                    --tasks b4b \
+                    --tasks b4bqa \
                     --device cuda:0 \
                     --batch_size 4 \
                     --output_path $results_file

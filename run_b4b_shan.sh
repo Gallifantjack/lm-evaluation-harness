@@ -10,10 +10,10 @@ fi
 echo $HF_TOKEN | huggingface-cli login --token
 
 # Define the base directory (use an absolute path if possible)
-base_dir="/home/shan/Desktop/lm-evaluation-harness"
-# base_dir="/home/ch225816/lm-evaluation-harness"
-python_env="/home/shan/miniconda3/envs/harness/bin/python"
-# python_env="/home/ch225816/miniconda3/envs/harness/bin/python"
+# base_dir="/home/shan/Desktop/lm-evaluation-harness"
+base_dir="/home/ch225816/lm-evaluation-harness"
+# python_env="/home/shan/miniconda3/envs/harness/bin/python"
+python_env="/home/ch225816/miniconda3/envs/harness/bin/python"
 
 # List of models to evaluate
 models=(
@@ -31,7 +31,7 @@ for model in "${models[@]}"; do
     model_alias=$(echo $model | tr '/' '-')
 
     # Define output path to include model alias and ensure it exists with correct permissions
-    output_path="$base_dir/results/b4b_new"
+    output_path="$base_dir/results/b4bqa_new"
     mkdir -p $output_path
     chmod -R u+rwx $output_path
 
@@ -42,7 +42,7 @@ for model in "${models[@]}"; do
     echo "Running evaluation for model $model"
     $python_env lm_eval --model hf \
                     --model_args pretrained=$model,parallelize=True,load_in_4bit=True \
-                    --tasks b4b \
+                    --tasks b4bqa \
                     --batch_size auto \
                     --output_path $results_file
 done
