@@ -1,0 +1,64 @@
+{
+  "results": {
+    "b4bqa": {
+      "acc,none": 0.3788167938931298,
+      "acc_stderr,none": 0.014991708327745911,
+      "acc_norm,none": 0.3788167938931298,
+      "acc_norm_stderr,none": 0.014991708327745911,
+      "alias": "b4bqa"
+    }
+  },
+  "configs": {
+    "b4bqa": {
+      "task": "b4bqa",
+      "dataset_path": "AIM-Harvard/rabbit_b4bqa",
+      "test_split": "test",
+      "doc_to_text": "<function process_cd at 0x7f4084d90820>",
+      "doc_to_target": "correct_choice",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false
+    }
+  },
+  "versions": {
+    "b4bqa": "Yaml"
+  },
+  "n-shot": {
+    "b4bqa": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=microsoft/phi-1_5,parallelize=True,load_in_4bit=True",
+    "batch_size": "auto",
+    "batch_sizes": [
+      64
+    ],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "d84fce6b"
+}

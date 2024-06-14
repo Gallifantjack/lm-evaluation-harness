@@ -17,13 +17,28 @@ python_env="/home/ch225816/miniconda3/envs/harness/bin/python"
 
 # List of models to evaluate
 models=(
-    "aaditya/Llama3-OpenBioLLM-70B"
-    "ProbeMedicalYonseiMAILab/medllama3-v20"
-    "johnsnowlabs/JSL-MedLlama-3-8B-v9"
-    "01-ai/Yi-1.5-34B"
-    "mistralai/Mixtral-8x22B-v0.1"
-    "Qwen/Qwen1.5-110B"
-)
+   # "aaditya/Llama3-OpenBioLLM-70B"
+   # "ProbeMedicalYonseiMAILab/medllama3-v20"
+   # "johnsnowlabs/JSL-MedLlama-3-8B-v9"
+   # "01-ai/Yi-1.5-34B"
+   # "mistralai/Mixtral-8x22B-v0.1"
+   # "Qwen/Qwen1.5-110B"
+   # "meta-llama/Llama-2-7b-hf"
+   # "meta-llama/Meta-Llama-3-8B"
+   # "mistralai/Mixtral-8x7B-v0.1"
+   #  # "mistralai/Mixtral-8x22B-v0.1"
+   # "meta-llama/Llama-2-70B-hf"
+   # "meta-llama/Meta-Llama-3-70B"
+   # "Qwen/Qwen2-72B"
+   # "CohereForAI/c4ai-command-r-plus"
+   "CohereForAI/aya-23-35B"
+   # "microsoft/phi-1"
+   # "microsoft/phi-1_5"
+   # "microsoft/phi-2"
+   # "microsoft/Phi-3-medium-4k-instruct"
+   # "mistralai/Mistral-7B-v0.3"
+   # "Qwen/Qwen2-7B"
+   )
 
 # Loop over each model
 for model in "${models[@]}"; do
