@@ -1,6 +1,6 @@
 group: bias4o
 task:
-  - b4bqa
+  # - b4bqa
   # - pubmedqa
   # - medmcqa
   # - medqa_4options
