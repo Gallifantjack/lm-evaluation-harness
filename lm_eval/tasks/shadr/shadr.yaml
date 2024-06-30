@@ -1,4 +1,4 @@
-# original @ https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks/custom_tasks/shadr.yaml
+# original from https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks/custom_tasks/shadr.yaml
 task: shadr
 dataset_path: oskarvanderwal/shadr
 dataset_name: null
