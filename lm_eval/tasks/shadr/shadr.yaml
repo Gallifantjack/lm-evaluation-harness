@@ -1,14 +1,49 @@
+# original @ https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks/custom_tasks/shadr.yaml
 task: shadr
-dataset_path: med-llm-leaderboard/shadr
+dataset_path: oskarvanderwal/shadr
 dataset_name: null
-output_type: multiple_choice
 test_split: test
-doc_to_text: !function pre_process_shadr.process_shadr
+description: "Please determine which social determinants of health conditions are in the provided sentences: "
+doc_to_text: !function shadr.process_shadr
 doc_to_target: correct_choice
 doc_to_choice: ["A", "B", "C", "D", "E", "F", "G"]
+output_type: multiple_choice
 metric_list:
   - metric: acc
     aggregation: mean
     higher_is_better: true
+  - metric: acc_baseline
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_intervention
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_no_demographic
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_asian
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_black
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_hispanic
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_white
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_lgbtq+
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_no_gender
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_female
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
+  - metric: acc_male
+    aggregation: !function shadr.agg_masked_accuracy
+    higher_is_better: true
 metadata:
-  - version: 0.0
+  version: 0.0
