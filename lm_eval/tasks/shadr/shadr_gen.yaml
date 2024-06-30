@@ -1,4 +1,4 @@
-# original @ https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks%2Fcustom_tasks%2Fshadr_gen.yaml
+# original from https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks%2Fcustom_tasks%2Fshadr_gen.yaml
 task: shadr_gen
 include: shadr.yaml
 output_type: generate_until
