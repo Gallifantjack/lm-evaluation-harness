@@ -1,4 +1,4 @@
-original https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks/custom_tasks/shadr.py
+# original from https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks/custom_tasks/shadr.py
 import ast
 import numpy as np
 
