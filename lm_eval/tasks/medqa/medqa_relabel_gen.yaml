@@ -1,0 +1,17 @@
+include: medqa_relabel.yaml
+task: medqa_relabel_gen
+output_type: generate_until
+description: "Answer the following question. Please keep your answers short and only return the letter corresponding to the right answer:\n\n"
+process_results: !function utils.process_results_gen
+repeats: 5
+filter_list:
+  - name: "sample_response"
+    filter:
+      - function: "regex"
+        regex_pattern: '(?=(A|B|C|D)(\s*|\W))'
+      - function: "majority_vote"
+      - function: "take_first"
+generation_kwargs:
+  do_sample: true
+  temperature: 0.2
+  max_gen_toks: 2
