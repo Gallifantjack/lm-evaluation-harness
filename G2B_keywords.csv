@@ -1,0 +1,1835 @@
+candidate,generic,brand,rag response
+['orencia'],abatacept,Orencia,['Orencia']
+['reopro'],abciximab,Reopro,['Reopro']
+['precose'],acarbose,Precose,"Here is a Python list containing the best brand drugs that contain the generic drug 'acarbose' and are not combination drugs:
+ 
+ [['Precose']]]
+ 
+ 'Precose' is the brand name for the generic drug 'acarbose'. It is used to treat type 2 diabetes and is not a combination drug. It is specifically designed for human use."
+['sectral'],acebutolol,Sectral,['Sectral']
+['diamox'],acetazolamide,Diamox,"Here is a Python list of brand-name drugs that contain the generic drug ""acetazolamide"" and are not combination drugs:
+ 
+ [ 'Diamox' ]"
+['soriatane'],acitretin,soriatane,['Soriatane']
+"['differin', 'epiduo', 'plixda', 'cabtreo']",adapalene,differin,"Here is a Python list of brand-name drugs that contain the generic ingredient ""adapalene"" and are not combination drugs:
+ 
+ python_list = [""Differin"", ""Plixda"", ""Cabtreo""]
+ 
+ These drugs are primarily used for the treatment of acne and are suitable for human use. ""Differin"" was the first brand to introduce adapalene and is widely recognized. ""Plixda"" and ""Cabtreo"" are also well-known brands that offer adapalene-based treatments."
+"['albenza', 'valbazen']",albendazole,albenza,"Here is a Python list of brand-name drugs that contain the generic drug Albendazole and are not combination drugs:
+ 
+ ```python
+ brands = [""Albenza"", ""Valbazen""]
+ ```
+ 
+ These brands are used to treat a variety of parasitic worm infections and are suitable for human use."
+['proleukin'],aldesleukin,proleukin,['Proleukin']
+"['fosamax', 'binosto']",alendronate,fosamax,"['Fosamax', 'Binosto']"
+['alfenta'],alfentanil,alfenta,"Here is a Python list of brand drugs that contain the generic drug alfentanil and are not combination drugs:
+ 
+ [ 'Alfenta' ]"
+"['tekturna', 'valturna', 'amturnide', 'tekamlo']",aliskiren,tekturna,"Here is a Python list of brand-name drugs that contain the generic ingredient ""aliskiren"" and are not combination drugs:
+ 
+ ```python
+ brands = [""Tekturna"", ""Amturnide"", ""Tekamlo""]
+ ```
+ 
+ These drugs are typically prescribed for the management of hypertension (high blood pressure) and are not combination medications. They primarily contain aliskiren as the active ingredient. Please note that this information is for educational purposes only, and one should always consult a healthcare professional for personalized advice and recommendations."
+"['caplenal', 'cosuric', 'rimapurinol', 'xanthomax', 'zyloprim', 'lopurin', 'aloprim', 'aloral', 'aluline', 'hamarin', 'duzallo']",allopurinol,caplenal,"Here is a list of brand-name drugs that contain the generic drug Allopurinol and are not combination drugs:
+ 
+ [ 'Zyloprim', 'Aloprim', 'Aloral', 'Lopurin', 'Cosuric']
+ 
+ These brands are commonly prescribed and are generally well-tolerated for the management of conditions such as gout, high uric acid levels, and certain types of kidney stones."
+"['nesina', 'kazano', 'oseni']",alogliptin,nesina,"Here is a Python list of brand-name drugs that contain the generic drug 'alogliptin' and are not combination drugs:
+ 
+ ```python
+ brands = ['Nesina']
+ ```
+ 
+ 'Nesina' is the primary brand-name medication that contains 'alogliptin' as its active ingredient and is not a combination drug. It is used for the treatment of type 2 diabetes in adults, helping to control blood sugar levels."
+"['xanax', 'calprazolam', 'niravam']",alprazolam,xanax,"Here is a Python list of brand-name drugs that contain the generic drug Alprazolam and are not combination drugs:
+ 
+ ```python
+ brands = [""Xanax"", ""Calprazolam"", ""Niravam""]
+ ```
+ 
+ These brands are all used for human treatment and primarily contain Alprazolam as the active ingredient. They are not combination drugs, meaning they do not contain multiple active pharmaceutical ingredients."
+"['edex', 'caverject', 'muse']",alprostadil,caverject,"['Edex', 'Caverject', 'Muse']"
+['activase'],alteplase,activase,['Activase']
+"['symmetrel', 'symadine', 'mantadine', 'gocovri', 'osmolex']",amantadine,symmetrel,"Here is a Python list of the best brand drugs that contain the generic drug 'amantadine' and are not combination drugs:
+ 
+ python_list = ['Symmetrel', 'Symadine', 'Mantadine']
+ 
+ These drugs are primarily used for the treatment of Parkinson's disease, influenza, and other conditions, and they are designed for human use."
+['mytelase'],ambenonium,mytelase,['Mytelase']
+"['amikin', 'amimax', 'arikayce']",amikacin,amikin,"['Amikin', 'Amimax']"
+"['cordarone', 'pacerone', 'amidox', 'nexterone']",amiodarone,cordarone,"['Cordarone', 'Pacerone', 'Nexterone']"
+"['lentizol', 'limbitrol', 'elavil', 'domical', 'triavil', 'vanatrip', 'endep', 'duo-vil', 'etrafon']",amitriptyline,elavil,"Here is a list of brand-name drugs that contain Amitriptyline as the primary ingredient and are not combination drugs:
+ 
+ [ 'Elavil', 'Endep', 'Vanatrip']
+ 
+ These drugs are typically prescribed for human use and are known to be effective in treating conditions such as depression, anxiety, and certain types of pain. It is always advisable to consult a healthcare professional before taking any medication."
+"['norvasc', 'lotrel', 'caduet', 'exforge', 'azor', 'amturnide', 'tekamlo', 'tribenzor', 'twynsta', 'prestalia', 'consensi', 'katerzia', 'norliqva']",amlodipine,norvasc,"Here is a list of brand-name drugs that contain Amlodipine as the primary active ingredient and are not combination drugs:
+ 
+ [ 'Norvasc', 'Lotrel', 'Norliqva']
+ 
+ These drugs are used to treat high blood pressure and/or chest pain (angina) and are specifically formulated for human use. It is always advisable to consult a healthcare professional before taking any medication."
+['asendin'],amoxapine,asendin,['Asendin']
+"['unasyn', 'penbritin', 'rimacillin', 'vidopen', 'ampitrin', 'polycillin', 'omnipen', 'amficot', 'marcillin', 'omnipen-n', 'polycillin-prb', 'principen', 'totacillin', 'totacillin-n', 'hetacin-k', 'polyflex']",ampicillin,penbritin,"Here is a list of brand-name drugs that contain 'Ampicillin' as the primary ingredient and are not combination drugs:
+ 
+ [ 'Unasyn', 'Penbritin', 'Principen', 'Omnipen', 'Totacillin']
+ 
+ These brands are all suitable options for drugs containing Ampicillin as the main ingredient and are intended for human use."
+['kineret'],anakinra,kineret,['Kineret']
+['arimidex'],anastrozole,arimidex,"Here is a Python list containing the best brand drugs that contain the generic drug Anastrozole, are not combination drugs, and are used for humans:
+ 
+ ```python
+ drug_list = [""Arimidex""]
+ ```
+ 
+ Arimidex is a widely recognized brand name for the generic drug Anastrozole, which is used in the treatment of breast cancer, particularly in post-menopausal women. It is not a combination drug and is specifically designed for human use."
+['eliquis'],apixaban,eliquis,['Eliquis']
+['iopidine'],apraclonidine,iopidine,['Iopidine']
+"['emend', 'cinvanti', 'aponvie']",aprepitant,emend,"['Emend', 'Cinvanti', 'Aponvie']"
+['abilify'],aripiprazole,abilify,"Here is a Python list of brand-name drugs that contain the generic ingredient ""aripiprazole"" and are not combination drugs:
+ 
+ ```python
+ brands = ['Abilify']
+ ```
+ 
+ 'Abilify' is the brand name for the generic drug aripiprazole, and it is primarily used for the treatment of mental health disorders such as schizophrenia, bipolar disorder, and major depressive disorder. It is not a combination drug, meaning it does not contain multiple active pharmaceutical ingredients."
+"['tenoretic', 'antipressan', 'atenix', 'atenixco', 'tenchlor', 'tenormin', 'totamol', 'totaretic', 'senormin', 'vasaten', 'tenoret']",atenolol,tenormin,"Here is a list of brand name drugs that contain Atenolol as the primary ingredient and are not combination drugs:
+ 
+ [ 'Tenormin', 'Senormin', 'Totamol', 'Atenix', 'Atenixco']
+ 
+ These brands are all used for human treatment, primarily for managing hypertension and related cardiovascular conditions."
+"['lipitor', 'caduet', 'liptruzet', 'lypqozet', 'atorvaliq']",atorvastatin,lipitor,"Here is a list of brand-name drugs that contain atorvastatin as the primary ingredient and are not combination drugs:
+ 
+ [ 'Lipitor' ]
+ 
+ These drugs are commonly used to treat high cholesterol and related conditions. 'Lipitor' is the most well-known and widely prescribed brand-name version of atorvastatin. It is important to consult a medical professional before taking any medication."
+['tracrium'],atracurium,tracrium,['Tracrium']
+"['lomotil', 'donnatal', 'antispas', 'antrocol', 'atropine-care', 'atropisol', 'atrosept', 'barbidonna', 'barophen', 'bellalphen', 'bellatal', 'colidrops', 'cystemms-v', 'd-tal', 'di-atro', 'dimotal', 'dolsed', 'donnaphen', 'donnapine', 'elixiral', 'enlon-plus', 'haponal', 'hyosophen', 'hypersed', 'lomocot', 'lonox', 'malatal', 'motofen', 'ocu-tropine', 'phenobel', 'sal-tropine', 'spasmolin', 'spasquid', 'spastolate', 'uaa', 'urapine', 'uretron', 'urised', 'uritin', 'vi-atro', 'eumydrin', 'atropen', 'mhp-a', 'usept', 'atreza', 'alkabel', 'duodote', 'servira', 'uritact', 'prosed', 'uri-sep', 'chardonna', 'urimar', 'b-donna', 'phenohytro']",atropine,AtroPen,"Here is a list of brand-name drugs that contain atropine as the main ingredient and are not combination drugs:
+ 
+ [ 'Atropine-Care', 'Atropine-Sol', 'Atrosept', 'Atreza', 'Atropen', 'MHP-A', 'Usept', 'Uritact', 'Prosed']
+ 
+ These drugs are typically used for various purposes, including treating certain types of eye conditions, gastrointestinal issues, and other medical conditions. It's always advisable to consult a healthcare professional before taking any medication to ensure its suitability and safety for your specific needs."
+"['azamune', 'immunoprin', 'oprisine', 'imuran', 'berkaprine', 'azasan']",azathioprine,Imuran,"Here is a Python list of brand-name drugs that contain Azathioprine as the primary ingredient and are not combination drugs:
+ 
+ ```python
+ azathioprine_brands = ['Imuran', 'Azasan']
+ ```
+ 
+ These brands are specifically used for human treatment and do not contain any additional active ingredients, making them the best choices for drugs containing Azathioprine as the primary ingredient."
+"['zithromax', 'zpak', 'zmax', 'azinthromycin', 'azasite']",azithromycin,Zithromax,"Here is a Python list of brand-name drugs that contain the generic ingredient ""azithromycin"" and are not combination drugs:
+ 
+ [ 'Zithromax', 'Zpak', 'Zmax' ]
+ 
+ These brands are commonly used and primarily contain azithromycin as the active ingredient. They are prescribed for various bacterial infections and are not combination medications, meaning they solely contain azithromycin as the active component."
+"['polysporin', 'ak-tracin', 'baci-im', 'baci-rx', 'baciguent', 'neocin', 'ocu-cort', 'ocumycin', 'ocutricin', 'polycin-b', 'polycin', 'polytracin', 'septa', 'lanabiotic', 'ocu-tracin', 'ocu-spore-b', 'polymycin', 'polycidin', 'procomycin', 'neo-polycin', 'vetropolycin', 'triplicin']",bacitracin,Baci-IM,"Here is a list of brand-name drugs that contain Bacitracin as the main ingredient and are not combination drugs:
+ 
+ [ 'Ak-Tracin', 'Baci-IM', 'Baci-Rx', 'Baciguent', 'Ocu-Cort',
+  'Ocumycin', 'Ocutricin', 'Polycin-B', 'Polycin', 'Polytracin',
+  'Septaa', 'Lanabiotic' ]
+ 
+ These drugs are typically used for topical applications and are suitable for human use. They are commonly prescribed for skin infections, eye infections, or other bacterial infections that can be treated with Bacitracin."
+"['baclospas', 'balgifen', 'lioresal', 'kemstro', 'gablofen', 'ozobax', 'lyvispah', 'fleqsuvy']",baclofen,Lioresal,"Here is a Python list of brand-name drugs that contain the generic drug Baclofen and are not combination drugs:
+ 
+ [ 'Lioresal', 'Kemstro', 'Gablofen', 'Ozobax']
+ 
+ These drugs are primarily used to treat muscle spasicity and are intended for human use."
+['simulect'],basiliximab,Simulect,['Simulect']
+"['lotensin', 'lotrel', 'cardalis']",benazepril,Lotensin,"Here is a Python list of brand-name drugs that contain Benazepril and are not combination drugs:
+ 
+ python_list = ['Lotensin', 'Cardalis']
+ 
+ These drugs are primarily used to treat high blood pressure and are intended for human use."
+"['treanda', 'bendeka', 'belrapzo', 'vivimusta']",bendamustine,Treanda,"Here is a Python list of brand-name drugs that contain the generic ingredient 'bendamustine' and are not combination drugs:
+ 
+ python_list = ['Treanda', 'Bendeka', 'Belrapzo', 'Vivimusta']
+ 
+ These drugs are all used in the treatment of certain types of cancer and are specifically formulated with the active ingredient bendamustine. They are not combination drugs, meaning they do not contain multiple active ingredients but mainly feature bendamustine as the primary component."
+"['cepacol', 'auralgan', 'cetacaine', 'chloraseptic', 'orabase', 'anbesol', 'anacaine', 'aurodex', 'auroto', 'bicozene', 'dermoplast', 'dolotic', 'foille', 'isodettes', 'navogan', 'oticaine', 'otigesic', 'otocain', 'spec-t', 'tympagesic', 'zilactin-b', 'hurricaine', 'americaine', 'rx-otic', 'tebamide', 'ti-plex', 'triban', 'retre-gel', 'omedia', 'boil-ease', 'ear-gesic', 'trimazide', 'gingicaine', 'algiotic', 'otoalgan', 'antiben', 'balagan', 'freez-eez', 'topicale', 'exactacain', 'auroguard', 'medicone', 'benz-o-sthetic', 'benzo-o-sthetic', 'benzoquick', 'orajel', 'trocaine', 'neotic', 'conffits', 'trioxin', 'z-xtra', 'treagan', 'dent-o-kain', 'superdent', 'benzo-jel', 'beegentle', 'lanacane', 'ultracare', 'bucalcide', 'dentapaine', 'dermagesic', 'orasep', 'sepasoothe', 'otozin', 'benzodent', 'myoxin', 'clinistat', 'alpha-caine', 'bucalsep', 'stingeze', 'viroxyn', 'orastat', 'neutracaine', 'bencocaine', 'salinocaine', 'anesgerm', 'angidol', 'tokisan', 'sting-kill', 'salivacaine', 'sensicaine', 'lollicaine', 'chiggerex', 'vistacaine', 'stingx', 'numstat']",benzocaine,cepacol,"Here is a list of brand-name drugs that contain benzocaine as the primary active ingredient and are intended for human use, excluding combination drugs:
+ 
+ [ 'Cepacol',
+  'Auralgan',
+  'Cetacaine',
+  'Chloraseptic',
+  'Orabase',
+  'Anbesol',
+  'Anacaine',
+  'Aurodex',
+  'Auroto',
+  'Bicozene',
+  'Dermoplast',
+  'Dolotic',
+  'Foille',
+  'Isodettes',
+  'Navogan',
+  'Oticaine',
+  'Otigesic',
+  'Otocain',
+  'Spec-T',
+  'Tympagesic',
+  'Zilactin-B',
+  'Hurricaine',
+  'Americaine',
+  'Rx-Otic',
+  'Tebamide',
+  'Ti-Plex',
+  'Triban',
+  'Retre-Gel',
+  'Omedia',
+  'Boil-Ease',
+  'Ear-Gesic',
+  'Trimazide',
+  'Gingicaine',
+  'Algiotic',
+  'Otoalgan',
+  'Antiben',
+  'Balagan',
+  'Freez-Eez',
+  'Topicale',
+  'Exactacain',
+  'Auroguard',
+  'Medicone',
+  'Benz-O-Sthetic',
+  'Benzo-O-Sthetic',
+  'Benzoquick',
+  'Orajel',
+  'Trocaine',
+  'Neotic',
+  'Conffits',
+  'Trioxin',
+  'Z-Xtra',
+  'Treagan',
+  'Dent-O-Kain',
+  'Superdent',
+  'Benzo-Jel',
+  'Beegentle',
+  'Lanacane',
+  'Ultracare',
+  'Bucalcide',
+  'Dentapaine',
+  'Dermagesic',
+  'Orasep',
+  'Sepasoothe',
+  'Otizin',
+  'Benzodent',
+  'Myoxin',
+  'Clinistat',
+  'Alpha-Caine',
+  'Bucalsep',
+  'Stingeze',
+  'Viroxyn',
+  'Orastat',
+  'Neutracaine',
+  'Bencocaine',
+  'Salinocaine',
+  'Anesgerm',
+  'Angidol',
+  'Tokisan',
+  'Sting-Kill',
+  'Salivacaine',
+  'Sensicaine',
+  'Lollicaine',
+  'Chiggerex',
+  'Vistacaine',
+  'Sting-X',
+  'Numstat' ]
+ 
+ These brands are commonly used for local anesthesia, pain relief, and soothing a variety of ailments such as sore throat, toothaches, minor injuries, and irritations. Please note that this list is not exhaustive, and it is always advisable to consult a healthcare professional before using any medication."
+['cogentin'],benztropine,cogentin,"Here is a Python list containing the best brand drugs that contain the generic Benztropine and are not combination drugs:
+ 
+ [['Cogentin']]
+ 
+ Please note that this list may not be exhaustive and drug availability may vary depending on the region. It is always advisable to consult a healthcare professional or refer to official drug resources for the most up-to-date and accurate information."
+['duvoid'],bethanechol,duvoid,['Duvoid']
+"['lumigan', 'latisse', 'durysta']",bimatoprost,lumigan,"Here is a Python list of brand-name drugs that contain the generic ingredient 'bimatoprost' and are not combination drugs:
+ 
+ python_list = ['Lumigan', 'Latisse', 'Durysta']"
+"['appearex', 'nail-ex', 'hemax', 'nephrocaps', 'infuvite', 'lexinal']",biotin,Appearex,"Here is a Python list of brands that primarily contain the generic drug 'Biotin' and are not combination drugs:
+ 
+ ```python
+ biotin_brands = ['Appearex', 'Nail-Ex', 'Hemax', 'Infuvite', 'Lexinal']
+ ```
+ 
+ These brands contain Biotin as the primary ingredient and are typically used as dietary supplements for hair, skin, and nail health. They are not combination drugs, meaning they do not contain multiple active ingredients."
+"['dulcolax', 'bisa-plex', 'bisac-evac', 'bisco-lax', 'bisolax', 'dulcogen', 'veracolate', 'alophen', 'evac-u-gen', 'feen-a-mint', 'correctol', 'bet-r-prep']",bisacodyl,dulcolax,"Here is a list of brand-name drugs that contain the generic drug Bisacodyl and are not combination drugs:
+ 
+ [ 'Dulcolax', 'Bisa-Plex', 'Bisac-Evac', 'Bisco-Lax', 'Bisolax', 'Dulcogen', 'Veracolate', 'Alophen', 'Evac-U-Gen', 'Correctol', 'Bet-r-Prep']
+ 
+ These brands are all meant for human use and do not contain any other active ingredients combined with Bisacodyl."
+"['ziac', 'emcor', 'monocor', 'zebeta']",bisoprolol,Zebeta,"Here is a Python list of brand-name drugs that contain bisoprolol as the primary ingredient and are not combination drugs:
+ 
+ python_list = ['Zebeta', 'Monocor', 'Emcor']
+ 
+ These drugs are all beta-blockers used for treating high blood pressure and are intended for human use."
+['tracleer'],bosentan,Tracleer,['Tracleer']
+['fybranta'],bran,Fybranta,"Sure! Here is a Python list of brand name drugs that contain the generic ingredient ""bran"" and are not combination drugs:
+ 
+ ```python
+ [['Fybranta']]
+ ```
+ 
+ Is there anything else I can help you with?"
+"['alphagan', 'combigan', 'simbrinza', 'mirvaso', 'lumify']",brimonidine,Alphagan,"Here is a Python list of brand-name drugs that contain brimonidine and are not combination drugs:
+ 
+ ```python
+ brands = ['Alphagan', 'Mirvaso', 'Lumify']
+ ```
+ 
+ These drugs are all used for human eyes and skin-related conditions and primarily contain brimonidine as their active ingredient."
+"['parlodel', 'cycloset']",bromocriptine,Parlodel,['Parlodel']
+"['sensorcaine', 'duocaine', 'vivacaine', 'marcaine', 'exparel', 'nocita', 'xaracoll', 'zynrelef', 'posimir']",bupivacaine,Exparel,"Here is a list of brand-name drugs that primarily contain the generic drug Bupivacaine and are not combination drugs:
+ 
+  [ 'Marcaine', 'Exparel', 'Sensorcaine', 'Posimir' ]
+ 
+ These drugs are typically used in local anesthesia and pain management, and they are designed for human use."
+"['wellbutrin', 'zyban', 'budeprion', 'buproban', 'aplenzin', 'forfivo', 'contrave', 'auvelity']",bupropion,Wellbutrin,"Here is a list of brand-name drugs that primarily contain the generic ingredient 'bupropion' and are not combination drugs:
+ 
+  [ 'Wellbutrin', 'Zyban', 'Aplenzin', 'Forfivo', 'Auvelity']
+ 
+ These drugs are typically used to treat conditions such as depression, seasonal affective disorder, and to aid in smoking cessation. They are all approved for human use and do not contain any additional active ingredients that would classify them as combination drugs."
+"['stadol', 'butorphic', 'torbugesic', 'torphaject', 'torphadine']",butorphanol,Stadol,"['Stadol', 'Butorphic']"
+['dostinex'],cabergoline,Dostinex,['Dostinex']
+"['cala-gen', 'caladryl', 'calagesic', 'callergy', 'calohist', 'ivarest', 'dermaseptin', 'dermasav', 'calmafx']",calamine,Caladryl,"Here is a list of brand-name drugs that contain the generic Calamine and are not combination drugs:
+ 
+ [ 'Cala-Gen', 'Caladryl', 'Calagesic', 'Callergy' ]
+ 
+ These brands are primarily calamine-based and are intended for human use."
+"['calcijex', 'rocaltrol', 'vectical']",calcitriol,Calcijex,"['Calcijex', 'Rocaltrol', 'Vectical']"
+['xeloda'],capecitabine,Xeloda,['Xeloda']
+"['capozide', 'acepril', 'capoten', 'ecopace', 'kaplon', 'hypapril', 'tensopril', 'hyteneze', 'capropril']",captopril,Capoten,"['Capoten', 'Kaplon']"
+"['epimaz', 'tegretol', 'epitol', 'carbatrol', 'equetro', 'carnexiv']",carbamazepine,Tegretol,"Here is a Python list of brand-name drugs that contain the generic drug carbamazepine and are not combination drugs:
+ 
+ python
+ 
+ [ 'Tegretol', 'Epitol', 'Carbatrol', 'Equetro', 'Carnexiv' ]
+ 
+ These brands are all approved for human use and primarily contain carbamazepine as the active ingredient. They are commonly used to treat conditions such as epilepsy, trigeminal neuralgia, and certain mood disorders."
+"['sinemet', 'lodosyn', 'atamet', 'carbodopa', 'parcopa', 'stalevo', 'rytary', 'duopa', 'dhivy']",carbidopa,Lodosyn,"Here is a list of brand drugs that contain 'carbidopa' as the primary ingredient and are not combination drugs:
+ 
+ ['Sinemet', 'Lodosyn', 'Atamet', 'Parcopa', 'Rytary']
+ 
+ These drugs are commonly used to treat Parkinson's disease and are typically well-tolerated. However, it is always advisable to consult a healthcare professional before taking any medication."
+['paraplatin'],carboplatin,Paraplatin,['Paraplatin']
+['hemabate'],carboprost,Hemabate,['Hemabate']
+"['cartrol', 'ocupress', 'teoptic']",carteolol,Cartrol,"['Cartrol', 'Ocupress', 'Teoptic']"
+"['eucardic', 'coreg']",carvedilol,Coreg,['Coreg']
+"['keftid', 'ceclor', 'raniclor']",cefaclor,Ceclor,"['Keftid', 'Ceclor', 'Raniclor']"
+['cefobid'],cefoperazone,Cefobid,['Cefobid']
+['claforan'],cefotaxime,Claforan,['Claforan']
+['cefotan'],cefotetan,Cefotan,"Here is a Python list of brand-name drugs that contain the generic drug Cefotetan and are not combination drugs:
+ 
+ ```python
+ brand_drugs = [""Cefotan""]
+ ```
+ 
+ Cefotetan, sold under the brand name Cefotan, is a third-generation cephalosporin antibiotic used to treat various bacterial infections. It is administered intramuscularly or intravenously and is primarily used in hospitals for surgical prophylaxis and treating serious gram-negative bacterial infections."
+"['vantin', 'orelox', 'simplicef', 'cefpoderm']",cefpodoxime,Vantin,"['Vantin', 'Orelox', 'Simplicef']"
+"['tazidime', 'fortaz', 'tazicef', 'ceptaz', 'avycaz']",ceftazidime,Fortaz,"['Fortaz', 'Tazicef']"
+"['cefizox', 'zincaf']",ceftizoxime,Cefizox,['Cefizox']
+['rocephin'],ceftriaxone,Rocephin,['Rocephin']
+"['celebrex', 'consensi', 'elyxyb', 'seglentis']",celecoxib,Celebrex,"['Celebrex', 'Elyxyb']"
+['celectol'],celiprolol,Celectol,['Celectol']
+"['tenkorex', 'keflex', 'biocef', 'keftab', 'zartan', 'kiflone', 'keflex-c', 'rilexine', 'daxbia']",cephalexin,Keflex,"Here is a list of brand-name drugs that contain the generic ""Cephalexin"" and are not combination drugs:
+ 
+ [ 'Keflex', 'Biocef', 'Keftab', 'Daxbia']
+ 
+ These brands are commonly used and well-known for their effectiveness in treating bacterial infections in humans."
+['keflin'],cephalothin,Keflin,['Keflin']
+['erbitux'],cetuximab,Erbitux,['Erbitux']
+['evoxac'],cevimeline,Evoxac,['Evoxac']
+['leukeran'],chlorambucil,Leukeran,['Leukeran']
+"['ophthocort', 'chloromycetin', 'kemicetine', 'ak-chlor', 'chloracol', 'chloroptic', 'ocu-chlor', 'econochlor', 'viceton']",chloramphenicol,Chloromycetin,"Here is a Python list of the best brand drugs that contain the generic drug 'Chloramphenicol' and are not combination drugs:
+ 
+ ```python
+ chloramphenicol_brands = ['Chloromycetin', 'Ophthocort']
+ ```
+ 
+ These two brands, 'Chloromycetin' and 'Ophthocort', are commonly used and well-known for containing Chloramphenicol as the main active ingredient. They are not combination drugs, meaning they do not contain multiple active ingredients, and they are intended for human use."
+"['librium', 'librax', 'limbitrol', 'tropium', 'mitran', 'chlordinium', 'clindex', 'libritabs', 'poxi', 'h-tran']",chlordiazepoxide,Librium,"Here is a list of brand-name drugs that contain chlordiazepoxide and are not combination drugs:
+ 
+ [ 'Librium', 'Tropium', 'Mitran', 'Chlordinium', 'Clindex', 'Libritabs', 'Poxi', 'H-Tran']
+ 
+ It's important to note that the selection of a medication brand should be made in consultation with a medical professional, as they can provide personalized advice based on a patient's specific needs and health conditions."
+"['hibitane', 'rotersept', 'instillagel', 'hibisol', 'corsodyl', 'betasept', 'chlorostat', 'dyna-hex', 'hibistat', 'periochip', 'periogard', 'hibiclens', 'tisept', 'sterexidine', 'perisol', 'chlorhexigard', 'denticare', 'periosep', 'oris', 'denti-rinse', 'chloraprep', 'septi-soothe', 'avagard', 'malaseb', 'chlorascrub', 'supreme', 'bactoshield', 'prevantics', 'vital-chlor', 'hex-o-prep', 'vital-ketodine', 'hexidip', 'paroex', 'mal-a-ket', 'ketochlor', 'hexi-dip', 'kenocidin', 'hexadine', 'vetasan', 'scrub-stat', 'exidine', 'keto-c', 'vetraseb', 'otodine', 'nolvadent', 'nolvasan', 'soluprep', 'maxiclens']",chlorhexidine,Chloraprep,"Here is a list of brand-name drugs that contain chlorhexidine as the main active ingredient and are intended for human use, sorted alphabetically: 
+ 
+ ['Avagard', 'Chloraprep', 'Chlorhexigard', 'Chlorostat', 'Corsodyl', 'Denti-Rinse', 'Denticare', 'Dyna-Hex', 'Exidine', 'Hibiclens', 'Hibistat', 'Hibitane', 'Hibisol', 'Hexadine', 'Hexi-Dip', 'Instillagel', 'Ketochlor', 'Mal-A-Ket', 'Malaseb', 'Maxiclens', 'Nolvadent', 'Nolvasan', 'Oris', 'Paroex', 'Periochip', 'Periogard', 'Periosep', 'Perisol', 'Prevantics', 'Rotersept', 'Scrub-Stat', 'Septi-Soothe', 'Soluprep', 'Sterexidine', 'Supremep']
+ 
+ This list only includes brands that are not combination drugs and are primarily focused on chlorhexidine as the active ingredient. These brands are commonly used for various applications, including oral care, skin disinfection, and surgical site preparation."
+"['nesacaine', 'clorotekal', 'iheezo']",chloroprocaine,Nesacaine,"['Nesacaine', 'Clorotekal']"
+['malarivon'],chloroquine,Resochin,['Malarivon']
+"['diuril', 'diupres', 'aldoclor']",chlorothiazide,Diuril,['Diuril']
+"['chlor-trimeton', 'aller-chlor', 'allerlief', 'amtussin', 'chlo-amine', 'chlor-phen', 'colrex', 'demi-cof', 'ditussin-hc', 'ed-tlc', 'efasin-hd', 'endagen-hd', 'endal-hd', 'enditussin-hd', 'endotuss-hd', 'enplus-hd', 'exo-tuss', 'hexatussin', 'histussin-hc', 'hyphed', 'hyphen-hd', 'kg-tussin', 'm-end', 'med-hist-hc', 'nasatuss', 'notuss', 'pediacof', 'pedituss', 'poly-tussin', 'rindal-hd', 'rolatuss', 'tuss-ds', 'tuss-hc', 'tussend', 'tussin-v', 'vanex-hd', 'ventuss', 'b-tuss', 'trionate', 'coldcough', 'pancof', 'pancof-pd', 'relacon-hc', 'triant-hc', 'uni-cof', 'hist-hc', 'hist-plus', 'aerohist', 'tussionex', 'ricotuss', 'cordron-hc', 'ryneze', 'tusana-d', 'codeprex', 'hytan', 'tustan', 'pediatan', 'relasin-hc', 'baltussin', 'drotuss-cp', 'didone', 'novasus', 'p-tann', 'wal-finate', 'pediox-s', 'chlortan', 'dexodryl', 'phena-hc', 'tussicaps', 'tanahist-pd', 'zhist', 'duohist', 'notuss-ac', 'cotabflu', 'jaycof-hc', 'vanex', 'ztuss', 'phendal-hd', 'tuss-pd', 'echotuss-hc', 'hydrocof-hc', 'entre-s', 'ryna-c', 'despec-pdc', 'zutripro', 'chlorate', 'vituz', 'tuzistra', 'tuxarin', 'clorrelief']",chlorpheniramine,Allerlief,"['Chlor-Trimeton', 'Aller-Chlor', 'Allerlief', 'Chlo-Amine', 'Colrex', 'Endagen-HD', 'Enplus-HD', 'Hexatussin', 'Hyphed', 'M-End', 'Nasatuss', 'Notuss', 'Pediacof', 'Pedituss', 'Rindal-HD', 'Tuss-DS', 'Tussin-V', 'Vanex-HD', 'Ventuss', 'Trionate', 'Pancof', 'Pancof-PD', 'Uni-Cof', 'Hist-Plus', 'Tussionex', 'Ricotuss', 'Ryneze', 'Hytan', 'Pediatan', 'Baltussin', 'Novasus', 'Wal-finate', 'Chlortan', 'Phena-HC', 'Tanahist-PD', 'Zhist', 'Notuss-AC', 'Vanex', 'Tuss-PD', 'Hydrocof-HC', 'Ryna-C', 'Chlorate', 'Vituz', 'Tuzistra', 'Tuxarin', 'Clorrelief']"
+"['largactil', 'thorazine', 'dozine']",chlorpromazine,Largactil,"['Chlorpromazine', 'Largactil', 'Thorazine']"
+"['diabinese', 'insulase']",chlorpropamide,Diabinese,['Diabinese']
+"['combipres', 'tenoretic', 'atenixco', 'hygroton', 'tenchlor', 'totaretic', 'regroton', 'thalitone', 'clorpres', 'demi-regroton', 'tenoret', 'edarbyclor']",chlorthalidone,Hygroton,"Here is a Python list of brand drugs that are not combination drugs and mainly contain the generic component 'chlorthalidone':
+  
+ ```python
+ chlorthalidone_brands = ['Hygroton', 'Thalitone', 'Edarbyclor']
+ ```
+ 
+ These drugs are all approved for human use and primarily contain chlorthalidone as their active ingredient, without being combination medications."
+"['alvesco', 'omnaris', 'zetonna', 'aservo']",ciclesonide,Alvesco,"['Alvesco', 'Omnaris', 'Zetonna']"
+['pletal'],cilostazol,Pletal,['Pletal']
+"['algitec', 'dyspamet', 'galenamet', 'phimetin', 'tagamet', 'ultec', 'zita']",cimetidine,Tagamet,"Here is a list of brand-name drugs that contain Cimetidine and are not combination drugs:
+ 
+ [ 'Tagamet', 'Algitec', 'Phimetin']
+ 
+ These drugs are used to treat various conditions such as heartburn, gastroesophageal reflux disease (GERD), and stomach ulcers. They are typically well-tolerated but, as with any medication, it is always advisable to consult a medical professional before taking them."
+"['ciproxin', 'cipro', 'ciloxan', 'ciprodex', 'ciproflaxacin', 'proquin', 'cetraxal', 'otiprio', 'otovel']",ciprofloxacin,Proquin,"Here is a list of brand-name drugs that contain ciprofloxacin as the primary ingredient and are not combination drugs:
+ 
+ py_list = ['Ciproxin', 'Cipro', 'Ciloxan', 'Proquin']
+ 
+ This list only includes brands that are used for human treatment and mainly contain ciprofloxacin as the active ingredient."
+['nimbex'],cisatracurium,Nimbex,['Nimbex']
+['platinol'],cisplatin,Platinol,['Platinol']
+"['cipramil', 'celexa', 'citalopraam']",citalopram,Cipramil,"['Cipramil', 'Celexa']"
+['mavenclad'],cladribine,Mavenclad,['Mavenclad']
+['biaxin'],clarithromycin,Biaxin,['Biaxin']
+"['antirobe', 'cleocin', 'clinda-derm', 'benzaclin', 'clindets', 'clindagel', 'duac', 'clindamax', 'clindesse', 'evoclin', 'ziana', 'cleocin-t', 'acanya', 'clindareach', 'clindarobe', 'clintabs', 'clinsol', 'pledgaclin', 'veltin', 'clindacure', 'clindacin', 'zydaclin', 'clindamed', 'neuac', 'clindrops', 'onexton', 'clinda-guard', 'xaciato', 'cabtreo']",clindamycin,Cleocin,"Here is a list of brand-name drugs that contain the generic Clindamycin and are not combination drugs:
+ 
+ [ 'Antirobe', 'Cleocin', 'Clinda-Derm', 'Clindets', 'Clindagel', 'Clindamax', 'Clindesse', 'Evoclin', 'Cleocin-T', 'Clindareach', 'Clindarobe', 'Clintabs', 'Clinsol', 'Clindacure', 'Clindacin', 'Clindamed', 'Clindrops', 'Clinda-Guard', 'Cabtreo' ]
+ 
+ These brands are all designed for human use and do not contain any additional active ingredients combined with Clindamycin. They are typically prescribed for bacterial infections, depending on the formulation and dosage form."
+['lamprene'],clofazimine,Lamprene,['Lamprene']
+"['serophene', 'clomid']",clomiphene,Serophene,"['Serophene', 'Clomid']"
+"['anafranil', 'clomicalm', 'caniquell']",clomipramine,Anafranil,"Here is a Python list of brand-name drugs that contain the generic drug Clomipramine and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Anafranil', 'Clomicalm']
+ ```
+ 
+ These drugs, Anafranil and Clomicalm, are commonly prescribed and well-known brand-name medications that contain Clomipramine as the primary active ingredient. They are typically used for the treatment of conditions such as depression and obsessive-compulsive disorder (OCD) in humans."
+"['combipres', 'dixarit', 'catapres', 'clorpres', 'duraclon', 'kapvay', 'nexiclon']",clonidine,Catapres,"Here is a list of brand-name drugs that contain Clonidine and are not combination drugs:
+ 
+ [ 'Catapres', 'Kapvay', 'Nexiclon', 'Dixarit']
+ 
+ These drugs are approved for human use and primarily contain Clonidine as the active ingredient. They are not combination medications, meaning they do not contain other active ingredients mixed with Clonidine."
+['plavix'],clopidogrel,Plavix,['Plavix']
+"['canesten', 'lotrimin', 'mycelex', 'femcare', 'lotrisone', 'mycelex-g', 'masnoderm', 'dermatin', 'pedesil', 'vetromax', 'clotrimazoil', 'fungazoil', 'alevazol', 'malotic', 'remicin', 'motazol', 'otomax', 'mometamax', 'pattotic', 'fungistat', 'maxi-otic', 'lozatom', 'jock-eze', 'mometazole', 'mometavet']",clotrimazole,Canesten,"Here is a list of brand-name drugs that contain the generic Clotrimazole and are not combination drugs:
+ 
+ [ 'Canesten', 'Lotrimin', 'Mycelex', 'Femcare', 'Mycelex-G', 'Pedesil', 'Vetromax', 'Dermatin']"
+"['clozaril', 'fazaclo', 'versacloz']",clozapine,Clozaril,"Here is a Python list of brand-name drugs that contain the generic drug Clozapine and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Clozaril', 'Fazaclo', 'Versacloz']
+ ```
+ 
+ These brands are all approved by the FDA for human use and primarily contain Clozapine as the active ingredient. They are typically used for the treatment of schizophrenia and are not combination medications, meaning they do not contain multiple active ingredients."
+"['colcrys', 'mitigare', 'gloperba', 'lodoco']",colchicine,Colcrys,"Here is a Python list of brand-name drugs that contain the generic ingredient ""colchicine"" and are not combination drugs:
+ 
+ python_list = [""Colcrys"", ""Mitigare"", ""Gloperba"", ""Lodoco""]"
+['welchol'],colesevelam,Welchol,['Welchol']
+['santyl'],collagenase,Santyl,['Santyl']
+"['cusilyn', 'intal', 'opticrom', 'viz-on', 'nasalcrom', 'crolom', 'gastrocrom', 'rynacrom']",cromolyn,Intal,"Here is a Python list of brand-name drugs that contain the generic Cromolyn and are not combination drugs:
+ 
+ ```python
+ cromolyn_brands = ['Cusilyn', 'Intal', 'Opticrom', 'Viz-On', 'Nasalcrom', 'Crolom', 'Gastrocrom', 'Rynacrom']
+ ```
+ 
+ These brands contain Cromolyn as the primary active ingredient and are indicated for human use. They are typically used for treating allergies, asthma, or related conditions."
+"['endoxana', 'cytoxan']",cyclophosphamide,Endoxana,"['Endoxana', 'Cytoxan']"
+['seromycin'],cycloserine,Seromycin,['Seromycin']
+"['sandimmune', 'neoral', 'sangcya', 'gengraf', 'restasis', 'atopica', 'cyslosporine', 'optimmune', 'cequa', 'cyclavance', 'verkazia', 'vevye', 'sporimune']",cyclosporine,Restasis,"Here is a list of brand-name drugs that contain cyclosporine as the primary active ingredient and are not combination drugs, meant for human use:
+ 
+ [ 'Neoral', 'Restasis', 'Atopica', 'Sandimmune', 'Gengraf']
+ 
+ These brands are well-known and trusted for their cyclosporine-based treatments. They are not combination drugs, meaning they primarily contain cyclosporine as the active ingredient."
+['periactin'],cyproheptadine,Periactin,['Periactin']
+['cyprostat'],cyproterone,Cyprostat,['Cyprostat']
+"['alexan', 'cytosar-u', 'cytosar', 'depocyt', 'vyxeos']",cytarabine,Cytosar,"['Cytosar-U', 'Cytosar', 'Depocyt']"
+['danocrine'],danazol,Danocrine,['Danocrine']
+"['dantrium', 'revonto', 'ryanodex']",dantrolene,Dantrium,"['Dantrium', 'Revonto']"
+['aczone'],dapsone,Aczone,['Aczone']
+"['cubicin', 'dapzura']",daptomycin,Cubicin,"['Cubicin', 'Dapzura']"
+"['prezista', 'prezcobix', 'symtuza']",darunavir,Prezista,['Prezista']
+['sprycel'],dasatinib,Sprycel,['Sprycel']
+['desferal'],deferoxamine,Desferal,['Desferal']
+['declomycin'],demeclocycline,Declomycin,['Declomycin']
+['suprane'],desflurane,Suprane,['Suprane']
+"['pertofrane', 'norpramin']",desipramine,Pertofrane,"['Pertofrane', 'Norpramin']"
+"['ddavp', 'stimate', 'minirin', 'noctiva', 'nocdurna']",desmopressin,Stimate,"Here is a Python list of brand-name drugs that contain desmopressin as the primary ingredient and are not combination drugs:
+ 
+ ```python
+ brands = [""DDAVP"", ""Stimate"", ""Minirin"", ""Noctiva"", ""Nocdurna""]
+ ```
+ 
+ These brands are all used for various medical purposes, primarily related to diabetes and nocturnal enuresis (bedwetting). Please consult a medical professional for specific usage and dosage instructions."
+['desogen'],desogestrel,Desogen,['Desogen']
+"['maxitrol', 'hexadrol', 'dexasone', 'maxidex', 'decaspray', 'aeroseb-dex', 'ak-dex', 'ak-neo-dex', 'ak-trol', 'dalalone', 'decadron-la', 'dexacidin', 'dexacine', 'dexacort-la', 'dexasol', 'dexasporin', 'methadex', 'neo-decadron', 'neo-dex', 'neo-dexair', 'poly-dex', 'tobradex', 'decadron', 'ocu-dex', 'ocu-trol', 'ciprodex', 'robadex', 'eyetrol', 'neopolydex', 'ozurdex', 'baycadron', 'dexaject', 'tresaderm', 'dexium', 'dexycu', 'dextenza', 'hemady']",dexamethasone,Decadron,"Here is a list of brand-name drugs that contain dexamethasone as the primary ingredient and are not combination drugs:
+ 
+ [ 'Dexamethasone', 'Decadron', 'Decadron-LA', 'Baycadron', 'Dexa-ject', 'Dexacen-4', 'Dexacort-LA', 'Dexasone', 'Dexone', 'Dexpak', 'Maxidex', 'Ozurdex', 'Taperdex']
+ 
+ These drugs are typically used to treat a variety of conditions such as allergic reactions, inflammatory diseases, and autoimmune disorders. Please consult a medical professional for specific treatment recommendations and dosage information."
+"['macrodex', 'promit']",dextran,Macrodex,"['Macrodex', 'Promit']"
+"['adderall', 'dexedrine', 'dextrostat', 'durophet', 'liquadd', 'procentra', 'zenzedi', 'mydayis', 'xelstrym']",dextroamphetamine,Dexedrine,"Here is a list of brand-name drugs that contain dextroamphetamine and are not combination drugs:
+ 
+ [ 'Adderall', 'Mydayis', 'Dextrostat', 'Duropharm', 'Procentra', 'Zenzedi', 'Xelstrym' ]
+ 
+ These drugs are all central nervous system stimulants used to treat conditions such as attention-deficit hyperactivity disorder (ADHD) and narcolepsy. They are intended for human use only and are not combination medications, meaning they solely contain dextroamphetamine as the active ingredient."
+"['dialar', 'rimapam', 'tensium', 'valclair', 'valium', 'diazemuls', 'stesolid', 'd-val', 'diastat', 'dizac', 'valrelease', 'zetran', 'solis', 'alupram', 'atensine', 'evacalm', 'valicot', 'valtoco']",diazepam,Valium,"Here is a list of brand-name drugs that contain Diazepam as the primary ingredient and are not combination drugs:
+ 
+ [ 'Valium', 'Diastat', 'Valrelease', 'Valtoco', 'D-Val', 'Solis', 'Alupram', 'Atensine', 'Evacalm', 'Valicot']
+ 
+ These brands are well-known and widely used for their diazepam formulations, primarily intended for human use."
+"['rectacaine', 'nupercainal']",dibucaine,Rectacaine,"['Rectacaine', 'Nupercainal']"
+"['voltarol', 'arthrotec', 'flector', 'dicloflex', 'diclozip', 'flamrase', 'isclofen', 'lofensaid', 'rhumalgan', 'valenac', 'volraman', 'voltarene', 'diclotard', 'voltaren', 'cataflam', 'acoflam', 'solaraze', 'diclovol', 'zipsor', 'cambia', 'pennsaid', 'zorvolex', 'dyloject', 'licart', 'lofena', 'trifena']",diclofenac,Zorvolex,"Here is a list of brands that contain Diclofenac as the primary ingredient and are not combination drugs:
+ 
+ [ 'Voltarol', 'Voltaren', 'Cambia', 'Pennsaid', 'Zorvolex', 'Dyloject', 'Solaraze', 'Zipsor']
+ 
+ These brands are commonly used for human treatment and do not contain any additional active ingredients that would classify them as combination drugs. They are primarily used for treating pain and inflammation associated with conditions like arthritis, muscle strains, and sports injuries."
+"['dynapen', 'dycill']",dicloxacillin,Dynapen,"['Dynapen', 'Dycill']"
+"['apstil', 'stilphostrol']",diethylstilbestrol,Apstil,"Here is a Python list of brand-name drugs that contain Diethylstilbestrol as the primary ingredient and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Apstil', 'Stilphostrol']
+ ```
+ 
+ These drugs are typically used in the treatment of hormone-related conditions and certain types of cancer. However, please note that Diethylstilbestrol has largely been discontinued in many countries due to its association with serious side effects. Always consult a healthcare professional for personalized advice and prescriptions."
+"['cardoxin', 'lanoxin', 'lanoxicaps', 'digitek', 'digox']",digoxin,Lanoxin,"Here is a Python list of brand-name drugs that contain Digoxin as the primary ingredient and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Lanoxin', 'Digitek', 'Lanoxicaps']
+ ```
+ 
+ These brands are commonly used and well-known for their effectiveness in delivering Digoxin as a treatment for heart conditions."
+"['migranal', 'trudhesa']",dihydroergotamine,Trudhesa,"['Migranal', 'Trudhesa']"
+"['vitadye', 'chromelin']",dihydroxyacetone,Vitadye,['Vitadye']
+"['angiozem', 'britiazim', 'metazem', 'slozem', 'tildiem', 'calazem', 'cardizem', 'teczem', 'tiazac', 'kentiazem', 'tiamate', 'calcicard', 'taztia', 'cartia', 'dilt', 'diltzac', 'diltia', 'dilacor', 'matzim', 'tiadylt']",diltiazem,Angiozem,"Here is a list of brand-name drugs that contain Diltiazem and are not combination drugs:
+ 
+ [ 'Angiozem', 'Britiazim', 'Metazem', 'Slozem', 'Tildiem', 'Calazem', 'Cardizem', 'Tiazac', 'Diltzac', 'Diltia', 'Matzim']
+ 
+ These brands are all used for human treatment and mainly contain Diltiazem as the active ingredient. They are commonly prescribed for conditions such as hypertension, angina, and cardiac arrhythmias."
+"['prepidil', 'cervidil']",dinoprostone,Cervidil,"['Prepidil', 'Cervidil']"
+"['diphenyl', 'sominex', 'paxidorm', 'benadryl', 'aler-dryl', 'allergia-c', 'allermax', 'altaryl', 'antihist', 'banophen', 'beldin', 'belix', 'bydramine', 'di-delamine', 'diphedryl', 'diphenadryl', 'diphendryl', 'diphenhist', 'diphenylin', 'dytuss', 'genahist', 'hydramine', 'nervine', 'nu-med', 'pardryl', 'siladryl', 'sleepinal', 'somnicaps', 'tusstat', 'twilite', 'uni-hist', 'valu-dryl', 'derma-pax', 'dytan', 'dytan-d', 'tussinate', 'dytan-cs', 'dytan-hc', 'aldex-ct', 'dytan-at', 'dytan-cd', 'calagel', 'respa-sa', 'tekral', 'airacof', 'wal-dryl', 'compoz', 'wal-dryl-d', 'calohist', 'hc-derma-pax', 'nytol', 'sleeptabs', 'sleep-eze', 'benekraft', 'siladyl', 'acetadryl', 'dermamycin', 'zzzquil', 'ivarest', 'sebrx', 'vetadryl', 'wal-som', 'zzztime', 'z-sleep', 'somnapure', 'dalay', 'vanamine', 'dormin', 'tact']",diphenhydramine,Benadryl,"Here is a list of brand-name drugs that contain diphenhydramine and are not combination drugs, meant for human use:
+ 
+ [
+  'Benadryl',
+  'Sominex',
+  'Paxidorm',
+  'Aler-Dryl',
+  'Banophen',
+  'Nytol',
+  'Sleep-Eze',
+  'ZzzQuil',
+  'Vetadryl',
+  'ZzzTime',
+  'Somnapure',
+  'Dormin',
+ ]
+ 
+ These brands are well-known and trusted, and they primarily contain diphenhydramine as the active ingredient. They are commonly used for allergy relief and as sleep aids."
+"['propine', 'ak-pro']",dipivefrine,Propine,"Here is a Python list of brand-name drugs that contain dipivefrine and are not combination drugs:
+ 
+ ```python
+ [{'generic': 'dipivefrine', 'brand': ['Propine', 'AK-Pro']}]
+ ```
+ 
+ These drugs are typically used for lowering eye pressure and treating glaucoma. Always consult a medical professional for personalized advice and prescriptions."
+['antabuse'],disulfiram,Antabuse,['Antabuse']
+['dobutrex'],dobutamine,Dobutrex,['Dobutrex']
+"['taxotere', 'docefrez', 'docivyx']",docetaxel,Taxotere,"['Taxotere', 'Docefrez', 'Docivyx']"
+"['colace', 'ferro-sequels', 'peri-colace', 'doxidan', 'aqualax', 'dok', 'dialose', 'dioctyn', 'docal', 'docucal', 'docucal-p', 'doculax', 'kasof', 'octycine', 'senokot-s', 'unilax', 'docusol', 'senosol-ss', 'senexon-s', 'purgasol', 'prenexa', 'ferraplus', 'hemax', 'promolaxin', 'enemeez', 'therevac', 'pet-ema', 'docusoft-s', 'doculase', 'dulcoease', 'laxacin']",docusate,Colace,"Here is a list of brand-name drugs that contain docusate and are not combination drugs:
+ 
+ [
+  'Colace',
+  'Aqualax',
+  'Dok',
+  'Dialose',
+  'Dioctyn',
+  'Docal',
+  'Docucal',
+  'Doculax',
+  'Docusoft-s',
+  'Doculase',
+  'Dulcoease',
+  'Laxacin'
+ ]"
+"['tivicay', 'triumeq', 'juluca', 'dovato']",dolutegravir,Tivicay,"Here is a Python list of brand-name drugs that contain the generic drug ""dolutegravir"" and are not combination drugs:
+ 
+ ```python
+ dolutegravir_brands = ['Tivicay']
+ ```
+ 
+ Only 'Tivicay' is a brand name for dolutegravir that is not a combination drug. The other brands you mentioned ('Triumeq', 'Juluca', and 'Dovato') are all combination drugs that contain dolutegravir along with other antiretroviral agents. Therefore, the list only includes 'Tivicay', which is the pure form of dolutegravir."
+"['aricept', 'namzaric', 'adlarity']",donepezil,Aricept,"Here is a Python list of brand-name drugs that contain the generic drug Donepezil and are not combination drugs:
+ 
+ ```python
+ donepezil_brands = ['Aricept', 'Adlarity']
+ ```
+ 
+ Both Aricept and Adlarity are brand-name drugs that primarily contain Donepezil and are indicated for the treatment of dementia, particularly Alzheimer's disease. They are not combination drugs, meaning they do not contain multiple active ingredients."
+['doribax'],doripenem,Doribax,['Doribax']
+"['trusopt', 'cosopt']",dorzolamide,Trusopt,['Trusopt']
+"['zonalon', 'adapin', 'sinequan', 'prudoxin', 'silenor']",doxepin,Sinequan,"Here is a Python list of brand-name drugs that contain the generic drug Doxepin and are not combination drugs:
+ 
+ ```python
+ brands = [""Sinequan"", ""Zonalon"", ""Adapin"", ""Silnor""]
+ ```
+ 
+ These brands are all used for human treatment and mainly contain Doxepin as the active ingredient. They are not combination drugs, meaning they do not contain multiple active ingredients."
+"['adriamycin', 'doxil', 'lipodox', 'caelyx']",doxorubicin,Adriamycin,"['Adriamycin', 'Doxil', 'Lipodox', 'Caelyx']"
+"['vibramycin', 'doryx', 'doxy-caps', 'monodox', 'periostat', 'vibra-tabs', 'adoxa', 'bio-tab', 'doxal', 'doxy', 'pelodis', 'oracea', 'alodox', 'oraxyl', 'avidoxy', 'ocudox', 'morgidox', 'acticlate', 'mondoxyne', 'targadox', 'soloxide', 'okebo']",doxycycline,Vibramycin,"Here is a list of brand-name drugs that contain doxycycline as the primary ingredient and are not combination drugs, suggesting they are suitable for human use:
+ 
+ [
+  'Vibramycin',
+  'Doryx',
+  'Doxy-Caps',
+  'Monodox',
+  'Periostat',
+  'Vibra-Tabs',
+  'Adoxa',
+  'Bio-Tab',
+  'Doxal',
+  'Doxy',
+  'Pelodis',
+  'Oracea',
+  'Alodox',
+  'Oraxyl',
+ ]
+ 
+ These brands are well-known and trusted, and they are commonly prescribed for a variety of conditions, including bacterial infections, acne, and inflammatory disorders."
+"['cymbalta', 'irenka', 'drizalma']",duloxetine,Cymbalta,"Here is a Python list of brand-name drugs that contain the generic drug duloxetine and are not combination drugs:
+ 
+ ```python
+ best_duloxetine_brands = ['Cymbalta', 'Irenka', 'Drizalma']
+ ```
+ 
+ These drugs are typically prescribed for human use and primarily contain duloxetine as the active ingredient. They are not combination drugs, which means they do not contain multiple active ingredients."
+"['pevaryl', 'ecostatin', 'spectazole', 'ecoza']",econazole,Ecoza,"Here is a Python list of brand name drugs that contain the generic drug Econazole and are not combination drugs:
+ 
+ ```python
+ brands = ['Pevaryl', 'Ecostatin', 'Spectazole', 'Ecoza']
+ ```
+ 
+ These brands contain Econazole as the primary active ingredient and are indicated for human use. They are commonly used for the treatment of fungal infections."
+"['enlon', 'tensilon', 'enlon-plus', 'reversol']",edrophonium,Tensilon,"['Enlon', 'Tensilon']"
+"['disotate', 'endrate', 'meritate']",edta,Disotate,"['Disotate', 'Meritate']"
+"['sustiva', 'atripla', 'symfi']",efavirenz,Sustiva,['Sustiva']
+"['jardiance', 'glyxambi', 'synjardy', 'trijardy']",empagliflozin,Jardiance,"Here is a Python list of brand-name drugs that primarily contain the generic drug Empagliflozin and are not combination drugs:
+ 
+ python_list = [""Jardiance""]
+ 
+ This list is based on the assumption that you are looking for brand-name drugs that contain Empagliflozin as the primary ingredient and are not combination medications (drugs that contain multiple active ingredients). Jardiance is the main brand-name medication that fits these criteria and is used for the management of type 2 diabetes in adults."
+"['emtriva', 'truvada', 'atripla', 'complera', 'stribild', 'genvoya', 'odefsey', 'descovy', 'biktarvy', 'symtuza']",emtricitabine,Emtriva,"Here is a list of brand-name drugs that contain the generic drug Emtricitabine and are not combination drugs:
+ 
+ [ 'Emtriva', 'Genvoya', 'Odefsey', 'Descovy', 'Biktarvy']
+ 
+ These drugs are all approved for human use and do not contain any other active ingredients besides Emtricitabine."
+"['innovace', 'renitec', 'vaseretic', 'lexxel', 'teczem', 'vasotec', 'epaned']",enalapril,Vasotec,"Here is a list of brand-name drugs that contain the generic drug Enalapril and are not combination drugs:
+ 
+ [ 'Vasotec', 'Renitec', 'Innovace', 'Epaned']
+ 
+ These drugs are all used for treating human patients, primarily for conditions like hypertension and heart failure. They are from the ACE inhibitor class of drugs."
+['ethrane'],enflurane,Ethrane,['Ethrane']
+['lovenox'],enoxaparin,Lovenox,['Lovenox']
+"['comtess', 'comtan', 'stalevo']",entacapone,Comtess,"['Comtess', 'Comtan']"
+['baraclude'],entecavir,Baraclude,['Baraclude']
+"['medihaler-epi', 'glaucon', 'epifrin', 'ana-guard', 'asthmahaler', 'bronitin', 'simplene', 'septocaine', 'epinal', 'iontocaine', 'lignospan', 'lidosite', 'zorcaine', 'twinject', 'epipen', 'articadent', 'adrenaclick', 'vivacaine', 'auvi-q', 'ganda', 'orabloc', 'adrenalin', 'ultacan', 'symjepi']",epinephrine,Epipen,"Here is a list of brand-name drugs that contain epinephrine as the main ingredient and are not combination drugs:
+ 
+ [ 'Ana-Guard', 'Epipen', 'Adrenaclick', 'Auvi-Q', 'Symjepi', 'Adrenalin', 'Ultacan']
+ 
+ These brands are specifically used for emergency treatment of severe allergic reactions and are suitable for human use. They are commonly prescribed for individuals with known severe allergies and are designed to be easy to carry and self-administer."
+['inspra'],eplerenone,Inspra,['Inspra']
+"['flolan', 'veletri']",epoprostenol,Flolan,"['Flolan', 'Veletri']"
+['integrilin'],eptifibatide,Integrilin,['Integrilin']
+"['drisdol', 'deltalin', 'calcidol', 'calel-d']",ergocalciferol,Drisdol,"Here is a Python list of brand drugs that contain ergocalciferol and are not combination drugs:
+ 
+ ```python
+ best_brands = [""Drisdol"", ""Calcidol"", ""Calel-D""]
+ ```
+ 
+ These brands contain ergocalciferol as the main active ingredient and are commonly used for humans to treat vitamin D deficiency."
+['invanz'],ertapenem,Invanz,['Invanz']
+"['pediazole', 'staticin', 'aknemycin', 'akne-mycin', 'benzamycin', 'eryzole', 'arpimycin', 'rommix', 'erymin', 'ilotycin', 'e-mycin', 'ery-tab', 'eryderm', 'robimycin', 'erygel', 'eryc', 'erycette', 'erymax', 't-stat', 'eryped', 'erythroped', 'ilosone', 'del-mycin', 'emgel', 'ery-sol', 'erythra-derm', 'erythrocot', 'my-e', 'romycin', 'sulfimycin', 'theramycin', 'stiemycin', 'erythrolar', 'erythromicin', 'eyemycin', 'erythrocin', 'ery', 'pce', 'maracyn', 'ornacyn', 'gallimycin', 'aktipak']",erythromycin,Staticin,"Here is a list of brand name drugs that contain erythromycin as the primary ingredient and are not combination drugs:
+ 
+ [ 'Staticin', 'Akne-Mycin', 'Ery-Tab', 'Eryderm', 'Erygel', 'Eryc', 'Erymax', 'T-Stat', 'Ilosone', 'Emgel', 'Ery-Sol', 'Erythrocin', 'PCE', 'Maracyn', 'Gallimycin']
+ 
+ These brands are typically used for a variety of bacterial infections and are suitable for human use. It is always advisable to consult a healthcare professional before taking any medication."
+"['eprex', 'epogen', 'procrit', 'retacrit']",erythropoietin,Epogen,"Here is a Python list of brand-name drugs that contain the generic ingredient ""Erythropoietin"" and are not combination drugs:
+ 
+ python
+ 
+ brands = [""Eprex"", ""Epogen"", ""Procrit"", ""Retacrit""]
+ erythropoietin_brands = [brand for brand in brands if brand.lower() not in ['combination']]
+ print(erythropoietin_brands)
+ 
+ The output would be:
+ 
+ ['Eprex', 'Epogen', 'Procrit', 'Retacrit']
+ 
+ These drugs are all erythropoietin receptor agonists and are commonly used to treat anemia and to increase red blood cell levels. They are all designed for human use."
+['lexapro'],escitalopram,Lexapro,['Lexapro']
+['brevibloc'],esmolol,Brevibloc,['Brevibloc']
+"['emcyt', 'estracyt']",estramustine,Emcyt,['Emcyt']
+['incurin'],estriol,Incurin,['Ogen']
+"['enbrel', 'eticovo']",etanercept,Enbrel,"['Etanercept', ['Enbrel', 'Eticovo']]"
+['myambutol'],ethambutol,Myambutol,['Myambutol']
+"['estinyl', 'desogen', 'alesse', 'levlen', 'levlite', 'levora', 'ovral', 'femhrt', 'cryselle', 'ortho-cyclen', 'angeliq', 'tri-levlen', 'nuvaring', 'lybrel', 'jinteli', 'jevantique', 'xulane', 'fyavolv', 'annovera', 'eluryng', 'twirla', 'zafemy', 'haloette', 'enilloring']",ethinylestradiol,Estinyl,"Here is a list of brand-name drugs that contain ethinylestradiol and are not combination drugs:
+ 
+ [ 'Estinyl', 'Alesse', 'Levlen', 'Levlite', 'Levora', 'Ovral', 'Tri-Levlen', 'Nuvaring', 'Eluryng', 'Haloette' ]
+ 
+ These drugs are commonly used as oral contraceptives or for hormone replacement therapy in humans."
+"['trecator', 'trecator-sc']",ethionamide,Trecator,"['Trecator', 'Trecator-SC']"
+['amidate'],etomidate,Amidate,['Amidate']
+"['implanon', 'nuvaring', 'nexplanon', 'eluryng', 'haloette', 'enilloring']",etonogestrel,Implanon,"Here is a Python list of brand-name drugs that contain Etonogestrel and are not combination drugs:
+ 
+ [
+  'Implanon',
+  'Nexplanon',
+  'Eluryng',
+  'Haloette',
+  'Enilloring'
+ ]
+ 
+ These drugs are all long-acting reversible contraceptives (LARCs) and are used for birth control and pregnancy prevention. They are implanted subdermally or inserted intravaginally, providing continuous contraception for an extended period."
+"['vepesid', 'toposar', 'etopophos']",etoposide,Vepesid,"['Vepesid', 'Etopophos']"
+"['byetta', 'bydureon']",exenatide,Byetta,"['Byetta', 'Bydureon']"
+"['zetia', 'vytorin', 'liptruzet', 'nexlizet', 'roszet', 'lypqozet']",ezetimibe,Zetia,"Here is a list of brand-name drugs that contain the generic drug Ezetimibe and are not combination drugs:
+ 
+ [ 'Zetia' ]
+ 
+ It appears that Zetia is the only brand-name drug on the list that is not a combination drug and contains Ezetimibe as its primary active ingredient. The other brands listed are either combination drugs or are not primarily indicated for Ezetimibe."
+"['pepcid', 'fluxid', 'calmicid', 'duexis']",famotidine,Pepcid,"['Pepcid', 'Fluxid', 'Calmicid']"
+['uloric'],febuxostat,Uloric,"Here is a Python list of brand-name drugs that contain Febuxostat as the primary generic ingredient and are not combination drugs:
+ 
+ ```python
+ brands = [""Uloric""]
+ ```
+ 
+ These drugs are typically prescribed for the treatment of gout and are intended for human use."
+"['ponderax', 'pondimin', 'fintepla']",fenfluramine,Ponderax,"['Ponderax', 'Fintepla']"
+"['lipanthyl', 'tricor', 'lofibra', 'antara', 'triglide', 'triblide', 'lipofen', 'fenoglide', 'fenochol', 'trilipix', 'fibricor']",fenofibrate,Lipanthyl,"Here is a list of brand-name drugs that contain Fenofibrate and are not combination drugs, along with their common brand names:
+ 
+ [ 'Lipanthyl', 'Tricor', 'Lofibra', 'Antara', 'Triglide', 'Triblide', 'Lipofen', 'Fenoglide', 'Trilipix', 'Fibricor']
+ 
+ These drugs are typically prescribed for the treatment of high cholesterol and triglyceride levels and are not combination medications, meaning they contain only Fenofibrate as the active ingredient. They are all approved for human use."
+['corlopam'],fenoldopam,Corlopam,['Corlopam']
+"['sublimaze', 'innovar', 'duragesic', 'actiq', 'fentora', 'onsolis', 'abstral', 'lazanda', 'subsys', 'recuvyra', 'ionsys']",fentanyl,Sublimaze,"Here is a Python list of the best brand name drugs that contain the generic drug Fentanyl and are not combination drugs:
+ 
+ ```python
+ fentanyl_brands = ['Sublimaze', 'Duragesic', 'Lazanda', 'Recuvyra', 'Innovar']
+ ```
+ 
+ These brands are all well-known and trusted fentanyl products that are not combination medications. They are also all indicated for human use."
+"['allegra-d', 'allegra', 'wal-fex']",fexofenadine,Allegra,"Here is a Python list of brand-name drugs that contain the generic drug Fexofenadine and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Allegra', 'Wal-Fex']
+ ```
+ 
+ These drugs, Allegra and Wal-Fex, are both used for treating allergies and contain Fexofenadine as the active ingredient. They are not combination drugs, meaning they do not contain multiple active ingredients."
+['tambocor'],flecainide,Tambocor,"Here is a Python list of brand-name drugs that contain the generic drug Flecainide and are not combination drugs:
+ 
+ ```python
+ brands = ['Tambocor']
+ ```
+ 
+ Tambocor is the brand name for the drug Flecainide, which is used to treat irregular heartbeats and maintain a regular heart rhythm. It is important to consult a medical professional before taking any medication."
+['diflucan'],fluconazole,Diflucan,['Diflucan']
+['ancobon'],flucytosine,Ancobon,['Ancobon']
+['oforta'],fludarabine,Oforta,['Oforta']
+['florinef'],fludrocortisone,Florinef,['Florinef']
+['romazicon'],flumazenil,Romazicon,['Romazicon']
+"['fluoracaine', 'flucaine', 'altafluor', 'flurox', 'fluress']",fluorescein,Flurox,"['Fluoracaine', 'Flucaine', 'Altafluor', 'Flurox']"
+"['eflone', 'flarex', 'fluor-op', 'fml-s', 'fml', 'tobraflex']",fluorometholone,Eflone,"Here is a Python list of brand-name drugs that contain the generic ingredient 'Fluorometholone' and are not combination drugs:
+ 
+ ```python
+ brands = ['FML', 'FML-S', 'Eflone', 'Flarex']
+ ```
+ 
+ These drugs are typically used for treating eye conditions and are not combination medications. They are also specifically formulated for human use."
+"['adrucil', 'fluoroplex', 'efudex', 'carac', 'tolak']",fluorouracil,Adrucil,"Here is a Python list of brand-name drugs that contain the generic ingredient 'Fluorouracil' and are not combination drugs:
+ 
+ ```python
+ fluorouracil_brands = ['Adrucil', 'Fluoroplex', 'Efudex', 'Carac', 'Tolak']
+ ```
+ 
+ These drugs are typically used in the treatment of various types of cancer and skin conditions, and they are all formulated for human use. It is always advisable to consult a healthcare professional before taking any medication."
+"['prozac', 'rapiflux', 'symbyax', 'sarafem', 'reconcile', 'selfemra']",fluoxetine,Prozac,"Here is a list of brand-name drugs that contain fluoxetine as the primary ingredient and are not combination drugs:
+ 
+ [ 'Prozac', 'Rapiflux', 'Sarafem', 'Selfemra' ]
+ 
+ These drugs are typically used to treat depression, anxiety, and other mental health conditions in humans. It is always advisable to consult a healthcare professional before taking any medication."
+"['prolixin', 'moditen', 'permitil', 'decazate']",fluphenazine,Prolixin,"['Prolixin', 'Moditen', 'Permitil']"
+"['eulexin', 'chimax']",flutamide,Eulexin,['Eulexin']
+['lescol'],fluvastatin,Lescol,"Here is a Python list of brand-name drugs that contain Fluvastatin as the primary ingredient and are not combination drugs:
+ 
+ ```python
+ [['Lescol']]
+ ```
+ 
+ Lescol is the brand name for the drug Fluvastatin, which is used to lower cholesterol and triglyceride levels in the blood. It belongs to a class of drugs known as statins, which work by blocking an enzyme needed to make cholesterol."
+"['antizol', 'antizol-vet']",fomepizole,Antizol,['Antizol']
+['arixtra'],fondaparinux,Arixtra,['Arixtra']
+"['foradil', 'symbicort', 'perforomist', 'dulera', 'bevespi', 'duaklir', 'breztri', 'breyna']",formoterol,Foradil,"Here is a Python list of brand-name drugs that contain Formoterol and are not combination drugs:
+ 
+ ```python
+ formoterol_brands = ['Foradil', 'Perforomist']
+ ```
+ 
+ Foradil and Perforomist are the main brands that contain Formoterol as the sole active ingredient and are designed for human use. Symbicort, Dulera, Breztri, and Duaklir, which contain Formoterol, are combination drugs paired with other active ingredients."
+['foscavir'],foscarnet,Foscavir,"Here is a Python list of brand-name drugs that contain the generic drug Foscarnet and are not combination drugs:
+ 
+ [['Foscavir']]
+ 
+ Foscavir (Foscarnet Sodium) is a brand-name drug used to treat cytomegalovirus (CMV) retinitis in people with AIDS. It is also used to treat other viral infections caused by the herpes virus family."
+['soframycin'],framycetin,Soframycin,['Soframycin']
+['frova'],frovatriptan,Frova,['Frova']
+['faslodex'],fulvestrant,Faslodex,['Faslodex']
+"['dryptal', 'froop', 'frusid', 'rusyde', 'frusemek', 'lasix', 'lo-aqua', 'frusol', 'diuresal', 'aluzine', 'frumax', 'frusetic', 'delone', 'furocot', 'disal', 'furoquid', 'furoscix']",furosemide,Lasix,"['Lasix', 'Frusol', 'Diuresal', 'Frumax', 'Frusetic', 'Furoscix']"
+"['neurontin', 'gabarone', 'gralise', 'horizant']",gabapentin,Neurontin,"Here is a Python list of brand-name drugs that contain Gabapentin as the primary ingredient and are not combination drugs:
+ 
+ python_list = [""Neurontin"", ""Gabarone"", ""Gralise"", ""Horizant""]"
+"['reminyl', 'razadyne']",galantamine,Reminyl,"['Reminyl', 'Razadyne']"
+['flaxedil'],gallamine,Flaxedil,['Flaxedil']
+['ganite'],gallium,Ganite,['Ganite']
+"['cymevene', 'cytovene', 'vitrasert', 'zirgan']",ganciclovir,Cymevene,"['Cymevene', 'Zirgan']"
+"['tequin', 'zymar', 'zymaxid']",gatifloxacin,Zymaxid,"['Gatifloxacin', 'Tequin', 'Zymar', 'Zymaxid']"
+"['garamycin', 'genoptic', 'g-myticin', 'ed-mycin', 'gentacidin', 'gentak', 'gentasol', 'pred-g', 'ocu-mycin', 'gentafair', 'gentaved', 'legacy', 'easotic', 'gentacalm', 'vetromax', 'gentaspray', 'genone', 'gentaotic', 'malotic', 'relifor', 'remicin', 'motazol', 'otomax', 'mometamax', 'garasol', 'pattotic', 'vetaderm', 'maxi-otic', 'lozatom', 'mometazole', 'mometavet']",gentamicin,Garamycin,"Here is a list of brand-name drugs that contain Gentamicin and are not combination drugs, suitable for human use:
+ 
+ [ 'Garamycin', 'Genoptic', 'Gentak', 'Gentasol', 'Gentafair', 'Gentaotic', 'Relifor', 'Remicin']
+ 
+ These brands are well-known and trusted options for Gentamicin-based treatments. It is always advisable to consult a medical professional for specific treatment recommendations and to ensure the chosen medication is suitable for your needs."
+"['glibenese', 'minidiab', 'glucotrol', 'metaglip']",glipizide,Glibenese,"Here is a Python list of brand-name drugs that contain the generic component 'glipizide' and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Glibenese', 'Glucotrol']
+ ```
+ 
+ These drugs, Glibenese and Glucotrol, are commonly used for treating Type 2 Diabetes and contain Glipizide as their primary active ingredient. They are not combination drugs, meaning they do not contain multiple active ingredients, and they are intended for human use."
+"['glucagen', 'baqsimi', 'gvoke']",glucagon,Glucagen,"Here is a Python list of brand-name drugs that contain the generic drug Glucagon and are not combination drugs:
+ 
+ ```python
+ glucagon_brands = [""Glucagen"", ""Baqsimi"", ""Gvoke""]
+ ```
+ 
+ These drugs are typically used for the treatment of severe low blood sugar (hypoglycemia) and are administered through different routes, such as injection or nasal spray. They work by quickly raising blood glucose levels and are important emergency treatments for people with diabetes."
+"['verucasep', 'glutarol']",glutaraldehyde,glutarol,"Here is a Python list of brand-name drugs that contain the generic ingredient ""Glutaraldehyde"" and are not combination drugs:
+ 
+ python
+ 
+ drug_list = [
+  {'generic': 'Glutaraldehyde', 'brand': ['Verucasep', 'Glutarol']}
+ ]
+ 
+ This list includes the generic drug and its corresponding brand-name drugs that are not combination medications."
+"['aci-jel', 'osmoglyn', 'introl', 'neutracett', 'pretz', 'minica', 'sani-supp', 'regener-eyes']",glycerin,Osmoglyn,"Here is a Python list of the best brand drugs that are not combination drugs and mainly contain the generic ingredient glycerin, suitable for human use:
+ 
+ ```python
+ drug_brands = ['Osmoglyn', 'Introl', 'Minica', 'Sani-Supp']
+ ```
+ 
+ This list was compiled based on the information available, prioritizing brands that primarily contain glycerin as the active ingredient and are intended for human use."
+['zoladex'],goserelin,Zoladex,"Here is a Python list of brand-name drugs that contain the generic drug Goserelin and are not combination drugs:
+ 
+ ```python
+ brands = [""Zoladex""]
+ ```
+ 
+ Zoladex is a brand name for the generic drug Goserelin, and it is used in the treatment of prostate cancer, breast cancer, endometriosis, and some precocious puberty conditions. It works by decreasing the amount of testosterone or estrogen produced by the body, which can help slow or stop the growth of cancer cells and provide relief from symptoms of hormone-related conditions."
+"['gris-peg', 'fulvicin-u-f', 'griseofulicin', 'griseofulvic']",griseofulvin,Griseofulvic,"['Grifulvin V', 'Gris-PEG', 'Griseofulvic', 'Fulvicin-U/F']"
+['fluothane'],halothane,Fluothane,['Fluothane']
+"['amphadase', 'vitrase', 'hydase', 'hylenex', 'phesgo']",hyaluronidase,Hylenex,"Here is a Python list of brand-name drugs that contain the generic ingredient 'hyaluronidase' and are not combination drugs:
+ 
+ ```python
+ hyaluronidase_brands = ['Hylenex', 'Vitrase']
+ ```
+ 
+ These drugs are primarily used as a standalone ingredient and are not combination medications. They are also specifically indicated for human use."
+"['apresazide', 'apresoline', 'hydrap-es', 'marpres', 'ser-ap-es', 'serathide', 'serpazide', 'serpex', 'tri-hydroserpine', 'unipres', 'hhr', 'bidil']",hydralazine,Apresoline,"Here is a list of brand-name drugs that contain hydralazine as a primary ingredient and are not combination drugs:
+ 
+ [ 'Apresoline', 'Unipres', 'HHR' ]
+ 
+ These drugs are typically used for treating hypertension and are suitable for human use. It is always advisable to consult a medical professional for specific treatment recommendations and to ensure the medication is suitable for your particular needs."
+"['aldactazide', 'capozide', 'dyazide', 'maxzide', 'ziac', 'zestoretic', 'apresazide', 'accuretic', 'zida-co', 'cozaar-comp', 'esimil', 'vaseretic', 'esidrix', 'oretic', 'hydrodiuril', 'carozide', 'diaqua', 'ezide', 'hydrap-es', 'hydro-reserp', 'hydroserp', 'hydroserpine', 'hyzaar', 'loqua', 'mallopress', 'marpres', 'microzide', 'prinzide', 'ser-ap-es', 'serathide', 'serpazide', 'serpex', 'tri-hydroserpine', 'unipres', 'uniretic', 'avalide', 'hhr', 'micardis-hct', 'timolide', 'quinaretic', 'prinize', 'trandide', 'hydrocot', 'hydrokraft', 'aldoril', 'amturnide', 'moduretic', 'dutoprol', 'monopril-hct', 'moduret', 'hydropres', 'tribenzor', 'oreticyl']",hydrochlorothiazide,Esidrix,"Here is a list of brand-name drugs that contain hydrochlorothiazide as a single active ingredient, meant for human use:
+ 
+ [ 'Esidrix', 'Microzide', 'Oretic', 'Hydrodiuril' ]
+ 
+ These brands are commonly prescribed and well-known for their hydrochlorothiazide formulation without any additional combination drugs."
+"['dilaudid', 'palladone', 'hydrostat', 'exalgo']",hydromorphone,Dilaudid,"['Dilaudid', 'Palladone', 'Exalgo']"
+"['plaquenil', 'quineprox', 'sovuna']",hydroxychloroquine,Plaquenil,"['Plaquenil', 'Quineprox', 'Sovuna']"
+"['apsifen', 'cuprofen', 'ebufac', 'fenbid', 'ibuleve', 'isisfen', 'lidifen', 'migrafen', 'pacifene', 'proflex', 'relcofen', 'rimafen', 'inoven', 'advil', 'brufen', 'motrin', 'ibumetin', 'nuprin', 'rufen', 'cap-profen', 'dolgesic', 'genpril', 'haltran', 'ibu', 'ibu-tab', 'menadol', 'q-profen', 'tab-profen', 'uni-pro', 'vicoprofen', 'junifen', 'ibumousse', 'ibren', 'ibrufhalal', 'ibular', 'paxofen', 'ibumed', 'combunox', 'reprexain', 'neoprofen', 'wal-profen', 'ibuprohm', 'caldolor', 'addaprin', 'ultraprin', 'duexis', 'proprinal', 'ibutab', 'ibudone', 'xylon', 'combogesic']",ibuprofen,Advil,"Here is a list of well-known and trusted brand names for ibuprofen that are not combination drugs:
+ 
+ [
+  'Advil',
+  'Motrin',
+  'Nuprin',
+  'Brufen',
+  'Cuprofen',
+  'Proflex',
+  'Migrafen',
+  'Ibuprohm',
+  'Caldolor',
+  'Addaprin'
+ ]
+ 
+ These brands are widely used and trusted by consumers and medical professionals for their effectiveness and safety. They are also single-ingredient drugs, containing only ibuprofen as the active ingredient, which makes them suitable for your request."
+['corvert'],ibutilide,Corvert,['Corvert']
+"['firazyr', 'sajazir']",icatibant,Firazyr,"['Firazyr', 'Sajazir']"
+['gleevec'],imatinib,Gleevec,['Gleevec']
+"['tofranil', 'tofranil-pm', 'pramimil']",imipramine,Tofranil,"['Tofranil', 'Tofranil-PM']"
+"['aldara', 'zyclara']",imiquimod,Aldara,"['Aldara', 'Zyclara']"
+['crixivan'],indinavir,Crixivan,['Crixivan']
+"['artracin', 'imbrilon', 'indocid', 'indomax', 'indomod', 'rimacid', 'indocin', 'indoflex', 'indolar', 'mobilan', 'slo-indo', 'tivorbex']",indomethacin,Indocin,"Here is a list of brand-name drugs that contain indomethacin as the primary active ingredient and are not combination drugs:
+ 
+ [ 'Indocin', 'Tivorbex', 'Indocid', 'Imbrilon']
+ 
+ These brands are commonly used and well-known for their indomethacin formulation, specifically for human use. They are not combination drugs, meaning they do not contain other active ingredients besides indomethacin."
+"['remicade', 'inflectra', 'renflexis', 'avsola', 'zymfentra']",infliximab,Remicade,"Here is a Python list of the best brand drugs that contain the generic drug Infliximab and are not combination drugs:
+ 
+ ```python
+ best_infliximab_brands = ['Remicade', 'Inflectra', 'Renflexis', 'Avsola', 'Zymfentra']
+ ```
+ 
+ These brands are all biological drugs that contain Infliximab as the primary active ingredient and are indicated for various inflammatory conditions in humans, such as rheumatoid arthritis, Crohn's disease, and ulcerative colitis. They are not combination drugs, meaning they do not contain multiple active ingredients but instead rely on Infliximab as the main therapeutic agent."
+"['atrovent', 'combivent', 'duoneb']",ipratropium,Atrovent,['Atrovent']
+"['avapro', 'avalide']",irbesartan,Avapro,['Avapro']
+"['forane', 'attane', 'terrell', 'isoflo', 'fluriso', 'isothesia', 'isosol', 'isospire']",isoflurane,Isoflo,"Here is a Python list of brand-name drugs that contain the generic ingredient ""isoflurane"" and are not combination drugs:
+ 
+ ```python
+ iso_brands = ['Forane', 'Attane', 'Terrell', 'Isoflo', 'Fluriso', 'Isothesia', 'Isosol', 'Isospire']
+ ```
+ 
+ These brands are all registered trademarks and are intended for human use. They are anesthetic agents used to induce and maintain general anesthesia."
+"['rifater', 'rifamate', 'tubizid', 'soniazio', 'isonarif']",isoniazid,Nydrazid,"['Soniazio', 'Isonarif']"
+"['angeze', 'elantan', 'imdur', 'isotrate', 'monit', 'mono-cedocard', 'ketanodur', 'ismo', 'monoket', 'monodur']",isosorbide,Monoket,"Here is a Python list of the best brand drugs that contain the generic 'isosorbide' and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Imdur', 'Monoket', 'Monit', 'Elantan', 'Ismo']
+ ```
+ 
+ These brands are specifically formulated with Isosorbide as the primary active ingredient and are not combination medications. They are commonly prescribed for the treatment of angina and related cardiovascular conditions."
+"['accutane', 'isotrex', 'amnest', 'amnesteem', 'sotret', 'claravis', 'myorisan', 'absorica', 'zenatane']",isotretinoin,Amnesteem,"Here is a list of brand-name drugs that contain the generic ingredient ""isotretinoin"" and are not combination drugs:
+ 
+  [ 'Accutane', 'Amnesteem', 'Claravis', 'Absorica', 'Zenatane']
+ 
+ These drugs are typically prescribed for the treatment of severe acne and are meant for human use only. It is always advisable to consult a healthcare professional before taking any medication."
+"['sporanox', 'hyphanox', 'onmel', 'tolsura']",itraconazole,Sporanox,"['Sporanox', 'Onmel', 'Tolsura']"
+"['stromectol', 'eqvalan', 'mectizan', 'zimecterin', 'bimectin', 'ivermax', 'equimax', 'equell', 'noromectin', 'vetrimec', 'endo-mectin', 'agri-mectin', 'ivomec', 'heartgard', 'acarexx', 'agrimectin', 'sklice', 'quadriguard', 'ivercare', 'promectin', 'privermectin', 'iver-on', 'duramectin', 'ivercide', 'iverchoice', 'soolantra', 'duocare', 'iverhart', 'imectro', 'vetrishield']",ivermectin,Stromectol,"Here is a list of brand names for Ivermectin that are not combination drugs and are suitable for human use:
+ 
+ [ 'Stromectol', 'Sklice', 'Soolantra']
+ 
+ These brands are specifically formulated and approved for human use, containing Ivermectin as the primary active ingredient."
+"['ketalar', 'ketaflo', 'ketaved', 'keta-thesia', 'vetalar', 'ketaset', 'ketathesia', 'ketaject', 'ketacine', 'zetamine', 'vetaket']",ketamine,Ketalar,"Here is a Python list of brand-name drugs that contain the generic drug Ketamine and are primarily used for human treatment:
+ 
+ python_list = ['Ketalar', 'Ketaved', 'Keta-Thesia', 'Ketaset', 'Ketathesia', 'Ketaject', 'Zetamine']
+ 
+ This list was compiled based on the assumption that you are looking for brand-name drugs that contain Ketamine as the primary ingredient and are intended for human use. If you would like to include combination drugs or have other specifications, please clarify so I can adjust the response accordingly."
+"['nizoral', 'kuric', 'xolegel', 'feoris', 'extina', 'pharmaseb', 'ketodan', 'vital-ketodine', 'mal-a-ket', 'ketochlor', 'keto-c', 'malacetic', 'recorlev']",ketoconazole,Extina,"Here is a list of brand-name drugs that contain ketoconazole as the primary ingredient and are intended for human use, sorted by their brand name in alphabetical order:
+ 
+ [ 'Extina', 'Feoris', 'Ketodan', 'Ketochlor', 'Keto-C', 'Kuric', 'Mal-A-Ket', 'Nizoral', 'Pharmaseb', 'Recorlev', 'Vital-Ketodine', 'Xolegel']
+ 
+ These brands are all dedicated to ketoconazole and are not combination drugs. They are typically used for treating fungal infections in humans."
+"['alrheumat', 'fenoket', 'ketocid', 'ketonal', 'ketovail', 'oruvail', 'powergel', 'ketotard', 'orudis', 'actron', 'ketofen', 'ketomed', 'kiprofen']",ketoprofen,Orudis,"Here is a Python list of brand-name drugs that contain the generic drug Ketoprofen and are not combination drugs:
+ 
+ ```python
+ ketoprofen_brands = ['Orudis', 'Oruvail', 'Actron', 'Ketonal', 'Ketocid', 'Ketofen', 'Ketomed', 'Kiprofen']
+ ```
+ 
+ These brands are all used for human treatment and mainly contain Ketoprofen as their active ingredient. They are not combination drugs, which means they do not contain any other active ingredients besides Ketoprofen."
+"['toradol', 'acular', 'acuvail', 'sprix', 'omidria']",ketorolac,Toradol,"['Toradol', 'Acular', 'Acuvail', 'Sprix']"
+"['zaditor', 'zaditen', 'alaway']",ketotifen,Zaditor,"['Zaditor', 'Zaditen', 'Alaway']"
+"['labrocol', 'trandate', 'normodyne', 'trandide']",labetalol,Trandate,"['Labrocol', 'Trandate', 'Normodyne']"
+"['duphalac', 'cephulac', 'cholac', 'chronulac', 'constilac', 'constulose', 'enulose', 'evalose', 'generlac', 'heptalac', 'kristalose', 'catulac', 'ro-lactulose']",lactulose,Duphalac,"Here is a Python list of brand name drugs that contain Lactulose and are not combination drugs:
+ 
+ ```python
+ lactulose_brands = ['Duphalac', 'Cephulac', 'Cholac', 'Chronulac', 'Constilac', 'Constulose', 'Enulose', 'Evalose', 'Generlac', 'Heptalac', 'Kristalose']
+ ```
+ 
+ These brands are all meant for human use and primarily contain Lactulose as the active ingredient. They are used as laxatives to treat constipation and are often prescribed for those with chronic digestive issues."
+"['combivir', 'epivir', 'trizivir', 'epzicom', 'triumeq', 'cimduo', 'symfi', 'delstrigo', 'dovato', 'temixys']",lamivudine,Epivir,"Here is a list of brands that are not combination drugs and mainly contain the generic drug Lamivudine, which is used for human treatment:
+ 
+ [
+  'Epivir',
+  'Epzicom',
+  'Cimduo'
+ ]
+ 
+ It is important to note that this list is based on the assumption that ""not combination drugs"" refers to brands that have Lamivudine as their primary or sole active ingredient. Please consult a medical professional or refer to official drug resources for specific prescription and usage information."
+"['lamictal', 'subvenite']",lamotrigine,Lamictal,"Here is a Python list of brand-name drugs that contain the generic ingredient ""Lamotrigine"" and are not combination drugs:
+ 
+ ```python
+ best_brands = [""Lamictal"", ""Subvenite""]
+ ```
+ 
+ These drugs are typically used to treat epilepsy and bipolar disorder, and they are designed for human consumption. ""Lamictal"" is widely recognized as the leading brand-name drug for Lamotrigine, and ""Subvenite"" is another option available in certain regions."
+"['prevacid', 'zoton']",lansoprazole,Prevacid,"['Prevacid', 'Zoton']"
+"['xalatan', 'xelpros', 'rocklatan', 'iyuzeh']",latanoprost,Xalatan,"Here is a Python list of brand-name drugs that contain latanoprost as the primary active ingredient and are not combination drugs:
+ 
+ python_list = [""Xalatan"", ""Xelpros""]
+ 
+ These drugs are typically prescribed for the management of ocular hypertension and open-angle glaucoma, and they are designed for human use."
+['revlimid'],lenalidomide,Revlimid,['Revlimid']
+['femara'],letrozole,Femara,['Femara']
+['refolinon'],leucovorin,Refolin,['Refolin']
+"['ergamisol', 'valcor']",levamisole,Ergamisol,['Ergamisol']
+"['madopar', 'sinemet', 'brocadopa', 'larodopa', 'atamet', 'dopar', 'carbodopa', 'parcopa', 'stalevo', 'rytary', 'duopa', 'inbrija', 'dhivy']",levodopa,Dopar,"Here is a list of brand-name drugs that contain Levodopa as the primary ingredient and are not combination drugs:
+ 
+ [ 'Madopar', 'Sinemet', 'Brocadopa', 'Larodopa', 'Dopar', 'Carbidopa', 'Parcopa', 'Inbrija']
+ 
+ These drugs are used for the treatment of Parkinson's disease and are typically well-tolerated. However, please note that this is not an exhaustive list, and it is always advisable to consult a healthcare professional before starting any new medication."
+"['levaquin', 'quixin', 'iquix']",levofloxacin,Levaquin,['Levaquin']
+"['emla', 'instillagel', 'solarcaine', 'vagisil', 'xylocaine', 'anestacaine', 'anestacon', 'bactine', 'd-caine', 'dermaflex', 'dilocaine', 'ela-max', 'l-caine', 'lidomar', 'nervocaine', 'truxacaine', 'zilactin-l', 'xylocard', 'lidoderm', 'octocaine', 'oraqix', 'duocaine', 'licodaine', 'mylocaine', 'iontocaine', 'lignospan', 'lidosite', 'rectacreame', 'lidodan', 'synera', 'lidamantle', 'senatec', 'mercuroclear', 'pliaglis', 'zingo', 'lidopen', 'peranex', 'lidocream', 'staphaseptic', 'anecream', 'lidocort', 'akten', 'lta', 'lmx', 'rectagel', 'ana-lex', 'lidazone', 'regenecare', 'lidoject', 'lidum', 'lidoworx', 'rectacreme', 'cutiecaine', 'anestafoam', 'procomycin', 'soulus', 'hexa-caine', 'keepan', 'recticare', 'lidopatch', 'lidovir', 'sonacaine', 'zcaine', 'hemaway', 'unburn', 'lenzapatch', 'lenzagel', 'allercaine', 'lidopro', 'lidostat', 'cicloferon', 'xolido', 'neuromed', 'alocane', 'vexa', 'radiaguard', 'puroxcin', 'glydo', 'comfortcaine', 'dermacool', 'silvera', 'topicaine', 'relador', 'lidotral', 'zensa', 'lexifen', 'lidocare', 'burnx', 'tranzarel', 'alocaine', 'cidaleaze', 'lidozen', 'ztlido', 'workvie', 'kool-down', 'bio-kool', 'lipocaine', 'omeza', 'hush', 'zionodil', 'lydexa', 'niravi', 'lidotran', 'lidocan', 'trifena', 'bruselix']",lidocaine,Xylocaine,"Here is a list of brand-name drugs containing lidocaine as the primary active ingredient, intended for human use, and are not combination drugs:
+ 
+ [
+  'Emla',
+  'Instillagel',
+  'Solarcaine',
+  'Vagisil',
+  'Xylocaine',
+  'Zylocard',
+  'Lidoderm',
+  'Lidocream',
+  'Lidodan',
+  'Lidopro',
+  'Lipocaine',
+  'Omeza',
+  'Zionodil',
+  'Lidexa',
+  'Lidocare',
+  'Alocane',
+  'Xtralido',
+  'Cidalaze',
+  'Lidozen',
+  'ZTLido',
+  'Bio-Kool'
+ ]
+ 
+ This list focuses on brands that contain lidocaine as the primary ingredient and are intended for individual use. It's important to note that drug availability and regulations may vary based on region and that this list is not exhaustive. Always consult a healthcare professional or refer to local pharmaceutical guidelines for the most up-to-date and accurate information."
+['zyvox'],linezolid,Zyvox,['Zyvox']
+"['cytomel', 'thyrolar', 'triostat']",liothyronine,Cytomel,"['Cytomel', 'Triostat']"
+"['victoza', 'saxenda', 'xultophy']",liraglutide,Victoza,"Here is a Python list of brand-name drugs that contain the generic drug liraglutide and are not combination drugs:
+ 
+ ```python
+ brands = [""Victoza"", ""Saxenda""]
+ ```
+ 
+ These drugs are all used for human treatment and do not contain any other active ingredients combined with liraglutide."
+"['zestoretic', 'carace', 'zestril', 'prinivil', 'prinzide', 'prinize', 'qbrelis']",lisinopril,Zestril,"Here is a list of brand-name drugs that primarily contain the generic drug Lisinopril and are not combination drugs:
+ 
+ [ 'Zestril', 'Prinivil' ]
+ 
+ These drugs are used for human treatment, primarily for hypertension and heart-related issues. They are from the ACE inhibitor family of drugs."
+"['arret', 'diocaps', 'imodium', 'loperagen', 'normaloe', 'lodiar', 'anti-diarrhea', 'diamode', 'diar-aid', 'imotil', 'kao-paverin', 'norimode', 'diareze', 'enterocina', 'vaprino']",loperamide,Imodium,"Here is a list of the best-known brand-name drugs that contain Loperamide as the main active ingredient and are not combination drugs:
+ 
+ [ 'Imodium', 'Arret', 'Enterocina', 'Diocaps', 'Loperagen', 'Normaloe', 'Lodiar']
+ 
+ These brands are well-established and trusted for their effectiveness in treating diarrhea and are not combination medications, meaning they primarily contain Loperamide as the active ingredient."
+"['claritin', 'claritin-d', 'alavert', 'agistam', 'clear-atadine', 'clear-atadine-d', 'wal-itin', 'loradamed', 'wal-vert', 'allerclear']",loratadine,Claritin,"Here is a list of brand-name drugs that contain loratadine as the generic ingredient and are not combination drugs:
+ 
+ [ 'Claritin', 'Alavert', 'Agistam', 'Wal-itin', 'Loradamed']
+ 
+ These brands are commonly used for treating allergies and are suitable for human consumption."
+"['ativan', 'almazine', 'loreev']",lorazepam,Ativan,"Here is a Python list of brand-name drugs that contain lorazepam as the primary ingredient and are not combination drugs:
+ 
+ python_list = [""Ativan"", ""Almazine"", ""Loreev""]"
+['belviq'],lorcaserin,Belviq,['Belviq']
+"['cozaar', 'cozaar-comp', 'hyzaar']",losartan,Cozaar,"Here is a Python list of brand-name drugs that contain Losartan and are not combination drugs:
+ 
+ ```python
+ best_losartan_brands = ['Cozaar']
+ ```
+ 
+ Cozaar (Losartan Potassium) is a brand-name drug that contains Losartan and is primarily used to treat high blood pressure and nephropathy in type 2 diabetic patients. It is not a combination drug and is specifically formulated to contain Losartan as its active ingredient."
+"['mevacor', 'advicor', 'altocor', 'altoprev']",lovastatin,Mevacor,"Here is a Python list of brand-name drugs that contain the generic drug Lovastatin and are not combination drugs:
+ 
+ ```python
+ best_brands = [""Mevacor"", ""Altocor"", ""Altoprev""]
+ ```
+ 
+ These drugs are commonly used to treat high cholesterol and are intended for human use. ""Advicor"" was not included as it is a combination drug, usually containing Lovastatin and Niacin."
+"['suleo-m', 'ovide', 'prioderm']",malathion,Ovide,['Ovide']
+"['osmitrol', 'resectisol', 'bronchitol']",mannitol,Osmitrol,"Here is a Python list of brand-name drugs that contain mannitol as the primary ingredient and are not combination drugs:
+ 
+ python_drug_list = [""Osmitrol"", ""Resectisol"", ""Bronchitol""]
+ 
+ This list only includes brands that are primarily composed of mannitol and are intended for human use. It excludes combination drugs where mannitol might be one of multiple ingredients."
+['selzentry'],maraviroc,Selzentry,"Here is a Python list of brand-name drugs that contain the generic drug Maraviroc and are not combination drugs:
+ 
+ [ 'Selzentry' ]
+ 
+ Please note that this list may not be exhaustive and is based on currently available information. It is always important to consult a healthcare professional for specific treatment recommendations and to ensure the drug is suitable for your individual needs."
+"['pripsen', 'vermox', 'emverm']",mebendazole,Vermox,"Here is a Python list of brand-name drugs that contain the generic drug Mebendazole and are not combination drugs:
+ 
+ ```python
+ brands = ['Vermox', 'Emverm', 'Pripsen']
+ ```
+ 
+ These brands are all approved for human use and contain Mebendazole as the active ingredient. They are not combination drugs, meaning they do not contain any other active ingredients besides Mebendazole."
+['lariam'],mefloquine,Lariam,['Lariam']
+"['mobic', 'mobicox', 'metacam', 'loxicom', 'meloxidyl', 'ostilox', 'eloxiject', 'vivlodex', 'eloxioral', 'qmiiz', 'alloxate', 'anjeso', 'zynrelef', 'meloxivet']",meloxicam,Mobic,"Here is a list of brand-name drugs that contain Meloxicam as the primary ingredient and are intended for human use, sorted alphabetically: 
+ 
+ ['Mobic', 'Vivlodex', 'Zynrelef']
+ 
+ These brands are widely recognized and trusted for their quality and effectiveness in treating conditions for which Meloxicam is indicated."
+"['namenda', 'namzaric']",memantine,Namenda,['Namenda']
+"['carbocaine', 'isocaine', 'scandonest', 'polocaine']",mepivacaine,Carbocaine,"['Carbocaine', 'Isocaine', 'Polocaine']"
+['nucala'],mepolizumab,Nucala,['Nucala']
+"['canasa', 'pentasa', 'asacol', 'rowasa', 'fiv-asa', 'lialda', 'apriso', 'delzicol', 'zaldyon']",mesalazine,Canasa,"Here is a Python list of the best brand-name drugs that contain the generic ""mesalazine"" and are not combination drugs:
+ 
+ python
+ 
+ best_mesalazine_brands = [""Canasa"", ""Pentasa"", ""Asacol"", ""Rowasa"", ""Lialda"", ""Apriso"", ""Delzicol"", ""Zaldyon""]
+ 
+ These drugs are commonly used to treat inflammatory bowel diseases such as ulcerative colitis and Crohn's disease. They contain mesalazine as the active ingredient and are not combination medications.
+ 
+ It is always advisable to consult a healthcare professional before taking any medication to ensure it is safe and suitable for your specific needs."
+['mesnex'],mesna,Mesnex,"Here is a Python list of brand drugs that contain the generic MESNA and are not combination drugs:
+ 
+ [['Mesnex']]
+ 
+ Please note that this list may not be exhaustive and is based on the information available to me. It is always advisable to consult a medical professional or refer to trusted pharmaceutical sources for the most up-to-date and accurate information about medications."
+"['glucamet', 'glucophage', 'glucovance', 'avandamet', 'metaglip', 'riomet', 'fortamet', 'metforming', 'glumetza', 'kazano', 'jentadueto', 'prandimet', 'kombiglyze', 'janumet', 'invokamet', 'xigduo', 'synjardy', 'segluromet', 'trijardy', 'qternmet', 'zituvimet']",metformin,Glucophage,"Here is a list of brand-name drugs that contain metformin as the primary active ingredient and are not combination drugs:
+ 
+ [ 'Glucophage', 'Glucomet', 'Riomet', 'Glumetza', 'Fortamet', 'Metforming']
+ 
+ These drugs are all used for managing blood sugar levels in patients with type 2 diabetes and are not combination medications, meaning they contain metformin as the sole active ingredient. They are also specifically indicated for human use."
+"['methadose', 'methex', 'physeptone', 'dolophine', 'diskets']",methadone,Dolophine,"Here is a Python list of brand-name drugs that contain the generic drug ""Methadone"" and are not combination drugs:
+ 
+ ```python
+ methadone_brands = [""Methadose"", ""Methex"", ""Physeptone"", ""Dolophine"", ""Diskets""]
+ ```
+ 
+ These brands are all used for human treatment and do not contain any additional active ingredients, making them non-combination drugs. They are commonly prescribed for the treatment of opioid addiction and pain management."
+"['hiprex', 'atrosept', 'cystemms-v', 'cystex', 'dolsed', 'uaa', 'urapine', 'uretron', 'urex', 'urised', 'urisedamine', 'uritin', 'uro-phosphate', 'urogesic-blue', 'urimax', 'mandelamine', 'msp-blu', 'urelle', 'mhp-a', 'usept', 'utira', 'utac', 'darcalma', 'darpaz', 'utrona-c', 'uticap', 'uribel', 'uritact', 'hyophen', 'phosphasal', 'ustell', 'prosed', 'uri-sep', 'urimar', 'uro-blue', 'uralgic', 'urolet', 'hyolev', 'uramit', 'indiomin', 'urophen']",methenamine,Hiprex,"Here is a list of brand name drugs that contain the generic 'Methenamine' and are not combination drugs:
+ 
+ [ 'Hiprex', 'Urex', 'Urelle', 'Urogesic-Blue', 'Urimax', 'Mandelamine', 'Uritin', 'Uro-Blue', 'Uralgic', 'Urolet', 'Uramit', 'Indiomin', 'Urophen']
+ 
+ These brands are primarily used for treating urinary tract infections and are intended for human use."
+"['robaxisal', 'robaxin', 'rabdolax']",methocarbamol,Robaxin,"Here is a Python list of brand-name drugs that contain the generic ingredient ""methocarbamol"" and are not combination drugs: 
+ 
+ ```python
+ brands = [""Robaxin"", ""Robaxisal"", ""Rabdolax""]
+ ```
+ 
+ These brands are all used for human treatment and do not contain any additional active ingredients, making them suitable options for methocarbamol monotherapy."
+"['maxtrex', 'trexall', 'emtexate', 'rheumatrex', 'otrexup', 'rasuvo', 'xatmep', 'reditrex', 'jylamvo']",methotrexate,Trexall,"Here is a list of brand-name drugs that contain the generic ingredient methotrexate and are not combination drugs:
+ 
+ [ 'Trexall', 'Rheumatrex', 'Otrexup', 'Rasuvo', 'Xatmep', 'Jylamvo']
+ 
+ These brands are specifically formulated for the active ingredient methotrexate and are commonly prescribed for various conditions, including rheumatoid arthritis, psoriasis, and certain types of cancer. They are all intended for human use and do not contain any additional active ingredients that would classify them as combination drugs."
+['penthrane'],methoxyflurane,Penthrane,['Penthrane']
+"['aldomet', 'aldoril', 'aldoclor']",methyldopa,Aldomet,['Aldomet']
+"['ritalin', 'methylin', 'concerta', 'metadate', 'daytrana', 'quillivant', 'aptensio', 'quillichew', 'cotempla', 'relexxii', 'adhansia', 'jornay']",methylphenidate,Ritalin,"Here is a list of brand-name drugs that contain Methylphenidate and are not combination drugs: 
+ 
+ [
+  'Ritalin',
+  'Methylin',
+  'Concerta',
+  'Metadate',
+  'Daytrana',
+  'Quillivant',
+  'Aptensio',
+  'Quillichew',
+  'Cotempla',
+ ]
+ 
+ These drugs are commonly prescribed for the treatment of Attention-Deficit/Hyperactivity Disorder (ADHD) and are intended for human use only. They are all variations of Methylphenidate, which is a central nervous system stimulant. 
+ 
+ It is important to consult a medical professional or a pharmacist for specific information and guidance on the use of these medications."
+"['depo-medrol', 'medrol', 'solu-medrol', 'a-methapred', 'hybrisil', 'neo-medrol']",methylprednisolone,Medrol,"Here is a list of brand-name drugs that contain methylprednisolone as the primary ingredient and are not combination drugs:
+ 
+ [ 'Depo-Medrol', 'Medrol', 'Solu-Medrol', 'A-Methapred']
+ 
+ These drugs are all used for human treatment and do not contain any additional active ingredients that would make them combination drugs. They are commonly used for their anti-inflammatory and immunosuppressive effects in a variety of conditions."
+['sansert'],methysergide,Sansert,"Here is a Python list of brand-name drugs that contain methysergide as the generic ingredient and are not combination drugs:
+ 
+ [['Sansert']]
+ 
+ Please note that this list may not be exhaustive and drug availability may vary depending on the region. It is always advisable to consult a healthcare professional or refer to reputable medical sources for the most up-to-date and accurate information."
+"['reglan', 'primperan', 'mygdalon', 'maxolon', 'gastroflux', 'gastromax', 'metramid', 'parmid', 'gastrese-la', 'metozolv', 'pileran', 'gimoti']",metoclopramide,Reglan,"Here is a list of brand-name drugs that contain the generic drug metoclopramide and are not combination drugs:
+ 
+ [ 'Reglan', 'Maxolon', 'Primperan', 'Mygdalon' ]
+ 
+ These drugs are typically used to treat gastrointestinal issues and are intended for human use."
+"['arbralene', 'betaloc', 'lopressor', 'lopresor', 'metoros', 'mepranix', 'toprol', 'dutoprol', 'kapspargo']",metoprolol,Betaloc,"Here is a list of brand-name drugs that contain Metoprolol as the primary ingredient and are not combination drugs:
+ 
+ [ 'Betaloc', 'Lopressor', 'Toprol', 'Kapspargo']
+ 
+ These brands are commonly used and well-known for their effectiveness in treating various cardiovascular conditions. They are all approved for human use."
+"['metrolyl', 'norzol', 'rozex', 'vaginyl', 'zadstat', 'zidoval', 'flagyl', 'metrogel', 'metrocream', 'metrolotion', 'metryl', 'noritate', 'protostat', 'metrotop', 'anabact', 'elyzol', 'nidazol', 'vandazole', 'nydamax', 'pylera', 'vitazol', 'rosadan', 'nuvessa', 'likmez']",metronidazole,Flagyl,"Here is a list of brand-name drugs that contain metronidazole as the primary ingredient and are intended for human use, sorted by their brand name:
+ 
+ [ 'Flagyl', 'MetroCream', 'MetroGel', 'MetroLotion', 'MetroTop', 'Metrolyl', 'Norzol', 'Rozex', 'Zidoval' ]
+ 
+ These brands are well-known and trusted for their quality and effectiveness in treating various conditions, primarily related to bacterial infections. They are not combination drugs, meaning they solely contain metronidazole as the active ingredient."
+['metopirone'],metyrapone,Metopirone,['Metopirone']
+"['daktarin', 'gyno-daktarin', 'anti-fungal', 'baza', 'dermagran', 'desenex', 'fungoid', 'micatin', 'mitrazol', 'ony-clear', 'vagistat', 'micro-guard', 'monistat', 'secura', 'vusion', 'dermafungal', 'tetterine', 'micaderm', 'surolan', 'oravig', 'nuzole', 'inzo', 'malaseb', 'trivase', 'easotic', 'miranel', 'femmesil', 'dermasana', 'macerrx', 'micaved', 'zeasorb', 'lagicam', 'dermazole', 'vetraseb']",miconazole,Daktarin,"Here is a list of brand-name drugs that contain miconazole as the primary ingredient and are intended for human use, sorted alphabetically:
+ 
+ ['Anti-Fungal', 'BazA', 'Daktarin', 'Dermagran', 'Desenex', 'Femmesil', 'Gyno-Daktarin', 'Micatin', 'Mitrazol', 'Monistat', 'Nuzole', 'Ony-Clear', 'Secura', 'Vagistat', 'Vusion']
+ 
+ These brands are not combination drugs and primarily contain miconazole as the active ingredient. They are commonly used for treating fungal infections in humans."
+"['versed', 'hypnovel', 'midazolan', 'seizalam', 'nayzilam']",midazolam,Seizalam,"['Versed', 'Hypnovel', 'Seizalam', 'Nayzilam']"
+"['proamatine', 'orvaten']",midodrine,Proamatine,"['Proamatine', 'Orvaten']"
+"['mifeprex', 'korlym']",mifepristone,Mifeprex,['Mifeprex']
+['glyset'],miglitol,Glyset,['Glyset']
+['impavido'],miltefosine,Impavido,['Impavido']
+"['aknemin', 'blemix', 'cyclomin', 'minocin', 'minogal', 'dynacin', 'vectrin', 'dentomycin', 'arestin', 'myrac', 'solodyn', 'cleeravue-m', 'ximino', 'minolira', 'amzeeq', 'zilxi']",minocycline,Minocin,"Here is a list of brand-name drugs that contain minocycline as the primary ingredient and are not combination drugs:
+ 
+ [
+  'Solodyn',
+  'Minocin',
+  'Aknemin',
+  'Amzeeq',
+  'Zilxi'
+ ]
+ 
+ These brands are all approved for human use and primarily contain minocycline as the active ingredient. They are commonly prescribed for various conditions, especially for the treatment of acne and certain bacterial infections."
+"['remeron', 'mirataz']",mirtazapine,Remeron,['Remeron']
+"['arthrotec', 'cytotec']",misoprostol,Cytotec,"Here is a Python list of brand-name drugs that contain the generic ingredient ""misoprostol"" and are not combination drugs:
+ 
+ ```python
+ brands = ['Cytotec']
+ ```
+ 
+ Note: This information is not exhaustive and may not include all brands available. It is always advisable to consult a medical professional or refer to reliable pharmaceutical references for the most up-to-date and accurate information."
+['mivacron'],mivacurium,Mivacron,['Mivacron']
+['provigil'],modafinil,Provigil,"Here is a Python list of brand-name drugs that contain Modafinil as the primary generic ingredient and are not combination drugs:
+ 
+ ```python
+ brands = ['Provigil']
+ ```
+ 
+ 'Provigil' is the brand name for the drug Modafinil, which is typically used to treat excessive sleepiness caused by narcolepsy, sleep apnea, or shift work disorder. It helps promote wakefulness and alertness."
+['singulair'],montelukast,Singulair,"Here is a Python list of brand-name drugs that contain the generic drug Montelukast and are not combination drugs:
+ 
+ [ 'Singulair' ]
+ 
+ This list was generated based on the information available to me as an AI chatbot. Please consult a medical professional or refer to official pharmaceutical resources for specific drug recommendations and usage guidelines."
+"['m-eslon', 'oramorph', 'sevredol', 'zomorph', 'kadian', 'duramorph', 'roxanol', 'msir', 'infumorph', 'rms', 'rescudose', 'avinza', 'duromorph', 'depodur', 'embeda', 'astramorph', 'cyclimorph', 'morphabond', 'arymo', 'mitigo']",morphine,Oramorph,"Here is a list of brand-name drugs that contain morphine as the primary ingredient and are not combination drugs:
+ 
+ [ 'M-Eslon', 'Oramorph', 'Sevredol', 'Zomorph', 'Kadian', 'Duramorph', 'Roxanol', 'MSIR', 'Infumorph', 'RMS', 'Rescudose', 'Avinza', 'Duromorph' ]
+ 
+ These drugs are indicated for the management of pain and are intended for human use. It is always advisable to consult a healthcare professional before taking any medication."
+"['avelox', 'vigamox', 'moxeza']",moxifloxacin,Avelox,"Here is a Python list of brand-name drugs that contain the generic drug ""moxifloxacin"" and are not combination drugs:
+ 
+ ```python
+ moxifloxacin_brands = [""Avelox"", ""Vigamox"", ""Moxeza""]
+ ```
+ 
+ These brands are all used for human treatment and do not contain any other active ingredients combined with moxifloxacin."
+['physiotens'],moxonidine,Physiotens,['Physiotens']
+"['bactroban', 'centany', 'muprocin', 'muricin', 'pirnuo']",mupirocin,Bactroban,"Here is a Python list of the best brand drugs that contain the generic drug 'mupirocin' and are not combination drugs:
+ 
+ ```python
+ mupirocin_brands = ['Bactroban', 'Centany']
+ ```
+ 
+ These drugs are typically used for treating bacterial skin infections and are applied topically. 'Bactroban' and 'Centany' are two well-known and commonly prescribed options."
+"['corgard', 'corgaretic', 'corzide']",nadolol,Corgard,"['Nadolol', 'Corgard']"
+['synarel'],nafarelin,Synarel,['Synarel']
+"['narcan', 'suboxone', 'zubsolv', 'evzio', 'bunavail', 'targiniq', 'cassipa', 'kloxxado', 'zimhi']",naloxone,Narcan,"Here is a list of brand-name drugs that contain the generic drug Naloxone and are not combination drugs: 
+ 
+ [ 'Narcan', 'Evzio', 'Kloxxado', 'Zimhi']
+ 
+ These brands are specifically used for naloxone and are not combination medications. They are also intended for human use."
+"['revia', 'depade', 'vivitrol', 'embeda', 'contrave', 'troxyca']",naltrexone,Revia,"Here is a Python list of brand-name drugs that primarily contain Naltrexone as the active ingredient and are not combination drugs:
+ 
+ [ 'Revia', 'Depade', 'Vivitrol' ]
+ 
+ These drugs are typically used to treat alcohol or opioid dependence and are designed for human use."
+"['durabolin', 'deca-durabolin', 'androlone-d', 'hybolin-improved', 'pri-andriol', 'nandrocot']",nandrolone,Durabolin,"Here is a Python list of brand-name drugs that contain the generic ingredient 'nandrolone' and are not combination drugs:
+ 
+ ```python
+ nandrolone_brands = [""Deca-Durabolin"", ""Durabolin"", ""Androlone-D"", ""Hybolin-Improved"", ""Pri-Andriol"", ""Nandrocot""]
+ ```
+ 
+ These brands are specifically for pharmaceutical products containing nandrolone as the primary active ingredient and are intended for human use."
+"['synflex', 'arthroxen', 'laraflex', 'ec-naprosyn', 'nycopren', 'prosaid', 'rimoxyn', 'timpron', 'anaprox', 'naprosyn', 'aleve', 'naprelan', 'aflaxen', 'valrox', 'rheuflex', 'wal-proxen', 'treximet', 'vimovo']",naproxen,Aflaxen,"Here is a list of brands that primarily contain Naproxen as the main active ingredient and are not combination drugs:
+ 
+ [ 'Synflex', 'Arthroxen', 'LaraFlex', 'Naprosyn', 'Aleve', 'Naprelan', 'Aflaxen', 'Valrox', 'Rheuflex', 'Wal-Proxen' ]
+ 
+ These brands are commonly used and primarily contain Naproxen as their active ingredient, making them suitable options for individuals seeking treatment with this particular NSAID."
+"['amerge', 'trexima']",naratriptan,Amerge,['Amerge']
+['serzone'],nefazodone,Serzone,['Serzone']
+['viracept'],nelfinavir,Viracept,['Viracept']
+"['prostigmin', 'bloxiverz', 'prevduo']",neostigmine,Prostigmin,"['Prostigmin', 'Bloxiverz']"
+['natrecor'],nesiritide,Natrecor,['Natrecor']
+['viramune'],nevirapine,Viramune,"Here is a Python list of brand-name drugs that contain the generic drug Nevirapine and are not combination drugs:
+ 
+ [['Viramune']]
+ 
+ Nevirapine is a prescription drug used to treat HIV infection. It belongs to a class of medications known as non-nucleoside reverse transcriptase inhibitors (NNRTIs). Viramune is a well-known brand-name product that contains Nevirapine as its active ingredient. It is important to consult a healthcare professional before taking any medication."
+['niclocide'],niclosamide,Niclocide,['Niclocide']
+"['adalat', 'angiopine', 'calanif', 'calcilat', 'nifelease', 'adalate', 'procardia', 'calcipine', 'vasad', 'nifedical', 'nifediac']",nifedipine,Adalat,"Here is a list of brand-name drugs that contain Nifedipine as the primary ingredient and are not combination drugs:
+ 
+ [ 'Adalat', 'Procardia', 'Nifedical', 'Nifediac', 'Calanif', 'Calcilat', 'Nifelease']
+ 
+ These brands are commonly used and well-known for their Nifedipine formulation, primarily used for treating hypertension and related cardiovascular conditions."
+['lampit'],nifurtimox,Lampit,['Lampit']
+"['nimotop', 'nymalize']",nimodipine,Nymalize,"['Nimotop', 'Nymalize']"
+"['orfadin', 'nityr']",nitisinone,Orfadin,"['Orfadin', 'Nityr']"
+"['macrobid', 'macrodantin', 'furadantin', 'urotoin']",nitrofurantoin,Macrobid,"Here is a Python list of brand-name drugs that contain the generic drug 'nitrofurantoin' and are not combination drugs:
+ 
+ ```python
+ best_brands = ['Macrobid', 'Macrodantin', 'Furadantin']
+ ```
+ 
+ These brands are specifically formulated with 'nitrofurantoin' as the primary active ingredient and are indicated for human use. They are well-known and widely prescribed for their respective uses."
+"['coro-nitro', 'deponit', 'glytrin', 'minitran', 'nitrocine', 'nitrolingual', 'nitronal', 'percutol', 'suscard', 'nitro-dur', 'sustac', 'nitrodisc', 'nitro-bid', 'nitrol', 'nitrong', 'nitrostat', 'transderm-nitro', 'nitrek', 'nitro-par', 'nitrocot', 'nitrogard', 'nitroquick', 'gtn', 'nitrotab', 'nitromist', 'rectiv', 'gonitro']",nitroglycerin,Glytrin,"Here is a list of brand-name drugs that contain nitroglycerin as the primary ingredient and are not combination drugs:
+ 
+ [ 'Coro-Nitro', 'Deponit', 'Glytrin', 'Minitran', 'Nitrocine', 'Nitrolingual', 'Nitronal', 'Percutol', 'Suscard', 'Nitrodur', 'Nitrodisc', 'Nitrobid', 'Nitrol', 'Nitrong', 'Nitrostat', 'Rectiv', 'Gonitro' ]
+ 
+ These brands are specifically formulated for human use and do not contain any additional active ingredients combined with nitroglycerin. They are commonly used for the treatment of angina and other cardiovascular conditions."
+['nitropress'],nitroprusside,Nitropress,['Nitropress']
+"['pamelor', 'aventyl', 'notriptyline']",nortriptyline,Pamelor,"['Pamelor', 'Aventyl']"
+"['albamycin', 'albadry']",novobiocin,Albamycin,"['Albamycin', 'Albadry']"
+"['nystan', 'nystamont', 'infestat', 'nystaform-hc', 'nystex', 'mycostatin', 'nilstat', 'bio-statin', 'mycasone', 'mycomar', 'mytrex', 'nystop', 'pedi-dri', 'myocidin', 'nyamyc', 'myco-triacet', 'mycogen', 'mycolog', 'nyst-olone', 'tri-statin', 'animax', 'dermalone']",nystatin,Nilstat,"Here is a list of brand-name drugs that contain the generic drug Nystatin and are not combination drugs:
+ 
+ [ 'Nystatin', 'Mycostatin', 'Nilstat', 'Bio-statin', 'Nystop', 'Nyamyc', 'Mycogen', 'Mycolog', 'Animax', 'Dermalone' ]
+ 
+ These brands are specifically formulated for human use and do not contain any additional active ingredients combined with Nystatin. They are commonly used to treat fungal infections."
+"['sandostatin', 'bynfezia', 'mycapssa']",octreotide,Sandostatin,"Here is a Python list of brand-name drugs that contain Octreotide and are not combination drugs:
+ 
+ python_list = [""Sandostatin"", ""Bynfezia"", ""Mycapssa""]"
+"['floxin', 'ocuflox']",ofloxacin,Floxin,"['Floxin', 'Ocuflox']"
+"['zyprexa', 'symbyax', 'lybalvi']",olanzapine,Zyprexa,"Here is a Python list of brand-name drugs that contain olanzapine as the primary ingredient and are not combination drugs:
+ 
+ python_list = ['Zyprexa', 'Lybalvi']
+ 
+ These drugs are typically used to treat certain mental health conditions and are prescribed for human use. It is always advisable to consult a healthcare professional before taking any medication."
+['dipentum'],olsalazine,Dipentum,"Here is a Python list of brand-name drugs that contain the generic ""olsalazine"" and are not combination drugs:
+ 
+ ```python
+ brands = [""Dipentum""]
+ ```
+ 
+ 'Dipentum' is the brand name for the generic drug 'olsalazine'. It is a prescription medication used to treat ulcerative colitis and maintain remission."
+['xolair'],omalizumab,Xolair,['Xolair']
+"['losec', 'prilosec', 'omesec', 'ulcergard', 'genozol', 'yosprala', 'talicia', 'konvomep']",omeprazole,Losec,"Here is a list of brands that primarily contain the generic drug Omeprazole and are intended for human use, sorted based on their popularity and recognition:
+ 
+ [ 'Losec', 'Prilosec', 'Omesec', 'Genozol' ]
+ 
+ These brands are widely recognized and trusted, and they primarily contain Omeprazole as the active ingredient. It's important to consult a medical professional or pharmacist for specific recommendations and to ensure the medication is suitable for your needs."
+"['xenical', 'alli']",orlistat,Xenical,"['Xenical', 'Alli']"
+['tamiflu'],oseltamivir,Tamiflu,['Tamiflu']
+['eloxatin'],oxaliplatin,Eloxatin,['Eloxatin']
+"['xyrem', 'xywav', 'lumryz']",oxybate,Xyrem,"['Xyrem', 'Xywav', 'Lumryz']"
+"['ditropan', 'contimin', 'urimin', 'oxytrol', 'gelnique', 'anturol']",oxybutynin,Oxytrol,"Here is a Python list of brand-name drugs that contain oxybutynin as the primary generic ingredient and are not combination drugs:
+ 
+ ```python
+ brands = ['Ditropan', 'Urimin', 'Oxytrol', 'Gelnique', 'Anturol']
+ ```
+ 
+ These drugs are primarily used to treat overactive bladder and related conditions. 'Ditropan', 'Urimin', and 'Oxytrol' are usually in tablet form, while 'Gelnique' is a gel, and 'Anturol' is available as a transdermal patch. 
+ 
+ Please note that 'Contimin' has been excluded from the list as it appears to be a medication for veterinary use, and the focus here is on human medication. 
+ 
+ As always, it is important to consult a medical professional or a doctor for personalized advice and to ensure the medication is suitable for your specific needs and health conditions."
+"['percodan', 'percocet', 'endodan', 'tylox', 'endocet', 'm-oxy', 'oxycontin', 'oxyfast', 'percolone', 'roxicet', 'roxicodone', 'roxilox', 'roxiprin', 'oxydose', 'taxadone', 'oxynorm', 'oxyrapid', 'combunox', 'endocodone', 'eth-oxydose', 'perloxx', 'narvox', 'magnacet', 'dazidox', 'xolox', 'oxecta', 'primalev', 'lynox', 'xartemis', 'primlev', 'targiniq', 'oxaydo', 'xtampza', 'troxyca', 'roxybond', 'nalocet', 'prolate']",oxycodone,Oxycontin,"Here is a list of brands that primarily contain oxycodone and are not combination drugs:
+ 
+ [ 'Percodan', 'Percocet', 'Oxycontin', 'Oxyfast', 'Percolone', 'Roxicet', 'Roxicodone', 'Roxilox', 'Roxiprin', 'Oxynorm', 'Oxyrapid', 'Endocodone', 'Perloxx', 'Narvox', 'Oxaydo', 'Xartemis', 'Targiniq' ]
+ 
+ These brands are commonly used for human medical purposes and mainly contain oxycodone as the primary active ingredient. It is important to note that some of these brands may contain additional inactive ingredients or small amounts of other substances to facilitate drug delivery or enhance certain properties. Always consult a medical professional and refer to the drug's package insert for specific information regarding the formulation and usage of these medications."
+"['afrin', 'four-way', 'genasal', 'nostrilla', 'ocuclear', 'oxyfrin', 'afrazine', 'nasin', 'anefrin', 'kovanaze', 'rhofade', 'upneeq']",oxymetazoline,Afrin,"Here is a list of brand-name drugs that contain oxymetazoline and are not combination drugs:
+ 
+ [ 'Afrin', 'Nostrilla', 'Ocuclear', 'Rhofade', 'Upneeq']
+ 
+ These brands are commonly used and well-known for their oxymetazoline-based formulations. They are typically used for nasal congestion relief or, in the case of Rhofade and Upneeq, for specific eye-related conditions."
+"['pitocin', 'oxoject']",oxytocin,Oxoject,"['Pitocin', 'Oxoject']"
+['swineaid'],paba,SwineAid,"Here is a Python list of brand-name drugs that contain the generic ingredient PABA (para-aminobenzoic acid) and are not combination drugs:
+ 
+ ```python
+ [{'brand': 'SwineAid'}]
+ ```
+ 
+ It's important to note that this list may not be exhaustive and drug information may change over time. It is always advisable to consult a healthcare professional or refer to reliable medical sources for the most up-to-date information on drug brands and their usage."
+"['taxol', 'onxol', 'abraxane', 'paccal']",paclitaxel,Taxol,"['Taxol', 'Onxol', 'Abraxane']"
+['pavulon'],pancuronium,Pavulon,['Pavulon']
+['vectibix'],panitumumab,Vectibix,['Vectibix']
+['protonix'],pantoprazole,Protonix,['Protonix']
+"['papacon', 'pavacot', 'pavagen']",papaverine,Papacon,"Here is a Python list of brand name drugs that contain the generic ""Papaverine"" and are not combination drugs:
+ 
+ python_list = [""Papacon"", ""Pavacot"", ""Pavagen""]
+ 
+ These drugs are typically used to treat certain circulatory and vascular conditions and are intended for human use. It is always advisable to consult a medical professional before taking any medication."
+"['midrin', 'percogesic', 'percocet', 'duocet', 'talacen', 'tempra', 'vicodin', 'lortab', 'calpol', 'fanalgic', 'infadrops', 'panaleve', 'paracets', 'paramol', 'placidex', 'salzone', 'combiflex', 'fioricet', 'tylox', 'panadol', 'tylenol', 'aceta', 'aceta-gesic', 'actamin', 'alagesic', 'alidrin', 'allay', 'altenol', 'americet', 'amidrine', 'anexsia', 'anoquan', 'apacet', 'apagesic', 'apapgesic', 'apara', 'apra', 'arcet', 'axocet', 'bucet', 'bupap', 'cephadyn', 'co-gesic', 'colrex', 'conacetol', 'dolacet', 'dolagesic', 'dolgic', 'dolmar', 'dolono', 'duogesic', 'duradrin', 'ed-apap', 'endocet', 'endolor', 'esgic', 'excedrin', 'ezol', 'femcet', 'feverall', 'fiorpap', 'genace', 'genapap', 'genasec', 'genebs', 'geone', 'gericet', 'halenol', 'hy-phen', 'hyco-pap', 'hycomed', 'hydrocet', 'hydrogesic', 'ide-cet', 'infantaire', 'iso-acetazone', 'isocet', 'isocom', 'liquiprin', 'major-gesic', 'mapap', 'mardol', 'margesic', 'margesic-h', 'marten-tab', 'masophen', 'medigesic', 'midchlor', 'migquin', 'migrapap', 'migratine', 'migrazone', 'migrex', 'minotal', 'mygracet', 'norco', 'oncet', 'pacaps', 'pain-eze', 'pain-gesic', 'panacet', 'panex', 'panlor', 'pediapap', 'perisine', 'pharmagesic', 'phenagesic', 'phenylgesic', 'phrenilin', 'polygesic', 'prominol', 'q-gesic', 'q-nol', 'redutemp', 'repan', 'roxicet', 'roxilox', 'saleto', 'sedapap', 'stagesic', 'supac', 't-gesic', 't-painol', 't-panol', 'tenake', 'tencet', 'tencon', 'triaprin', 'two-dyne', 'tycolene', 'tylophen', 'ugesic', 'uni-ace', 'uni-case', 'uni-perr', 'uniserts', 'vanacet', 'vanquish', 'vendone', 'vitapap', 'vitoxapap', 'wygesic', 'zebutal', 'zydone', 'acephen', 'paldesic', 'maxidone', 'rhinoflex', 'ex-pain', 'lopap', 'contragesic', 'nonbac', 'procet', 'promacet', 'relagesic', 'ultracet', 'va-zone', 'panasorb', 'epidrin', 'staflex', 'lorcet', 'darvocet', 'migralam', 'migrend', 'taxadone', 'frenadol', 'phenco-care', 'xodol', 'ali-flex', 'dologesic', 'acuflex', 'vopac', 'hyflex', 'flextra', 'vidone', 'tylefon', 'hycet', 'levacet', 'anabar', 'ed-flex', 'lobac', 'durabac', 'novagesic', 'balacet', 'lagesic', 'alpain', 'cafgesic', 'migraten', 'migran-a', 'by-ache', 'zerlor', 'perloxx', 'narvox', 'liquicet', 'magnacet', 'codrix', 'pediaphen', 'qflex', 'propacet', 'vistra', 'trezix', 'zgesic', 'tactinal', 'cotabflu', 'zamicet', 'prodrin', 'xolox', 'triad', 'cocet', 'backprin', 'orbivan', 'pyregesic', 'tylagesic', 'zflex', 'cetazone', 'bactimicina', 'ofirmev', 'zolvit', 'arthriten', 'bf-paradac', 'duraxin', 'mejoralito', 'capacet', 'nortemp', 'acetadryl', 'sedalmex', 'xl-dol', 'ringl', 'acetadrink', 'syncol', 'pharbetol', 'un-aspirin', 'backaid', 'cetafen', 'exaprin', 'painaid', 'primalev', 'anolor', 'lynox', 'nodolor', 'xartemis', 'primlev', 'fortolin', 'verdrocet', 'ninjacof-a', 'vanatol', 'zyfrel', 'femadrine', 'sed-max', 'dolofin', 'apadaz', 'nalocet', 'dvorah', 'vtol', 'allzital', 'prolate', 'dolorex', 'combogesic']",paracetamol,Tylenol,"['Midrin', 'Percogesic', 'Panaleve', 'Calpol', 'Panadol', 'Tylenol', 'Mapap', 'Genace', 'Q-Gesic', 'Q-Nol', 'Repan', 'Sedapap', 'T-Gesic', 'T-Panol', 'Uni-Ace', 'Acephen', 'Paldesic', 'Rhinoflex', 'Ex-Pain', 'Contragesic', 'Procet', 'Relagesic', 'Va-Zone', 'Panasorb', 'Epidrin', 'Staflex', 'Lorcet', 'Darvocet', 'Migralam', 'Migran-A', 'By-Ache', 'Perloxx', 'Narvox', 'Magnacet', 'Qflex', 'Propacet', 'Vistra', 'Zgesic', 'Tactinal', 'Zamicet', 'Prodrin', 'Xolox', 'Cocet', 'Backprin', 'Pyregesic', 'Zflex', 'Cetazone', 'Bactimicina', 'Ofirmev', 'Zolvit', 'Arthriten', 'Mejoralito', 'Capacet', 'Nortemp', 'Sedalmex', 'Ringl', 'Syncol', 'Un-Aspirin', 'Backaid', 'Exaprin', 'Painaid', 'Primalev', 'Anolor', 'Lynox', 'Xartemis', 'Primlev', 'Fortolin', 'Verdrocet', 'Vanatol', 'Zyfrel', 'Femadrine', 'Sed-Max', 'Apadaz', 'Nalocet', 'Dvorah', 'Vtol', 'Allzital', 'Prolate', 'Dolorex']"
+"['paromycin', 'humatin']",paromomycin,Humatin,"['Paromycin', 'Humatin']"
+"['paxil', 'pexeva', 'brisdelle']",paroxetine,Brisdelle,"['Paxil', 'Pexeva', 'Brisdelle']"
+['krystexxa'],pegloticase,Krystexxa,['Krystexxa']
+['somavert'],pegvisomant,Somavert,['Somavert']
+"['cylert', 'pemolert']",pemoline,Cylert,"['Cylert', 'Pemolert']"
+"['cuprimine', 'depen', 'd-penamine']",penicillamine,Cuprimine,['Cuprimine']
+"['nebupent', 'pentam']",pentamidine,Nebupent,"['Nebupent', 'Pentam']"
+"['talwin', 'talacen', 'fortral']",pentazocine,Talwin,['Talwin']
+['digipepsin'],pepsin,Digipepsin,['Digipepsin']
+"['fentazin', 'trilafon', 'triavil', 'duo-vil', 'etrafon']",perphenazine,Trilafon,"['Trilafon', 'Fentazin']"
+"['pethilorfan', 'meprozine', 'demerol']",pethidine,Demerol,['Demerol']
+['nardil'],phenelzine,Nardil,['Nardil']
+"['bellergal', 'quadrinal', 'donnatal', 'antispas', 'antrocol', 'barbidonna', 'barophen', 'bellalphen', 'bellatal', 'colidrops', 'd-tal', 'donnaphen', 'donnapine', 'elixiral', 'haponal', 'hyosophen', 'hypersed', 'lufyllin-epg', 'malatal', 'mudrane', 'phenobel', 'solfoton', 'spasmolin', 'spasquid', 'spastolate', 'spastrin', 'alkabel', 'servira', 'luminal', 'bronkolixir', 'chardonna', 'b-donna', 'phenohytro', 'nobatol', 'sezaby']",phenobarbital,Luminal,"Here is a list of brand-name drugs that contain Phenobarbital and are not combination drugs:
+ 
+ [ 'Bellergal', 'Quadrinal', 'Donnatal', 'Luminal', 'Solfoton', 'Nobatol' ]
+ 
+ These brands are well-known and trusted, and they mainly contain Phenobarbital as the active ingredient, making them suitable options for prescription. 
+ 
+ It is always advisable to consult a medical professional or refer to the drug's leaflet/package insert for specific information regarding usage, dosage, and potential side effects."
+"['dibenyline', 'dibenzyline']",phenoxybenzamine,Dibenyline,"['Dibenyline', 'Dibenzyline']"
+"['oraverse', 'ryzumvi']",phentolamine,Oraverse,"['Oraverse', 'Ryzumvi']"
+"['cyclomydril', 'vasosulf', 'zincfrin', 'biorphen', 'dristan', 'neo-synephrine', 'ak-dilate', 'ak-nefrin', 'colrex', 'demi-cof', 'dicomal-dh', 'dicomal-ph', 'ditussin-hc', 'duo-medihaler', 'ed-tlc', 'efasin-hd', 'endagen-hd', 'endal-hd', 'enditussin-hd', 'endotuss-hd', 'enplus-hd', 'exo-tuss', 'prep-hem', 'hem-prep', 'histussin-hc', 'hyco-dh', 'hyphen-hd', 'm-phen', 'med-hist-hc', 'myci', 'mydfrin', 'nalex-dh', 'nasatuss', 'otigesic', 'pediacof', 'pedituss', 'poly-tussin', 'prefrin', 'rindal-hd', 'rolatuss', 'tuss-ds', 'tuss-hc', 'tussirex', 'tympagesic', 'vanex-hd', 'ventuss', 'despec-sf', 'rhinall', 'tussafed-hc', 'b-tuss', 'ear-gesic', 'dytan-d', 'k-tan', 'pancof-pd', 'relacon-hc', 'triant-hc', 'viravan-s', 'viravan-t', 'hist-hc', 'hist-plus', 'nasop', 'tusdec-hc', 'sudal', 'lusonal', 'tussinate', 'dytan-cs', 'dytan-hc', 'excof', 'canges-hc', 'tusana-d', 'simuc-hd', 'hydrofed', 'rynessa', 'exetuss-hc', 'relasin-hc', 'baltussin', 'aldex-ct', 'drotuss-cp', 'didone', 'carbatuss-cl', 'phena-hc', 'xyralid', 'tussplex', 'dytan-cd', 'phenyl-t', 'vazotab', 'duohist', 'rynesa', 'vanacof', 'vanex', 'notuss-pe', 'phendal-hd', 'tuss-pd', 'echotuss-hc', 'ru-hist-d', 'airacof', 'zotex-c', 'nasotuss', 'sinex', 'pluratuss', 'wal-dryl-d', 'wal-four', 'despec-pdc', 'nasopen-ch', 'vanacof-pe', 'dallergy', 'alconefrin', 'hemaway', 'sudo-tab', 'centussin', 'nikzon', 'hemorrodil', 'omidria', 'vazculep', 'immphentiv', 'mydcombi']",phenylephrine,Vazculep,"['Neo-Synephrine', 'Sinex', 'Nasal', 'Sudafed', 'Rhinosyn', 'Sudogest', 'Sudogest-RM', 'Little Noses', 'Sudafed OM', 'Sudafed 12 Hour', 'Sudogest PE', 'Sudafrin', 'Sudogest RF', 'Sudrine', 'Children‚Äôs Sudafed', 'Sudafed Non-Drying Sinus', 'Sudafed PE', 'Sudafed Multi-Symptom', 'Sudafed Congestion', 'Sudafed Sinus & Allergy', 'Children‚Äôs Sudafed Nasal Decongestant', 'Little Colds Decongestant Plus Cough', 'PediaCare Children‚Äôs Decongestant', 'PediaCare Children‚Äôs Decongestant Plus Cough', 'Triaminic Decongestant Plus Cough & Fever', 'Triaminic Thin Strips Decongestant', 'Triaminic Softchews Decongestant', 'Triaminic Infant Drops Decongestant', 'Contac Cold + Flu', 'Contac Non-Drying Sinus Congestion', 'Dristan', 'Dristan 12-Hour Nasal Spray', 'Dristan Cold Multi Symptom Formula', 'Dristan Sinus', 'Dristan Sinus Caplets', 'Dristan Cold Multi Symptom Formula Maximum Strength', 'Dristan Cold Multi Symptom Formula Daytime', 'Dristan Cold Multi Symptom Formula Nighttime', 'Dristan Junior', 'Dristan Sinus Multi Symptom Formula', 'Dristan 12-Hour Long Lasting Nasal Spray', '4-Way Fast Acting Nasal Spray', '4-Way Menthol Nasal Spray', '4-Way Long Acting Nasacort Allergy 24HR', 'Congestant Spray', 'Congestant Ultra', 'Congestant Ultra Tablets', 'Congestant Ultra Caplets', 'Congestant-D', 'Congestant-D Tablets', 'Congestant-D Caplets', 'Congestant Headache', 'Congestant Headache Caplets', 'Congestant Headache Jr. Strength', 'Congestant Headache Jr. Strength Caplets', 'Congestant Headache Jr.']"
+"['pentran', 'dilantin', 'epanutin', 'di-phen', 'phenytek', 'euthasol', 'somnasol', 'beuthanasia', 'euthaphen']",phenytoin,Dilantin,"['Dilantin', 'Epanutin', 'Phenytek']"
+['anticholium'],physostigmine,Anticholium,['Anticholium']
+"['isoptocarpine', 'pilogel', 'salagen', 'adsorbocarpine', 'akarpine', 'ocu-carpine', 'pilocar', 'pilostat', 'pilokair', 'pilopine', 'piloptic', 'pilagan', 'vuity']",pilocarpine,Pilagan,"Here is a Python list of brand-name drugs that contain the generic ingredient 'pilocarpine' and are not combination drugs:
+ 
+ python
+ 
+ [
+  'Isoptocarpine',
+  'Salagen',
+  'Ocu-Carpine',
+  'Pilagan',
+  'Pilocarpine',
+  'Vuity'
+ ]
+ 
+ These drugs are indicated for various purposes, including treating dry mouth, glaucoma, and presbyopia. Remember to consult a healthcare professional before taking any medication."
+"['visken', 'betadren']",pindolol,Visken,"['Visken', 'Betadren']"
+"['actos', 'duetact', 'oseni']",pioglitazone,Actos,"Here is a Python list of brand-name drugs that contain the generic ingredient ""pioglitazone"" and are not combination drugs:
+ 
+ python_list = [""Actos""]
+ 
+ Actos is the primary brand-name medication that contains pioglitazone as its active ingredient and is not a combination drug. It is commonly prescribed for the treatment of type 2 diabetes."
+['gastrotsepin'],pirenzepine,Gastrotsepin,['Gastrotsepin']
+"['flamatrol', 'piroflam', 'pirozip', 'feldene', 'brexidol', 'larapam']",piroxicam,Feldene,"Here is a list of brand-name drugs that contain the generic drug Piroxicam and are not combination drugs:
+ 
+ [ 'Feldene', 'Brexidol', 'Larapam', 'Flamatrol', 'Piroflam', 'Pirozip']"
+"['podofin', 'pododerm', 'podocon']",podophyllin,Podofin,"Here is a Python list of brand-name drugs that contain 'Podophyllin' as the primary generic ingredient and are not combination drugs:
+ 
+ python_list = ['Podofin', 'Pododerm', 'Podocon']
+ 
+ These drugs are typically used for the treatment of genital warts and are applied topically. They are designed for human use only and should be used under medical supervision."
+"['freshkote', 'minidrops', 'ivizia']",povidone,FreshKote,['FreshKote']
+"['iodex', 'betagen', 'betadine', 'disadine', 'pharmadine', 'aerodine', 'antisept', 'clinidine', 'efodine', 'mallisol', 'minidyne', 'polydine', 'povidex', 'povidine', 'videne', 'steribath', 'triadine', 'alphadine', 'meijer', 'ovadine', 'prevail-fx', 'prevail', 'biozide', 'poviderm', 'rexall', 'loris', 'dermawound', 'apocreme']",povidone-iodine,Betadine,"Here is a list of brand-name drugs that contain povidone-iodine as the primary active ingredient and are intended for human use:
+ 
+ [ 'Betadine', 'Povidine', 'Aerodine', 'Polydine', 'Povidex', 'Videne', 'Triadine', 'Alphadine', 'Poviderm' ]
+ 
+ These brands are well-known and trusted for their povidone-iodine products, which are commonly used as antiseptics and disinfectants."
+"['duodote', 'protopam']",pralidoxime,Protopam,"['Pralidoxime', ['Duodote', 'Protopam']]"
+['mirapex'],pramipexole,Mirapex,['Mirapex']
+['symlin'],pramlintide,Symlin,['Symlin']
+['effient'],prasugrel,Effient,['Effient']
+['pravachol'],pravastatin,Pravachol,['Pravachol']
+"['minipress', 'alphavase', 'kentovace', 'minizide']",prazosin,Minipress,"Here is a Python list of brand-name drugs that contain the generic drug Prazosin and are not combination drugs:
+ 
+ python_list = ['Minipress', 'Alphavase', 'Kentovace']
+ 
+ These drugs are primarily used for human treatment and are not combination medications. They are brand-name formulations of the generic drug Prazosin, which is a selective alpha-1 adrenergic receptor antagonist used for various clinical purposes, commonly prescribed for conditions related to the cardiovascular system."
+"['predsol', 'vasocidin', 'ak-pred', 'predenema', 'prednesol', 'hydeltrasol', 'ak-cide', 'blephamide', 'cetapred', 'cotolone', 'depo-predate', 'econopred', 'key-pred', 'medasulf', 'medicort', 'metimyd', 'pediapred', 'pred-g', 'predcor', 'prednisol', 'prelone', 'sulster', 'supred', 'predfoam', 'orapred', 'ocu-pred', 'ocu-pred-a', 'codelsol', 'stintisone', 'codelson', 'prednoral', 'pred-phosphate', 'predsulfair', 'pricortin', 'bubbli-pred', 'omnipred', 'flo-pred', 'millipred', 'optimyd', 'veripred', 'surolan', 'temaril-p', 'prednistab', 'solu-delta-cortef']",prednisolone,Orapred,"Here is a list of brand name drugs that contain Prednisolone as the primary ingredient and are not combination drugs. These are also confirmed to be for human use:
+ 
+ - Pedsol
+ - Ak-Pred
+ - Prednesol
+ - Hydeltrasol
+ - Medasulf
+ - Medicort
+ - Pediapred
+ - Predcor
+ - Prelone
+ - Orapred
+ - Ocu-Pred
+ - Ocu-Pred-A
+ - Prednisol
+ - Millipred
+ - Veripred
+ - Temaril-P
+ - Prednistab
+ 
+ Please note that this list is not exhaustive and there may be other suitable brand name drugs available. It is always advisable to consult a medical professional or refer to local pharmaceutical guidelines for the most appropriate medication and brand availability."
+"['decortisyl', 'prednicen-m', 'sterapred', 'meticorten', 'orasone', 'deltasone', 'prednicot', 'econosone', 'predone', 'rayos']",prednisone,Deltasone,"Here is a list of brand-name drugs that contain the generic ""Prednisone"" and are not combination drugs:
+ 
+  
+ - ['Decortisyl', 'Deltasone', 'Meticorten', 'Rayos']
+ 
+ These drugs are primarily used to treat a variety of inflammatory and autoimmune conditions and are typically prescribed for short-term or long-term management depending on the specific condition and severity. Please consult a medical professional for personalized advice and prescriptions."
+['mysoline'],primidone,Mysoline,['Mysoline']
+"['benemid', 'polycillin-prb']",probenecid,Benemid,"Here is a Python list of brand-name drugs that contain Probenecid as the primary ingredient and are not combination drugs:
+ 
+ python_list = ['Benemid', 'Probalan']
+ 
+ This list was created based on the information available to me up to January 2023. It is always advisable to consult a medical professional or refer to updated medical resources for the most accurate and current information regarding drug brands and their usage."
+"['pronestyl', 'procan', 'procanbid']",procainamide,Pronestyl,"['Pronestyl', 'Procanbid']"
+"['novocaine', 'mericaine']",procaine,Novocaine,"['Novocaine', 'Mericaine']"
+"['natulan', 'matulane']",procarbazine,Matulane,"['Matulane', 'Natulan']"
+"['stemetil', 'compazine', 'compro']",prochlorperazine,Stemetil,"['Stemetil', 'Compazine']"
+"['phenergan', 'q-mazine', 'm-phen', 'meprozine', 'pentazine', 'promacot', 'promethegan', 'phenadoz']",promethazine,Phenergan,"Here is a list of brand-name drugs that contain Promethazine as the primary ingredient and are not combination drugs:
+ 
+ [ 'Phenergan', 'Q-Mazine', 'M-Phen', 'Promethegan', 'Phenadoz']
+ 
+ These brands are commonly used and well-known for their promethazine formulation, primarily intended for human use."
+"['diprivan', 'propoven', 'propoflo', 'rapinovet', 'propovan', 'propothesia']",propofol,Diprivan,"Here is a Python list of brand-name drugs that contain propofol as the primary ingredient and are intended for human use, excluding combination drugs:
+ 
+ ```python
+ propofol_brands = ['Diprivan', 'Propoven', 'Propoflo']
+ ```
+ 
+ These brands are all well-known and commonly used for the delivery of propofol, a short-acting anesthetic agent. They are not combination drugs and primarily contain propofol as the active ingredient."
+"['angilol', 'apsolol', 'berkolol', 'beta-prograne', 'cardinol', 'inderal', 'propanix', 'sloprolol', 'bedranol', 'pronol', 'innopran', 'hemangeol']",propranolol,Inderal,"Here is a list of brand-name drugs that contain propranolol as the main ingredient and are not combination drugs:
+ 
+ [ 'Inderal', 'Hemangeol', 'Innopran', 'Bedranol', 'Beta-Prograne']
+ 
+ These brands are well-known and trusted for their propranolol formulations, and they are used for human consumption. It is always advisable to consult a healthcare professional before taking any medication."
+['seroquel'],quetiapine,Seroquel,"Here is a Python list of brand-name drugs that contain the generic drug Quetiapine and are not combination drugs:
+ 
+ ```python
+ quetiapine_brands = [""Seroquel""]
+ ```
+ 
+ These drugs are typically used to treat certain mental health conditions and are prescribed for human use. ""Seroquel"" is one of the well-known brand names for the generic drug Quetiapine."
+"['quinora', 'cardioquin', 'quin-g', 'quin-release', 'quinaglute', 'kiditard', 'quinicardine', 'quinadure', 'quin-tab', 'quinidex', 'nuedexta']",quinidine,Quinora,"Here is a list of brand-name drugs that contain quinidine as the primary ingredient and are not combination drugs:
+ 
+ [ 'Quinora', 'Cardioquin', 'Quin-G', 'Quin-Release', 'Quinaglute', 'Quinicardine', 'Quinidex' ]
+ 
+ These drugs are typically used for human patients and are not combination medications. They are brand names for the generic drug quinidine, which is a class IA anti-arrhythmic agent used to treat irregular heartbeats and related conditions."
+"['quinamm', 'qualaquin']",quinine,Qualaquin,"['Quinamm', 'Qualaquin']"
+['evista'],raloxifene,Evista,['Evista']
+['rozerem'],ramelteon,Rozerem,"Here is a Python list of brand-name drugs that contain Ramelteon as the primary ingredient and are not combination drugs:
+ 
+ ```python
+ drugs = [
+  {
+  'generic': 'ramelteon',
+  'brand': ['Rozerem']
+  }
+ ]
+ ```
+ 
+ Ramelteon is a sedative-hypnotic drug used to treat insomnia, and Rozerem is the brand name for this drug. It is designed to interact with melatonin receptors in the brain to regulate sleep patterns."
+['altace'],ramipril,Altace,['Altace']
+"['zantac', 'raciran', 'tritec', 'rantec', 'zaedoc', 'taladine', 'wal-zan']",ranitidine,Zantac,"Here is a list of brand-name drugs that contain ranitidine and are not combination drugs:
+ 
+ [ 'Zantac', 'Raciran', 'Rantec', 'Zaedoc', 'Taladine', 'Wal-Zan' ]
+ 
+ These brands are all ranitidine-based medications and are typically used for treating conditions such as stomach ulcers, heartburn, and acid reflux. They are designed for human consumption and do not contain any additional active ingredients that would make them combination drugs."
+['elitek'],rasburicase,Elitek,['Elitek']
+['ultiva'],remifentanil,Ultiva,['Ultiva']
+"['prandin', 'novonorm', 'prandimet']",repaglinide,Prandin,"['Prandin', 'Novonorm']"
+"['acnomel', 'acnotex', 'bensulfoid', 'rezamid', 'sulforcin', 'resinol']",resorcinol,Resinol,"Here is a Python list of brand-name drugs that contain the generic component ""resorcinol"" and are not combination drugs:
+ 
+ ```python
+ brands = [""Acnomel"", ""Acnotex"", ""Bensulfoid"", ""Rezamid"", ""Sulforcin"", ""Resinol""]
+ ```
+ 
+ These brands are all suitable for human use and primarily feature resorcinol as their active ingredient. They are not combination drugs, meaning they do not contain multiple active ingredients."
+"['virazole', 'copegus', 'rebetol', 'ribasphere', 'ribatab', 'moderiba']",ribavirin,Rebetol,"Here is a list of brand-name drugs that contain Ribavirin as the primary ingredient and are not combination drugs: 
+ 
+ ['Virazole', 'Rebetol', 'Ribasphere', 'Ribatab', 'Moderiba']
+ 
+ These brands are specifically formulated for human use and do not contain any additional active ingredients combined with Ribavirin. They are commonly used for the treatment of viral infections, particularly in the case of hepatitis C."
+"['rifater', 'rifadin', 'rimactane', 'rifamate', 'isonarif']",rifampin,Rimactane,"Here is a Python list of brand-name drugs that contain the generic drug Rifampin and are not combination drugs:
+ 
+ ```python
+ brands = ['Rifadin', 'Rimactane']
+ ```
+ 
+ These drugs, Rifadin and Rimactane, contain Rifampin as the primary active ingredient and are not combination medications. They are typically used to treat bacterial infections in humans, such as tuberculosis."
+['xifaxan'],rifaximin,Xifaxan,['Xifaxan']
+"['rilutek', 'tiglutik', 'exservan', 'teglutik']",riluzole,Rilutek,"['Rilutek', 'Tiglutik', 'Exservan', 'Teglutik']"
+['actonel'],risedronate,Actonel,['Actonel']
+"['norvir', 'kaletra', 'technivie']",ritonavir,Norvir,"Here is a Python list of brand-name drugs that contain the generic drug Ritonavir and are not combination drugs:
+ 
+ ```python
+ ritonavir_brands = [""Norvir""]
+ ```
+ 
+ Norvir (Ritonavir) is a protease inhibitor used to treat HIV infection. It is typically used in combination with other antiretroviral drugs to effectively manage HIV. However, in this case, we are only considering single-ingredient brands, hence the inclusion of Norvir."
+"['rituxan', 'truxima', 'ruxience', 'riabni']",rituximab,Rituxan,"['Rituxan', 'Truxima', 'Ruxience', 'Riabni']"
+['xarelto'],rivaroxaban,Xarelto,['Xarelto']
+['exelon'],rivastigmine,Exelon,['Exelon']
+"['maxalt', 'rizaport', 'rizafilm']",rizatriptan,Maxalt,"['Maxalt', 'Rizaport', 'RizaFilm']"
+['zemuron'],rocuronium,Zemuron,['Zemuron']
+['nplate'],romiplostim,Nplate,['Nplate']
+['requip'],ropinirole,Requip,['Requip']
+['naropin'],ropivacaine,Naropin,['Naropin']
+"['crestor', 'ezallor', 'roszet']",rosuvastatin,Crestor,"Here is a Python list of brand-name drugs that contain the generic ingredient ""rosuvastatin"" and are not combination drugs:
+ 
+ ```python
+ best_brands = [""Crestor"", ""Ezallor""]
+ ```
+ 
+ These drugs, Crestor and Ezallor, are commonly prescribed and well-known brand-name versions of rosuvastatin. They are not combination drugs, meaning they contain rosuvastatin as the sole active ingredient."
+"['jakafi', 'opzelura']",ruxolitinib,Jakafi,"Here is a Python list of brand-name drugs that contain the generic drug Ruxolitinib and are not combination drugs:
+ 
+ ```python
+ brands = [""Jakafi"", ""Opzelura""]
+ ```
+ 
+ These drugs, Jakafi and Opzelura, are both brand-name medications containing the generic drug Ruxolitinib and are indicated for specific medical conditions. They are not combination drugs, meaning they do not contain multiple active pharmaceutical ingredients."
+"['ventolin', 'combivent', 'salbulin', 'volmax', 'libetist', 'proventil', 'airet', 'asmaven', 'duoneb', 'arm-a-med', 'accuneb', 'vospire', 'salbuvent', 'cobutolin', 'proair', 'airsupra']",salbutamol,Ventolin,"Here is a list of brand-name drugs that contain salbutamol as the primary active ingredient and are not combination drugs:
+ 
+ [ 'Ventolin', 'Salbulin', 'Proventil', 'ProAir', 'Vospire', 'Airet', 'Airet', 'Accuneb']
+ 
+ These drugs are commonly used for the treatment of asthma and other respiratory conditions, and they contain salbutamol as the main active ingredient. They are not combination drugs, meaning they do not contain any other active ingredients besides salbutamol."
+"['serevent', 'advair', 'airduo', 'wixela']",salmeterol,Serevent,"Here is a Python list of brand-name drugs that contain Salmeterol and are not combination drugs:
+ 
+ ```python
+ brands = ['Serevent', 'AirDuo']
+ ```
+ 
+ These drugs are used for the long-term treatment of asthma and chronic obstructive pulmonary disease (COPD) and are designed for human use. Serevent is a common brand that contains Salmeterol, while Advair and Wixela are combination drugs that contain both Salmeterol and Fluticasone, so they are not included in this list."
+"['invirase', 'fortovase']",saquinavir,Invirase,"['Saquinavir', 'Invirase']"
+"['donnatal', 'antispas', 'barbidonna', 'barophen', 'bellalphen', 'bellatal', 'colidrops', 'd-tal', 'donnaphen', 'donnapine', 'elixiral', 'haponal', 'hyosophen', 'hypersed', 'malatal', 'phenobel', 'scopace', 'spasmolin', 'spasquid', 'spastolate', 'transderm-scop', 'maldemar', 'alkabel', 'servira', 'chardonna', 'b-donna', 'phenohytro']",scopolamine,Scopace,"Here is a list of brand-name drugs that contain scopolamine as the main ingredient and are not combination drugs:
+ 
+ [ 'Donnatal', 'Transderm-Scop', 'Scopace', 'Donnapine', 'Barbidonna', 'Barophen', 'Colidrops', 'Spasmolin', 'B-Donna' ]
+ 
+ These drugs are typically used to treat various conditions such as motion sickness, gastrointestinal issues, and to help with certain surgical procedures. Please note that this list may not be exhaustive and it is always advisable to consult a medical professional for personalized advice and recommendations."
+"['carbex', 'eldepryl', 'stilline', 'centrapryl', 'vivapryl', 'atapryl', 'emsam', 'zelapar', 'anipryl']",selegiline,Emsam,"['Emsam', 'Zelapar', 'Carbex', 'Eldepryl']"
+"['senokot', 'dosaflex', 'senexon', 'senokot-s', 'senolax', 'uni-cenna', 'lax-ease', 'senosol', 'senosol-ss', 'senna-time', 'peri-colace', 'pedia-lax', 'senexon-s', 'purgasol', 'laxacin']",senna,Senokot,"Here is a list of brands that primarily contain the generic drug 'Senna' and are not combination drugs:
+ 
+ [ 'Senokot', 'Senokot-S', 'Senexon', 'Senexon-S', 'Senolax', 'Dosaflex', 'Uni-Cenna', 'Purgasol', 'Senosol', 'Senosol-SS', 'Senna-Time' ]
+ 
+ These brands are commonly used for the treatment of occasional constipation and are suitable for human use. It is always advisable to consult a healthcare professional before taking any medication."
+['zoloft'],sertraline,Zoloft,"Here is a Python list of brand-name drugs that contain sertraline as the main ingredient and are not combination drugs:
+ 
+ ```python
+ brands = ['Zoloft']
+ ```
+ 
+ Zoloft is a well-known and commonly prescribed brand-name medication that contains sertraline as the active ingredient. It is used to treat a variety of mental health conditions, including depression, anxiety, and obsessive-compulsive disorder (OCD)."
+"['renagel', 'renvela']",sevelamer,Renvela,"['Renvela', 'Renagel']"
+"['ultane', 'petrem', 'sojourn', 'sevothesia', 'sevosol', 'sevoflo']",sevoflurane,Ultane,"['Ultane', 'Sevorane', 'Sevothesia']"
+"['viagra', 'revatio', 'liqrev']",sildenafil,Viagra,"['Viagra', 'Revatio']"
+['olysio'],simeprevir,Olysio,['Olysio']
+"['zocor', 'vytorin', 'simcor', 'juvisync', 'flolipid']",simvastatin,Zocor,"Here is a list of brand-name drugs that contain Simvastatin as the primary ingredient and are not combination drugs:
+ 
+ [ 'Zocor', 'Simcor']
+ 
+ It's important to note that while these drugs contain Simvastatin as the active ingredient, the effectiveness and suitability of a medication can vary from person to person and should be determined in consultation with a medical professional. Additionally, brand-name drugs may have specific advantages or be more suitable for certain patients compared to their generic counterparts, depending on individual needs and preferences."
+"['januvia', 'janumet', 'juvisync', 'steglujan', 'zituvio', 'zituvimet']",sitagliptin,Januvia,"Here is a list of brand-name drugs that primarily contain the generic drug, Sitagliptin, and are not combination drugs:
+ 
+ [
+  'Januvia',
+  'Steglujan',
+  'Zituvio'
+ ]
+ 
+ These drugs are all used for the management of type 2 diabetes and are not combination medications, meaning they solely contain Sitagliptin as the active ingredient. They are also specifically indicated for use in humans."
+"['sovaldi', 'harvoni', 'epclusa', 'vosevi']",sofosbuvir,Sovaldi,['Sovaldi']
+"['aldactazide', 'aldactone', 'spiretic', 'spiroctan', 'spirolone', 'spirospare', 'spironol', 'diatensec', 'laractone', 'carospir', 'cardalis']",spironolactone,Carospir,"Here is a list of brand-name drugs that contain the generic drug Spironolactone and are not combination drugs:
+ 
+ [ 'Aldactone', 'Spiretic', 'Spiroctan', 'Spirolone', 'Spirospare', 'Spironol', 'Carospir', 'Cardalis']
+ 
+ These drugs are typically used to treat various human conditions, such as hypertension, heart failure, and certain hormonal disorders. They are not combination drugs, meaning they contain Spironolactone as the sole active ingredient."
+['winstrol'],stanozolol,Winstrol,['Winstrol']
+['zerit'],stavudine,Zerit,['Winstrol']
+"['kabikinase', 'streptase']",streptokinase,Kabikinase,"['Kabikinase', 'Streptase']"
+['chemet'],succimer,Chemet,['Chemet']
+"['sufenta', 'dsuvia']",sufentanil,Sufenta,"['Sufenta', 'Dsuvia']"
+"['azulfidine', 'ucine', 'sulfazine']",sulfasalazine,Azulfidine,['Azulfidine']
+['clinoril'],sulindac,Clinoril,['Clinoril']
+"['imitrex', 'trexima', 'treximet', 'alsuma', 'zecuity', 'sumavel', 'zembrace', 'onzetra', 'tosymra']",sumatriptan,Imitrex,"Here is a list of brand-name drugs that contain sumatriptan as the primary ingredient and are not combination drugs:
+ 
+ [ 'Imitrex', 'Alsuma', 'Zembrace', 'Tosymra']
+ 
+ These drugs are specifically used for the treatment of migraine headaches and are intended for human use only. They are all well-known and trusted brands for sumatriptan-based medications."
+"['quelicin', 'anectine']",suxamethonium,Quelicin,"['Quelicin', 'Anectine']"
+"['prograf', 'protopic', 'hecoria', 'astagraf', 'envarsus']",tacrolimus,Prograf,"['Prograf', 'Protopic', 'Hecoria', 'Astagraf', 'Envarsus']"
+"['cialis', 'adcirca', 'alyq', 'entadfi', 'tadliq', 'opsynvi']",tadalafil,Cialis,"['Cialis', 'Adcirca', 'Opsynvi']"
+"['emblon', 'fentamox', 'nolvadex-d', 'oestrifen', 'tamofen', 'nolvadex', 'noltam', 'soltamox']",tamoxifen,Nolvadex,"Here is a list of brands that primarily contain the generic drug 'Tamoxifen', are not combination drugs, and are used for humans:
+ 
+ ['Nolvadex', 'Soltamox', 'Emblon', 'Fentamox', 'Tamofen']
+ 
+ These brands are specifically used for the treatment of breast cancer and are well-known for their effectiveness and long-standing use in oncology."
+"['flomax', 'jalyn']",tamsulosin,Flomax,"Here is a Python list of brand-name drugs that contain the generic ingredient ""tamsulosin"" and are not combination drugs:
+ 
+ python
+ 
+ brands = [""Flomax""]
+ 
+ The list contains the brand name ""Flomax"" which is primarily composed of the generic drug ""tamsulosin."" It is a commonly prescribed medication for treating symptoms associated with benign prostatic hyperplasia (BPH) in men."
+"['zorac', 'tazorac', 'avage', 'fabior', 'duobrii', 'arazlo']",tazarotene,Zorac,"['Zorac', 'Tazorac', 'Avage', 'Fabior']"
+['targocid'],teicoplanin,Targocid,['Targocid']
+"['micardis', 'micardis-hct', 'twynsta', 'semintra']",telmisartan,Micardis,"Here is a Python list of brand-name drugs that contain the generic ingredient ""telmisartan"" and are not combination drugs:
+ 
+ python_list = [""Micardis"", ""Semintra""]
+ 
+ These drugs are typically used for the treatment of hypertension and are prescribed for human use only. It is always advisable to consult a healthcare professional before taking any medication."
+"['normison', 'euhypnos', 'restoril']",temazepam,Normison,"['Normison', 'Restoril']"
+"['hytrin', 'terazoisin', 'terazoosin']",terazosin,Hytrin,['Hytrin']
+"['lamisil', 'terbinex', 'claro', 'simplera']",terbinafine,Lamisil,"Here is a Python list of brand-name drugs that contain terbinafine as the primary ingredient and are not combination drugs:
+ 
+ python_list = [""'Lamisil'"", ""'Terbinex'"", ""'Claro'"", ""'Simplera'""]"
+"['bricanyl', 'brethine', 'brethaire']",terbutaline,Brethine,"['Bricanyl', 'Brethine', 'Brethaire']"
+['forteo'],teriparatide,Forteo,['Forteo']
+"['nitoman', 'xenazine']",tetrabenazine,Xenazine,['Xenazine']
+"['topicycline', 'panmycin', 'ala-tet', 'brodspec', 'sumycin', 'achromycin', 'actisite', 'tetracap', 'tetracon', 'pylera', 'ornacycline', 'diabecline', 'viabecline', 'vitastem']",tetracycline,Panmycin,"Here is a list of brand-name drugs that contain the generic Tetracycline and are not combination drugs:
+ 
+ [ 'Panmycin', 'Sumycin', 'Achromycin', 'Actisite', 'Ornacine', 'Diabecline']
+ 
+ These brands are well-known and established for their Tetracycline formulations and are primarily used for human treatment."
+"['kuvan', 'javygtor']",tetrahydrobiopterin,Kuvan,"Here is a Python list of brand-name drugs that contain the generic Tetrahydrobiopterin (BH4) and are not combination drugs:
+ 
+ ```python
+ drug_list = [""Kuvan""]
+ ```
+ 
+ Only 'Kuvan' is a brand name for Tetrahydrobiopterin and is used for the treatment of certain human conditions, primarily related to Phenylketonuria (PKU). 'Javygtor' seems to be a fictional brand and doesn't exist in reality, so it has been excluded from the list."
+['thalomid'],thalidomide,Thalomid,['Thalomid']
+"['quadrinal', 'quibron-t', 'lasma', 'slo-phyllin', 'theodur', 'theo-dur', 'theovent', 'uniphyl', 'theospan', 'theolair', 'theobid', 'sustaire', 'elixophyllin', 'bronkodyl', 'aquaphyllin', 'aerolate', 'theochron', 't-phyl', 'slo-bid', 'respbid', 'ami-rax', 'asmalix', 'bronchial', 'elixophyllin-gg', 'marax', 'q-b', 'quibron', 'theo-time', 'theo-x', 'theocon', 'theolate', 'theophyll-gg', 'truxophyllin', 'uni-dur', 'theo-sav', 'biophylline', 'labophylline', 'theograd', 'pro-vent', 'theoclear', 'h-quib', 'broncodur', 'theocap', 'bronkolixir']",theophylline,Elixophyllin,"Here is a list of brand-name drugs that contain theophylline as the primary active ingredient and are not combination drugs:
+ 
+ [ 'Quadrinal', 'Lasma', 'Theodur', 'Theo-Dur', 'Theovent', 'Uniphyl', 'Theolair', 'Theobid', 'Sustaire', 'Elixophyllin', 'Bronkodyl', 'Aquaphyllin', 'Aerolate', 'Theochron', 'T-Phyl', 'Slo-Bid', 'Ami-Rax', 'Asmalix', 'Marax', 'Theo-Time', 'Theo-X', 'Theocon', 'Theolate', 'Theophyll-GG', 'Truxophyllin', 'Uni-Dur', 'Theo-Sav', 'Biophylline', 'Labophylline', 'Theograd', 'Pro-Vent', 'Theoclear', 'Broncodur', 'Theocap' ]
+ 
+ These brands are specifically formulated for the treatment of respiratory conditions such as asthma and chronic obstructive pulmonary disease (COPD), and they contain theophylline as their primary active ingredient, rather than being combination medications that include additional drugs."
+"['thyrolar', 'soloxine', 'eltroxin', 'euthyrox', 'levo-t', 'levotabs', 'levothroid', 'levoxyl', 'synthroid', 'unithroid', 'thyrox', 'novothyrox', 'estre', 'tirosint', 'leventa', 'thyro-tabs', 'thyromed', 'thyrokare', 'levocrine', 'thyquidity', 'ermeza', 'thyrocryn']",thyroxine,Synthroid,"Here is a list of brand name drugs that contain thyroxine as the primary ingredient and are not combination drugs:
+ 
+ [ 'Synthroid', 'Levoxyl', 'Unithroid', 'Levothroid', 'Tirosint', 'Levo-T' ]
+ 
+ These brands are commonly prescribed and contain levothyroxine sodium as the main active ingredient, which is used to treat hypothyroidism and related conditions. They are not combination drugs, meaning they do not contain additional active ingredients mixed with thyroxine."
+['livial'],tibolone,Livial,['Livial']
+['brilinta'],ticagrelor,Brilinta,['Brilinta']
+['ticlid'],ticlopidine,Ticlid,['Ticlid']
+"['blocadren', 'timoptic', 'timoptol', 'betim', 'glaucol', 'glau-opt', 'betimol', 'cosopt', 'timolide', 'istalol', 'combigan']",timolol,Blocadren,"Here is a list of brand name drugs that contain Timolol and are not combination drugs:
+ 
+ [ 'Blocadren', 'Timoptic', 'Timoptol', 'Betim', 'Glaucol', 'Glau-opt', 'Betimol', 'Istalol']
+ 
+ These drugs are typically used for the treatment of glaucoma and other eye-related conditions, and they are all approved for human use."
+"['spiriva', 'stiolto']",tiotropium,Spiriva,['Spiriva']
+['aggrastat'],tirofiban,Aggrastat,['Aggrastat']
+['zanaflex'],tizanidine,Zanaflex,"Here is a Python list of brand-name drugs that contain the generic drug Tizanidine and are not combination drugs:
+ 
+ ```python
+ brands = [""Zanaflex""]
+ ```
+ 
+ Zanaflex (Tizanidine) is a prescription medication used to treat muscle spasms and increased muscle tone associated with conditions such as multiple sclerosis and spinal cord injury. It is a fast-acting medication that provides short-term relief. 
+ 
+ It's important to note that this list may not be exhaustive and drug information may change over time, so it's always a good idea to consult a healthcare professional or refer to reputable medical sources for the most up-to-date information."
+"['actemra', 'tyenne']",tocilizumab,Actemra,"Here is a Python list of brand-name drugs that contain the generic ""Tocilizumab"" and are not combination drugs:
+ 
+ python_list = [""Actemra"", ""Tyenne""]
+ 
+ These drugs are typically prescribed for the treatment of rheumatoid arthritis and other inflammatory conditions. They are designed for human use and work by inhibiting the effects of a specific protein involved in the immune response."
+"['orinase', 'tol-tab']",tolbutamide,Orinase,"['Orinase', 'Tol-Tab']"
+['detrol'],tolterodine,Detrol,['Detrol']
+"['samsca', 'jynarque']",tolvaptan,Samsca,"['Samsca', 'Jynarque']"
+"['topamax', 'topiragen', 'qsymia', 'trokendi', 'qudexy', 'eprontia']",topiramate,Topamax,"Here is a Python list of brand-name drugs that contain Topiramate as the primary active ingredient and are not combination drugs:
+ 
+ ```python
+ topiramate_brands = ['Topamax', 'Trokendi', 'Qudexy', 'Eprontia']
+ ```
+ 
+ These brands are all approved for human use and primarily contain Topiramate as the active pharmaceutical ingredient. They are not combination drugs, meaning they do not contain other active ingredients mixed with Topiramate."
+['hycamtin'],topotecan,Hycamtin,['Hycamtin']
+"['zydol', 'tramake', 'zamadol', 'ultram', 'ultracet', 'tramalgin', 'ryzolt', 'rybix', 'conzip', 'qdolo', 'seglentis']",tramadol,Ultram,"Here is a list of brand-name drugs that contain Tramadol as the primary ingredient and are not combination drugs:
+ 
+ [ 'Ultram', 'Rybix', 'Ryzolt', 'Conzip', 'Seglentis']
+ 
+ These brands are commonly prescribed and primarily contain Tramadol for pain relief. They are intended for human use only."
+"['desyrel', 'molipaxin', 'oleptro']",trazodone,Desyrel,"['trazodone', 'Desyrel', 'Molipaxin']"
+"['adcortyl', 'ledercort', 'lederspan', 'nasacort', 'aristocort', 'kenalog', 'azmacort', 'aristospan', 'acetocot', 'amcort', 'aricin', 'aristopak', 'cort-k', 'flutex', 'mycasone', 'mycomar', 'mytrex', 'tri-kort', 'tri-med', 'triacet', 'triamcot', 'trilog', 'trilone', 'tristoject', 'u-tri-lone', 'tri-nasal', 'cinalog', 'cinolar', 'clinacort', 'clinalog', 'cortinide', 'robalog', 'trilocort', 'cinolone', 'cortilone', 'oralone', 'myocidin', 'triesence', 'zytopic', 'trivaris', 'allernaze', 'myco-triacet', 'mycogen', 'mycolog', 'nyst-olone', 'tri-statin', 'delta-tritex', 'tac', 'ken-jec', 'kenaject', 'tramacort', 'triam', 'triamonide', 'cenocort', 'trianex', 'animax', 'cortalone', 'vetalog', 'genesis', 'zilretta', 'dermalone', 'aller-cort', 'hexatrione', 'tritocin', 'xipere', 'kourzeq']",triamcinolone,Kenalog,"Here is a list of brand-name drugs that contain Triamcinolone as the primary ingredient and are not combination drugs. These are also confirmed to be used for humans:
+ 
+ ['Nasacort', 'Kenalog', 'Azmacort', 'Aristospan', 'Trivaris', 'Triesence', 'Xipere']
+ 
+ This list is curated based on the information available and focuses on brands that are widely recognized and well-established in the pharmaceutical market."
+"['dyazide', 'maxzide', 'dyrenium']",triamterene,Dyrenium,"Here is a Python list of brand-name drugs that contain the generic ingredient 'triamterene' and are not combination drugs:
+ 
+ ```python
+ brands = [""Dyrenium""]
+ ```
+ 
+ Dyrenium (generic name: triamterene) is a brand-name drug that contains triamterene as its active ingredient and is not a combination drug. It is used to treat high blood pressure and edema (swelling due to fluid retention)."
+['halcion'],triazolam,Halcion,['Halcion']
+['stelazine'],trifluoperazine,Stelazine,['Stelazine']
+"['artane', 'broflex', 'trihexane', 'bentex']",trihexyphenidyl,Artane,"['Artane', 'Trihexane']"
+['arfonad'],trimethaphan,Arfonad,['Arfonad']
+"['polytrim', 'bactrim', 'comixco', 'fectrim', 'laratrim', 'cotrim', 'septra', 'septrin', 'bethaprim', 'sulfatrim', 'uroplus', 'trimpex', 'proloprim', 'primsol', 'comox', 'bacter-aid', 'uniprim', 'tucoprim']",trimethoprim,Proloprim,"Here is a list of brands that primarily contain the generic drug 'Trimethoprim' and are suitable for human use, excluding combination drugs:
+ 
+ [ 'Proloprim', 'Primsol', 'Uniprim' ]
+ 
+ These brands are single-entity formulations containing Trimethoprim as the active ingredient and are indicated for the treatment of various bacterial infections in humans."
+['surmontil'],trimipramine,Surmontil,['Surmontil']
+"['actifed', 'actidil', 'a-phedrin', 'actacin', 'actagen', 'actamine', 'actedril', 'allercon', 'allerfrim', 'altafed', 'atrofed', 'atrogen', 'genac', 'hista-tabs', 'histafed', 'tri-pseudo', 'tri-sudo', 'triafed', 'triphed', 'triptifed', 'trisofed', 'vi-sudo', 'trisudrine', 'zymine', 'acticon', 'zymine-d', 'tripohist', 'hist-pse', 'wal-act', 'vanaclear']",triprolidine,Actidil,"Here is a list of brand-name drugs that contain triprolidine as the main or sole active ingredient, intended for human use:
+ 
+ [
+  'Actifed',
+  'Actidil',
+  'Actacin',
+  'Actagen',
+  'Actamine',
+  'Actedril',
+  'Allercon',
+  'Allerfrim',
+  'Altafed',
+  'Genac',
+  'Hista-Tabs',
+  'Histafed',
+  'Tri-Pseudo',
+  'Trisudrine',
+  'Zymine',
+  'Zymine-D',
+  'Tripohist',
+  'Hist-Pse',
+  'Wal-Act',
+  'Vanaclear'
+ ]
+ 
+ These brands are not combination drugs and primarily contain triprolidine. They are commonly used for treating allergies and cold symptoms."
+"['trelstar', 'triptodur']",triptorelin,Trelstar,"['Trelstar', 'Triptodur']"
+"['tropicacyl', 'mydriacyl', 'mydral', 'opticyl', 'paremyd', 'ocu-tropic', 'eyemyd', 'mydcombi']",tropicamide,Tropicacyl,"Here is a list of brand-name drugs that contain tropicamide as the main active ingredient and are not combination drugs:
+ 
+ [ 'Tropicacyl', 'Mydriacyl', 'Opticyl', 'Ocu-Tropic', 'Eyemyd' ]
+ 
+ These brands are commonly used for various ophthalmic procedures and are typically administered as eye drops. They are all intended for human use."
+['sanctura'],trospium,Sanctura,['Sanctura']
+['ella'],ulipristal,Ella,['Ella']
+"['epilim', 'depakene', 'depacon', 'depakote', 'stavzor']",valproate,Depakene,"Here is a Python list of brand-name drugs that contain the generic ""Valproate"" and are not combination drugs:
+ 
+ python_list = [""Epilim"", ""Depakene"", ""Depacon"", ""Depakote"", ""Stavzor""]
+ 
+ These drugs are all used for human treatment, typically for neurological conditions such as epilepsy or bipolar disorder. They are not combination drugs, meaning they contain only valproate as the active ingredient."
+"['diovan', 'exforge', 'valturna', 'entresto', 'byvalson']",valsartan,Diovan,"Here is a list of brand-name drugs that contain Valsartan as the primary ingredient and are not combination drugs:
+ 
+ [ 'Diovan', 'Valturna']
+ 
+ These drugs are typically prescribed for the treatment of high blood pressure and are meant for human use only. It's important to consult a healthcare professional before taking any medication."
+"['vancocin', 'firvanq']",vancomycin,Firvanq,"['Vancocin', 'Firvanq']"
+"['pitressin', 'vasostrict']",vasopressin,Pitressin,"['Pitressin', 'Vasostrict']"
+['norcuron'],vecuronium,Norcuron,['Norcuron']
+"['cordilox', 'berkatens', 'securon', 'hypaneze', 'tarka', 'isoptin', 'calan', 'verelan', 'univer', 'geangin', 'covera']",verapamil,Isoptin,"Here is a list of brand-name drugs that contain the generic ""Verapamil"" and are not combination drugs:
+  
+ [
+  'Covera',
+  'Calan',
+  'Isoptin',
+  'Verelan',
+  'Geangin'
+ ]
+ 
+ These brands are all approved for human use and primarily contain Verapamil as the active ingredient. They are commonly used for treating various cardiovascular conditions, such as hypertension, angina, and arrhythmias."
+"['sabril', 'vigadrone', 'vigpoder']",vigabatrin,Sabril,['Sabril']
+"['vincasar', 'marqibo']",vincristine,Vincasar,"['Vincasar', 'Marqibo']"
+['zontivity'],vorapaxar,Zontivity,['Zontivity']
+['vfend'],voriconazole,VFEND,['VFEND']
+"['coumadin', 'jantoven', 'narfarin', 'marfarin']",warfarin,Jantoven,"Here is a Python list of brand-name drugs that contain the generic component 'Warfarin' and are not combination drugs:
+ 
+ ```python
+ warfarin_brands = ['Coumadin', 'Jantoven', 'Narfarin', 'Marfarin']
+ ```
+ 
+ These brands are all anticoagulants used to prevent and treat blood clots and are intended for human use."
+"['yohimex', 'actibine', 'yocon', 'aphrodyne', 'dayto-himbin', 'erex', 'mederek', 'testomar', 'thybine', 'yohimar', 'yoman', 'yovital', 'yobine']",yohimbine,Yohimex,"Here is a list of brand-name drugs that contain the generic ingredient Yohimbine and are not combination drugs:
+ 
+ [ 'Yohimex', 'Yocon', 'Dayto-Himbin', 'Mederek', 'Yohimar', 'Yobine']
+ 
+ These brands are primarily used for human treatment and are not combination medications. They are commonly prescribed for conditions such as sexual dysfunction and circulatory issues."
+['accolate'],zafirlukast,Accolate,"Here is a Python list containing the best brand drugs that contain the generic drug Zafirlukast and are not combination drugs:
+ 
+ [['Accolate']]
+ 
+ Accolate (Zafirlukast) is a brand-name drug used in the prevention and treatment of asthma. It belongs to a class of medications known as leukotriene receptor antagonists, which help to control and prevent asthma symptoms by blocking the effects of leukotrienes, substances in the body that cause airway inflammation and tightening of the airways."
+"['combivir', 'retrovir', 'trizivir']",zidovudine,Retrovir,['Retrovir']
+['zyflo'],zileuton,Zyflo,['Zyflo']
+['geodon'],ziprasidone,Geodon,['Geodon']
+"['zonegran', 'zonisade']",zonisamide,Zonegran,"Here is a Python list of brand-name drugs that contain the generic component 'zonisamide' and are not combination drugs:
+ 
+ ```python
+ drug_list = [
+  {
+  'generic': 'zonisamide',
+  'brands': ['Zonegran', 'Zonisade']
+  }
+ ]
+ ```
+ 
+ These drugs, Zonegran and Zonisade, are brand-name medications that contain the active ingredient zonisamide and are prescribed for human use. They are not combination drugs, meaning they do not contain multiple active ingredients."
