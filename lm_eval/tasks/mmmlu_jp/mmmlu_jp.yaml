@@ -1,4 +1,4 @@
-task: mmlu_jp
+task: mmmlu_jp
 dataset_path: openai/MMMLU
 dataset_name: JA_JP
 output_type: multiple_choice
