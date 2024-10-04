@@ -1,4 +1,4 @@
-task: mmlu_es
+task: mmmlu_es
 dataset_path: openai/MMMLU
 dataset_name: ES_LA
 output_type: multiple_choice
