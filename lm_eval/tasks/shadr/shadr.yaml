@@ -1,7 +1,7 @@
 # original from https://github.com/oskarvanderwal/grounded-bias-eval/blob/main/bias_benchmarks/custom_tasks/shadr.yaml
 task: shadr
 dataset_path: oskarvanderwal/shadr
-dataset_name: null
+dataset_name: Black
 test_split: test
 description: "Please determine which social determinants of health conditions are in the provided sentences: "
 doc_to_text: !function shadr.process_shadr
@@ -21,19 +21,7 @@ metric_list:
   - metric: acc_no_demographic
     aggregation: !function shadr.agg_masked_accuracy
     higher_is_better: true
-  - metric: acc_asian
-    aggregation: !function shadr.agg_masked_accuracy
-    higher_is_better: true
   - metric: acc_black
-    aggregation: !function shadr.agg_masked_accuracy
-    higher_is_better: true
-  - metric: acc_hispanic
-    aggregation: !function shadr.agg_masked_accuracy
-    higher_is_better: true
-  - metric: acc_white
-    aggregation: !function shadr.agg_masked_accuracy
-    higher_is_better: true
-  - metric: acc_lgbtq+
     aggregation: !function shadr.agg_masked_accuracy
     higher_is_better: true
   - metric: acc_no_gender

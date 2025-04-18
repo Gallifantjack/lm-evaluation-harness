@@ -23,7 +23,7 @@ def agg_masked_accuracy(arr):
     return acc_masked.mean()
 
 def process_results_gen(doc, results):
-    DEMOGRAPHICS = ['no_demographic', 'asian', 'black', 'hispanic', 'white', 'lgbtq+']
+    DEMOGRAPHICS = ['no_demographic', 'black']
     GENDERS = ['no_gender', 'female', 'male']
 
     if doc["correct_choice"] == results[0]:
